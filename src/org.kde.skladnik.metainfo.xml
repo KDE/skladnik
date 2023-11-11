@@ -65,11 +65,11 @@
   <!-- TODO: uncomment once moved url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=skladnik</url-->
   <!-- TODO: uncomment once moved url type="help">https://docs.kde.org/?application=skladnik</url-->
   <url type="donation">https://www.kde.org/community/donations/?app=skladnik&amp;source=appdata</url>
-  <!-- TODO: uncomment once moved screenshots>
+  <screenshots>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/skladnik/skladnik.png</image>
     </screenshot>
-  </screenshots -->
+  </screenshots>
   <categories>
     <category>Game</category>
     <category>StrategyGame</category>
