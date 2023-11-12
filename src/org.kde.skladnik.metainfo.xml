@@ -63,8 +63,8 @@
     <p xml:lang="x-test">xxThe idea is that you are a warehouse keeper trying to push crates to their proper locations in a warehouse. The problem is that you cannot pull the crates or step over them. If you are not careful, some of the crates can get stuck in wrong places and/or block your way.xx</p>
   </description>
   <content_rating type="oars-1.1"/>
-  <!-- TODO: uncomment once up url type="homepage">https://apps.kde.org/skladnik</url -->
-  <!-- TODO: uncomment once moved url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=skladnik</url-->
+  <url type="homepage">https://apps.kde.org/skladnik</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=skladnik</url>
   <!-- TODO: uncomment once moved url type="help">https://docs.kde.org/?application=skladnik</url-->
   <url type="donation">https://www.kde.org/community/donations/?app=skladnik&amp;source=appdata</url>
   <screenshots>
