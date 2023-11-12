@@ -65,7 +65,7 @@
   <content_rating type="oars-1.1"/>
   <url type="homepage">https://apps.kde.org/skladnik</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=skladnik</url>
-  <!-- TODO: uncomment once moved url type="help">https://docs.kde.org/?application=skladnik</url-->
+  <url type="help">https://docs.kde.org/?application=skladnik</url>
   <url type="donation">https://www.kde.org/community/donations/?app=skladnik&amp;source=appdata</url>
   <screenshots>
     <screenshot type="default">
