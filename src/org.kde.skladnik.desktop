@@ -32,6 +32,7 @@ GenericName[sl]=Igra KSokoban
 GenericName[sv]=Sokoban-spel
 GenericName[tr]=Sokoban Oyunu
 GenericName[uk]=Гра, подібна до гри Сокобан
+GenericName[x-test]=xxSokoban Gamexx
 GenericName[zh_TW]=推箱子遊戲
 DocPath=skladnik/index.html
 Exec=skladnik -qwindowtitle %c
