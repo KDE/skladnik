@@ -1,5 +1,14 @@
 [Desktop Entry]
 Name=Skladnik
+Name[ca]=Skladnik
+Name[ca@valencia]=Skladnik
+Name[eo]=Skladnik
+Name[nl]=Skladnik
+Name[sl]=Skladnik
+Name[sv]=Skladnik
+Name[tr]=Skladnik
+Name[uk]=Skladnik
+Name[x-test]=xxSkladnikxx
 GenericName=Sokoban Game
 GenericName[ar]=لعبة حارس المستودع
 GenericName[bs]=Sokoban igra
