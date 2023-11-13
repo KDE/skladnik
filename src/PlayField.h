@@ -125,7 +125,6 @@ private:
 private:
     LevelMap *levelMap_;
     History *history_;
-    int lastLevel_ = -1;
     MoveSequence *moveSequence_ = nullptr;
     bool moveInProgress_ = false;
     bool dragInProgress_ = false;
