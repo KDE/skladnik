@@ -3,12 +3,15 @@
   <!ENTITY % Catalan  "INCLUDE"
 > <!-- change language only here -->
   <!ENTITY % addindex "IGNORE">
+  <!ENTITY skladnik "<application
+>Skladnik</application
+>">
 ]>
 	
 <book lang="&language;">
 <bookinfo>
 <title
->El manual del &ksokoban;</title>
+>El manual del &skladnik;</title>
 
 <authorgroup>
 <author
@@ -41,7 +44,7 @@
 
 <abstract>
 <para
->El &ksokoban; és una implementació del joc japonès <quote
+>El &skladnik; és una implementació del joc japonès <quote
 >sokoban</quote
 > de l'encarregat del magatzem. </para>
 </abstract>
@@ -56,7 +59,7 @@
 <keyword
 >Sokoban</keyword>
 <keyword
->KSokoban</keyword>
+>skladnik</keyword>
 </keywordset>
 </bookinfo>
 
@@ -78,7 +81,7 @@
 >Pot ser bastant difícil resoldre un nivell. Però si voleu fer-ho encara més difícil, podeu intentar minimitzar el nombre de moviments i/o les empentes que empreu per a resoldre'l. </para>
 
 <para
->Per a fer que el joc sigui més divertit per a infants (per sota dels 10 anys), també s'inclouen en el &ksokoban; algunes col·leccions amb nivells més fàcils. Aquests estan marcats amb <emphasis
+>Per a fer que el joc sigui més divertit per a infants (per sota dels 10 anys), també s'inclouen en el &skladnik; algunes col·leccions amb nivells més fàcils. Aquests estan marcats amb <emphasis
 >(fàcil)</emphasis
 > en el menú col·lecció de nivells. Per descomptat, aquests nivells també poden ser divertits per als adults, per exemple, si no voleu exposar-vos a massa tensió mental. </para>
 </chapter>
@@ -228,13 +231,13 @@
 >Carregar nivells externs</title>
 
 <para
->El &ksokoban; té la capacitat de carregar nivells externs de sokoban des de fitxers de text. Podeu carregar-los utilitzant l'element de menú <menuchoice
+>El &skladnik; té la capacitat de carregar nivells externs de sokoban des de fitxers de text. Podeu carregar-los utilitzant l'element de menú <menuchoice
 ><guimenu
 >Joc</guimenu
 > <guimenuitem
 >Carrega nivells...</guimenuitem
 ></menuchoice
-> o especificant l'&URL; del fitxer de nivells com un argument de la línia d'ordres en iniciar el &ksokoban; des d'un intèrpret d'ordres. </para>
+> o especificant l'&URL; del fitxer de nivells com un argument de la línia d'ordres en iniciar el &skladnik; des d'un intèrpret d'ordres. </para>
 
 <para
 >Els nivells externs s'han de definir utilitzant els caràcters estàndard que es mostren a la taula a continuació. Si el fitxer conté més d'un nivell, els nivells hauran d'estar separats per línies en blanc. El fitxer també podrà contenir text entre els nivells. </para>
@@ -335,7 +338,7 @@
 >Referència del menú</title>
 
 <para
->Aquesta és una guia completa dels menús del &ksokoban;.</para>
+>Aquesta és una guia completa dels menús del &skladnik;.</para>
 
 <sect1 id="game-menu">
 <title
@@ -435,7 +438,7 @@
 <para
 ><action
 >Un submenú per a canviar a un conjunt diferent de nivells.</action
-> El &ksokoban; ve amb diversos conjunts de nivells i en podeu carregar més que trobareu a Internet.</para>
+> El &skladnik; ve amb diversos conjunts de nivells i en podeu carregar més que trobareu a Internet.</para>
 </listitem>
 </varlistentry>
 
@@ -504,7 +507,7 @@
 <para
 ><action
 >Surt</action
-> del &ksokoban;.</para>
+> del &skladnik;.</para>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -606,7 +609,7 @@
 ></term>
 <listitem>
 <para
->El &ksokoban; permet <action
+>El &skladnik; permet <action
 >establir adreces d'interès amb un nivell en un estat en particular.</action
 > Podeu utilitzar això per a estalviar-vos repetir els mateixos passos inicials en un nivell.</para>
 <para
@@ -647,7 +650,7 @@
 >El menú Ajuda</title>
 
 <para
->El &ksokoban; té la configuració comuna al &kde; i els elements del menú <guimenu
+>El &skladnik; té la configuració comuna al &kde; i els elements del menú <guimenu
 >Ajuda</guimenu
 >. Per a obtenir més informació, llegiu la secció sobre <ulink url="help:/fundamentals/menus.html#menus-help"
 >El menú Ajuda</ulink
@@ -661,7 +664,7 @@
 >Crèdits i llicència</title>
 
 <para
->El &ksokoban; és copyright &copy; 1998-2000 per n'&Anders.Widell; &Anders.Widell.mail;. </para>
+>El &skladnik; és copyright &copy; 1998-2000 per n'&Anders.Widell; &Anders.Widell.mail;. </para>
 
 <para
 >Els gràfics <quote

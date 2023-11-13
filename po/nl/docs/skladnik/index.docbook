@@ -3,12 +3,15 @@
   <!ENTITY % Dutch "INCLUDE"
 > <!-- change language only here -->
   <!ENTITY % addindex "IGNORE">
+  <!ENTITY skladnik "<application
+>Skladnik</application
+>">
 ]>
 	
 <book lang="&language;">
 <bookinfo>
 <title
->Het handboek van &ksokoban;</title>
+>Het handboek van &skladnik;</title>
 
 <authorgroup>
 <author
@@ -41,7 +44,7 @@
 
 <abstract>
 <para
->&ksokoban; is een implementatie van het Japanse magazijn-beheerder-spel <quote
+>&skladnik; is een implementatie van het Japanse magazijn-beheerder-spel <quote
 >sokoban</quote
 >. </para>
 </abstract>
@@ -56,7 +59,7 @@
 <keyword
 >sokoban</keyword>
 <keyword
->ksokoban</keyword>
+>skladnik</keyword>
 </keywordset>
 </bookinfo>
 
@@ -78,7 +81,7 @@
 >Het kan moeilijk zijn om een level alleen maar uit te spelen. Maar u kunt het zichzelf nog moeilijker maken, u kunt proberen om zo weinig mogelijk zetten te gebruiken om het level uit te spelen. </para>
 
 <para
->Om het spel ook leuk te laten voor kleine kinderen (onder de 10 jaar of zo), zijn er ook enkele verzamelingen met makkelijker levels meegeleverd in &ksokoban;. Deze zijn in het in het level verzamelingen menu gemarkeerd met <emphasis
+>Om het spel ook leuk te laten voor kleine kinderen (onder de 10 jaar of zo), zijn er ook enkele verzamelingen met makkelijker levels meegeleverd in &skladnik;. Deze zijn in het in het level verzamelingen menu gemarkeerd met <emphasis
 > (gemakkelijk)</emphasis
 > . Maar ook voor volwassenen kunnen deze levels leuk zijn, als u zich bijvoorbeeld niet aan teveel mentale stress wilt bloot stellen. </para>
 </chapter>
@@ -228,13 +231,13 @@
 >Externe levels laden</title>
 
 <para
->In &ksokoban; is de mogelijkheid aanwezig om externe sokoban levels vanuit tekstbestanden te laden. U kunt de levels laden via het menu-item <menuchoice
+>In &skladnik; is de mogelijkheid aanwezig om externe sokoban levels vanuit tekstbestanden te laden. U kunt de levels laden via het menu-item <menuchoice
 ><guimenu
 >Spel</guimenu
 > <guimenuitem
 >Levels laden...</guimenuitem
 > </menuchoice
->, of door de&URL; van het level-bestand als parameter op de commandoregel op te geven bij het starten van &ksokoban; vanuit een shell. </para>
+>, of door de&URL; van het level-bestand als parameter op de commandoregel op te geven bij het starten van &skladnik; vanuit een shell. </para>
 
 <para
 >De externe levels moeten zijn gedefinieerd met de standaard karakters die u ziet in de tabel hieronder. Als in het bestand meer dan een level voorkomt, dan moeten de levels worden gescheiden door lege regels. In het bestand mag ook tussen de levels tekst voorkomen. </para>
@@ -335,7 +338,7 @@
 >Menureferentie</title>
 
 <para
->Dit is een complete uitleg van de menu´s van &ksokoban;.</para>
+>Dit is een complete uitleg van de menu´s van &skladnik;.</para>
 
 <sect1 id="game-menu">
 <title
@@ -435,7 +438,7 @@
 <para
 ><action
 >Een submenu om naar een andere verzameling levels om te schakelen.</action
-> &ksokoban; komt met enkele verzamelingen levels, en u kunt er nog meer laden die u op het internet heeft gevonden.</para>
+> &skladnik; komt met enkele verzamelingen levels, en u kunt er nog meer laden die u op het internet heeft gevonden.</para>
 </listitem>
 </varlistentry>
 
@@ -504,7 +507,7 @@
 <para
 ><action
 >Sluit</action
-> &ksokoban; af.</para>
+> &skladnik; af.</para>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -606,7 +609,7 @@
 ></term>
 <listitem>
 <para
->In &ksokoban; kunt u <action
+>In &skladnik; kunt u <action
 > op een bepaald punt in een level  een bladwijzer zetten.</action
 > U kunt dit gebruiken om niet het  eerstestuk in een level opnieuw te hoeven doen.</para>
 <para
@@ -647,7 +650,7 @@
 >Het Help menu</title>
 
 <para
->&ksokoban; heeft een aantal van de algemene &kde; items in het menu <guimenu
+>&skladnik; heeft een aantal van de algemene &kde; items in het menu <guimenu
 >Help</guimenu
 >, voor meer informatie lees de sectie hierover in het <ulink url="help:/fundamentals/menus.html#menus-help"
 >Menu Help</ulink
@@ -661,7 +664,7 @@
 >Dankbetuigingen en licentie</title>
 
 <para
->Het auteursrecht van &ksokoban; rust bij &copy; 1998-2000 door &Anders.Widell; &Anders.Widell.mail;. </para>
+>Het auteursrecht van &skladnik; rust bij &copy; 1998-2000 door &Anders.Widell; &Anders.Widell.mail;. </para>
 
 <para
 >De achtergrond <quote
