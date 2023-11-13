@@ -4,6 +4,15 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>Skladnik</name>
+  <name xml:lang="ca">Skladnik</name>
+  <name xml:lang="ca-valencia">Skladnik</name>
+  <name xml:lang="eo">Skladnik</name>
+  <name xml:lang="nl">Skladnik</name>
+  <name xml:lang="sl">Skladnik</name>
+  <name xml:lang="sv">Skladnik</name>
+  <name xml:lang="tr">Skladnik</name>
+  <name xml:lang="uk">Skladnik</name>
+  <name xml:lang="x-test">xxSkladnikxx</name>
   <summary>Sokoban Game</summary>
   <summary xml:lang="ar">لعبة أمين المستودع</summary>
   <summary xml:lang="ca">Joc del Sokoban</summary>
@@ -35,6 +44,15 @@
     <p>
       Skladnik is an implementation of the Japanese warehouse keeper game “sokoban”.
     </p>
+    <p xml:lang="ca">El Skladnik és una implementació del joc japonès «Sokoban» de l'encarregat de magatzem.</p>
+    <p xml:lang="ca-valencia">Skladnik és una implementació del joc japonés «Sokoban» de l'encarregat de magatzem.</p>
+    <p xml:lang="eo">Skladnik estas realigo de la japana magazenistoludo “sokoban”.</p>
+    <p xml:lang="nl">Skladnik is een implementatie van het Japanse magazijn-beheerder-spel “sokoban”.</p>
+    <p xml:lang="sl">Skladnik je izvedba japonske igre skrbnika skladišča "sokoban".</p>
+    <p xml:lang="sv">Skladnik är en implementering av det japanska lagerarbetarspelet "sokoban”.</p>
+    <p xml:lang="tr">Skladnik, Japon depo bekçisi oyunu "Sokoban"ın bir uyarlamasıdır.</p>
+    <p xml:lang="uk">Skladnik — реалізація японської гри у комірника, «сокобан».</p>
+    <p xml:lang="x-test">xxSkladnik is an implementation of the Japanese warehouse keeper game “sokoban”.xx</p>
     <p>
       The idea is that you are a warehouse keeper trying to push crates to their proper locations in a warehouse. The problem is that you cannot pull the crates or step over them. If you are not careful, some of the crates can get stuck in wrong places and/or block your way. 
     </p>
