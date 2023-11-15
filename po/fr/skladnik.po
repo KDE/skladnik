@@ -59,7 +59,7 @@ msgstr "Sasquatch IV"
 #: main.cpp:27
 #, kde-format
 msgid "Skladnik"
-msgstr ""
+msgstr "Skladnik"
 
 #: main.cpp:29
 #, kde-format

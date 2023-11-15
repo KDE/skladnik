@@ -262,6 +262,3 @@ msgstr "Na&stavit záložku"
 #, kde-format
 msgid "&Go to Bookmark"
 msgstr "Pře&jít na tuto záložku"
-
-#~ msgid "KSokoban"
-#~ msgstr "KSokoban"

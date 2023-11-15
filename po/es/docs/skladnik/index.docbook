@@ -3,12 +3,15 @@
   <!ENTITY % Spanish "INCLUDE"
 > <!-- change language only here -->
   <!ENTITY % addindex "IGNORE">
+  <!ENTITY skladnik "<application
+>Skladnik</application
+>">
 ]>
 	
 <book lang="&language;">
 <bookinfo>
 <title
->Manual de &ksokoban;</title>
+>Manual de &skladnik;</title>
 
 <authorgroup>
 <author
@@ -55,7 +58,7 @@
 
 <abstract>
 <para
->&ksokoban; es la implementación del juego japonés del encargado de almacén «sokoban». </para>
+>&skladnik; es la implementación del juego japonés del encargado de almacén «sokoban». </para>
 </abstract>
 
 <keywordset>
@@ -68,7 +71,7 @@
 <keyword
 >sokoban</keyword>
 <keyword
->ksokoban</keyword>
+>skladnik</keyword>
 </keywordset>
 </bookinfo>
 
@@ -86,7 +89,7 @@
 >Puede ser bastante difícil resolver un nivel. Pero si quiere hacerlo aún más difícil, puede intentar reducir la cantidad de movimientos y/o empujones necesarios para resolver el nivel. </para>
 
 <para
->Para que el juego sea más divertido para los niños más jóvenes (menores de 10 años), &ksokoban; también incluye algunas colecciones con niveles más fáciles. Estas colecciones están marcadas con la etiqueta <emphasis
+>Para que el juego sea más divertido para los niños más jóvenes (menores de 10 años), &skladnik; también incluye algunas colecciones con niveles más fáciles. Estas colecciones están marcadas con la etiqueta <emphasis
 >(fácil)</emphasis
 > en el menú de la colección de niveles. Por supuesto, estos niveles también pueden ser divertidos para los mayores (por ejemplo, si no quiere exponerse a demasiada tensión mental). </para>
 </chapter>
@@ -236,13 +239,13 @@
 >Carga de niveles externos</title>
 
 <para
->&ksokoban; permite la posibilidad de cargar niveles externos de sokoban usando archivos de texto. Puede cargar estos niveles usando la opción del menú <menuchoice
+>&skladnik; permite la posibilidad de cargar niveles externos de sokoban usando archivos de texto. Puede cargar estos niveles usando la opción del menú <menuchoice
 ><guimenu
 >Juego</guimenu
 > <guimenuitem
 >Cargar niveles...</guimenuitem
 > </menuchoice
->, o especificando la &URL; del archivo de nivel como argumento de la línea de órdenes si inicia &ksokoban; desde la consola. </para>
+>, o especificando la &URL; del archivo de nivel como argumento de la línea de órdenes si inicia &skladnik; desde la consola. </para>
 
 <para
 >Los niveles externos se deben definir usando los caracteres estándares que se muestran en la siguiente tabla. Si el archivo contiene más de un nivel, debe separar los niveles mediante líneas en blanco. El archivo también puede contener texto entre los niveles. </para>
@@ -343,7 +346,7 @@
 >Referencia del menú</title>
 
 <para
->Esta es una guía completa de los menús de &ksokoban;.</para>
+>Esta es una guía completa de los menús de &skladnik;.</para>
 
 <sect1 id="game-menu">
 <title
@@ -443,7 +446,7 @@
 <para
 ><action
 >Un submenú para cambiar a un conjunto de niveles distinto.</action
-> &ksokoban; contiene varios conjuntos de niveles, aunque puede cargar más niveles que puede encontrar en Internet.</para>
+> &skladnik; contiene varios conjuntos de niveles, aunque puede cargar más niveles que puede encontrar en Internet.</para>
 </listitem>
 </varlistentry>
 
@@ -512,7 +515,7 @@
 <para
 ><action
 >Salir</action
-> de &ksokoban;.</para>
+> de &skladnik;.</para>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -614,7 +617,7 @@
 ></term>
 <listitem>
 <para
->&ksokoban; le permite <action
+>&skladnik; le permite <action
 >definir marcadores con un nivel en un determinado estado</action
 >. Puede usar esta función para ahorrarse repetir los mismos pasos iniciales de un nivel.</para>
 <para
@@ -655,7 +658,7 @@
 >El menú Ayuda</title>
 
 <para
->&ksokoban; posee el elemento de menú común de &kde; <guimenu
+>&skladnik; posee el elemento de menú común de &kde; <guimenu
 >Ayuda</guimenu
 >. Para más información, consulte la sección sobre el <ulink url="help:/fundamentals/menu.html#menus-help"
 >menú Ayuda</ulink
@@ -669,7 +672,7 @@
 >Créditos y licencia</title>
 
 <para
->&ksokoban; copyright &copy; 1998-2000 por &Anders.Widell; &Anders.Widell.mail;. </para>
+>&skladnik; copyright &copy; 1998-2000 por &Anders.Widell; &Anders.Widell.mail;. </para>
 
 <para
 >El gráfico del fondo <quote

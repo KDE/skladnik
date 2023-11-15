@@ -3,12 +3,15 @@
   <!ENTITY % Italian "INCLUDE"
 > <!-- change language only here -->
   <!ENTITY % addindex "IGNORE">
+  <!ENTITY skladnik "<application
+>Skladnik</application
+>">
 ]>
 	
 <book lang="&language;">
 <bookinfo>
 <title
->Manuale di &ksokoban;</title>
+>Manuale di &skladnik;</title>
 
 <authorgroup>
 <author
@@ -55,7 +58,7 @@
 
 <abstract>
 <para
->&ksokoban; è un'implementazione del gioco giapponese  del magazziniere <quote
+>&skladnik; è un'implementazione del gioco giapponese del magazziniere <quote
 >sokoban</quote
 >. </para>
 </abstract>
@@ -70,7 +73,7 @@
 <keyword
 >sokoban</keyword>
 <keyword
->ksokoban</keyword>
+>skladnik</keyword>
 </keywordset>
 </bookinfo>
 
@@ -92,7 +95,7 @@
 >Può essere piuttosto difficile solo risolvere un livello. Ma se si vuole renderlo ancora più difficile, è possibile provare a ridurre al minimo il numero di mosse e/o spinte che si utilizzano per risolvere il livello. </para>
 
 <para
->Per rendere il gioco più divertente per i bambini piccoli (meno di 10 anni circa), in &ksokoban; sono incluse anche alcune raccolte con livelli più semplici. Questi sono contrassegnati come <emphasis
+>Per rendere il gioco più divertente per i bambini piccoli (meno di 10 anni circa), in &skladnik; sono incluse anche alcune raccolte con livelli più semplici. Questi sono contrassegnati come <emphasis
 >(facile)</emphasis
 > nel menu della raccolta dei livelli. Naturalmente, questi livelli possono essere divertenti anche per gli adulti, ad esempio se non si vuole sottoporsi a sforzi mentali. </para>
 </chapter>
@@ -242,13 +245,13 @@
 >Caricamento dei livelli esterni</title>
 
 <para
->&ksokoban; ha la capacità di caricare livelli di sokoban esterni da file di testo. È possibile caricare i livelli utilizzando la voce di menu <menuchoice
+>&skladnik; ha la capacità di caricare livelli di sokoban esterni da file di testo. È possibile caricare i livelli utilizzando la voce di menu <menuchoice
 > <guimenu
 >Carica livelli...</guimenu
 > <guimenuitem
 > Carica livelli...</guimenuitem
 > </menuchoice
-> o specificando l'&URL; del file di livello; come argomento da riga di comando all'avvio di &ksokoban; da una shell. </para>
+> o specificando l'&URL; del file di livello; come argomento da riga di comando all'avvio di &skladnik; da una shell. </para>
 
 <para
 >I livelli esterni devono essere definiti utilizzando i caratteri standard mostrati nella tabella seguente. Se il file contiene più di un livello, i livelli devono essere separati da righe vuote. Il file può contenere anche testo tra i livelli. </para>
@@ -349,7 +352,7 @@
 >Guida ai menu</title>
 
 <para
->Questa è una guida completa ai menu di &ksokoban;.</para>
+>Questa è una guida completa ai menu di &skladnik;.</para>
 
 <sect1 id="game-menu">
 <title
@@ -449,7 +452,7 @@
 <para
 ><action
 >Un sottomenu per passare a un insieme diverso di livelli.</action
-> &ksokoban; nasce con numerosi insiemi di livelli, ed è possibile caricarne altri disponibili su Internet.</para>
+> &skladnik; nasce con numerosi insiemi di livelli, ed è possibile caricarne altri disponibili su Internet.</para>
 </listitem>
 </varlistentry>
 
@@ -518,7 +521,7 @@
 <para
 ><action
 >Esci</action
-> da &ksokoban;.</para>
+> da &skladnik;.</para>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -620,7 +623,7 @@
 ></term>
 <listitem>
 <para
->&ksokoban; consente di <action
+>&skladnik; consente di <action
 >impostare segnalibri con un livello in uno stato particolare.</action
 >Potresti usare questo per evitare di ripetere gli stessi passaggi iniziali in un livello.</para>
 <para
@@ -661,7 +664,7 @@
 >Il menu Aiuto</title>
 
 <para
->&ksokoban; ha il menu <guimenu
+>&skladnik; ha il menu <guimenu
 >Aiuto</guimenu
 > comune di &kde;; per maggiori informazioni, consulta la sezione sul <ulink url="help:/fundamentals/menus.html#menus-help"
 >menu Aiuto</ulink
@@ -675,7 +678,7 @@
 >Riconoscimenti e licenza</title>
 
 <para
->&ksokoban; è copyright &copy; 1998-2000 di &Anders.Widell; &Anders.Widell.mail;. </para>
+>&skladnik; è copyright &copy; 1998-2000 di &Anders.Widell; &Anders.Widell.mail;. </para>
 
 <para
 >La grafica di sfondo <quote
