@@ -1,4 +1,4 @@
-# Translation of ksokoban to Norwegian Bokmål
+# Translation of skladnik to Norwegian Bokmål
 #
 # Hans Petter Bieker <bieker@kde.org>, 1998, 1999, 2000.
 # Knut Yrvin <knut.yrvin@gmail.com>, 2002.
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:25+0000\n"
+"POT-Creation-Date: 2023-11-12 00:40+0000\n"
 "PO-Revision-Date: 2004-01-18 13:52GMT\n"
 "Last-Translator: Jørgen Grønlund <jorgenhg@broadpark.no>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -56,39 +56,9 @@ msgstr "Microban (enkel)"
 msgid "Sasquatch IV"
 msgstr "Sasquatch IV"
 
-#. i18n: ectx: Menu (game)
-#: ksokobanui.rc:6
-#, kde-format
-msgid "&Game"
-msgstr ""
-
-#. i18n: ectx: Menu (animation_speed)
-#: ksokobanui.rc:20
-#, kde-format
-msgid "&Animation"
-msgstr ""
-
-#. i18n: ectx: Menu (bookmarks_menu)
-#: ksokobanui.rc:27
-#, kde-format
-msgid "&Bookmarks"
-msgstr ""
-
-#. i18n: ectx: Menu (set_bookmarks)
-#: ksokobanui.rc:29
-#, kde-format
-msgid "&Set Bookmark"
-msgstr ""
-
-#. i18n: ectx: Menu (goto_bookmarks)
-#: ksokobanui.rc:42
-#, kde-format
-msgid "&Go to Bookmark"
-msgstr ""
-
 #: main.cpp:27
 #, kde-format
-msgid "KSokoban"
+msgid "Skladnik"
 msgstr ""
 
 #: main.cpp:29
@@ -274,3 +244,33 @@ msgstr ""
 #, kde-format
 msgid "This level is broken"
 msgstr "Dette nivået er ødelagt"
+
+#. i18n: ectx: Menu (game)
+#: skladnikui.rc:6
+#, kde-format
+msgid "&Game"
+msgstr ""
+
+#. i18n: ectx: Menu (animation_speed)
+#: skladnikui.rc:20
+#, kde-format
+msgid "&Animation"
+msgstr ""
+
+#. i18n: ectx: Menu (bookmarks_menu)
+#: skladnikui.rc:27
+#, kde-format
+msgid "&Bookmarks"
+msgstr ""
+
+#. i18n: ectx: Menu (set_bookmarks)
+#: skladnikui.rc:29
+#, kde-format
+msgid "&Set Bookmark"
+msgstr ""
+
+#. i18n: ectx: Menu (goto_bookmarks)
+#: skladnikui.rc:42
+#, kde-format
+msgid "&Go to Bookmark"
+msgstr ""
