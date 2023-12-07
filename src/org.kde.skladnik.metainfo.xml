@@ -8,6 +8,7 @@
   <name xml:lang="ca-valencia">Skladnik</name>
   <name xml:lang="eo">Skladnik</name>
   <name xml:lang="es">Skladnik</name>
+  <name xml:lang="eu">Skladnik</name>
   <name xml:lang="fr">Skladnik</name>
   <name xml:lang="it">Skladnik</name>
   <name xml:lang="ka">Skladnik</name>
@@ -53,6 +54,7 @@
     <p xml:lang="ca-valencia">Skladnik és una implementació del joc japonés «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="eo">Skladnik estas realigo de la japana magazenistoludo “sokoban”.</p>
     <p xml:lang="es">Skladnik es una implementación del juego japonés del encargado de almacén «sokoban».</p>
+    <p xml:lang="eu">Skladnik, "Sokoban" biltegizainaren joko japoniarraren inplementazio bat da.</p>
     <p xml:lang="fr">Skladnik est une implémentation du jeu japonais « sokoban » de gardien d'entrepôt.</p>
     <p xml:lang="it">Skladnik è un'implementazione del gioco giapponese del magazziniere «sokoban».</p>
     <p xml:lang="ka">Skladnik - იაპონური საწყობის უფროსის თამაშიზე, სოკობანზეა დაფუძნებული.</p>
