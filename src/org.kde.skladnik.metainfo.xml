@@ -112,6 +112,7 @@
   </provides>
   <launchable type="desktop-id">org.kde.skladnik.desktop</launchable>
   <releases>
+    <release version="0.5.1" date="2024-01-01"/>
     <release version="0.5.0" date="2023-11-20"/>
   </releases>
 </component>
