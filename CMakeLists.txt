@@ -31,6 +31,7 @@ find_package(KF${KF_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS
     Config
     ConfigWidgets
     CoreAddons
+    Crash
     DBusAddons
     I18n
     KIO

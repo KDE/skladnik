@@ -7,6 +7,7 @@
 #include "MainWindow.h"
 #include "version.h"
 
+#include <KCrash>
 #include <KDBusService>
 #include <KAboutData>
 #include <KLocalizedString>
@@ -52,6 +53,8 @@ int main(int argc, char **argv)
     KAboutData::setApplicationData(aboutData);
 
     app.setWindowIcon(QIcon::fromTheme(QStringLiteral("skladnik")));
+
+    KCrash::initialize();
 
     QCommandLineParser parser;
     parser.addPositionalArgument(QStringLiteral("URL"), i18n("Level collection file to load."), QStringLiteral("[URL}"));
