@@ -7,6 +7,7 @@
 #include "MainWindow.h"
 #include "version.h"
 
+#include <KDBusService>
 #include <KAboutData>
 #include <KLocalizedString>
 
@@ -57,6 +58,8 @@ int main(int argc, char **argv)
     aboutData.setupCommandLine(&parser);
     parser.process(app);
     aboutData.processCommandLine(&parser);
+
+    KDBusService service;
 
     auto *widget = new MainWindow();
     widget->show();

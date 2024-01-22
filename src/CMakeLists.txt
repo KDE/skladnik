@@ -40,6 +40,7 @@ endif()
 target_link_libraries(skladnik
     KF${KF_MAJOR_VERSION}::I18n
     KF${KF_MAJOR_VERSION}::WidgetsAddons
+    KF${KF_MAJOR_VERSION}::DBusAddons
     KF${KF_MAJOR_VERSION}::XmlGui
     KF${KF_MAJOR_VERSION}::KIOCore
 )
