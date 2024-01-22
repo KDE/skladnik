@@ -54,5 +54,5 @@ Exec=skladnik -qwindowtitle %c
 Icon=skladnik
 Terminal=false
 Type=Application
-X-KDE-StartupNotify=true
+StartupNotify=true
 Categories=Qt;KDE;Game;StrategyGame;
