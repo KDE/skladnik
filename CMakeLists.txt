@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.16 FATAL_ERROR)
 
-project(skladnik VERSION "0.5.1")
+project(skladnik VERSION "0.5.2")
 
 set(QT_MIN_VERSION "5.15.2")
 set(KF_MIN_VERSION "5.91.0")
