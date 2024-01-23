@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde 49i410\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-12 00:40+0000\n"
+"POT-Creation-Date: 2024-01-23 01:37+0000\n"
 "PO-Revision-Date: 2014-10-20 19:43+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian\n"
@@ -55,64 +55,64 @@ msgstr "Microban (lako)"
 msgid "Sasquatch IV"
 msgstr "Sasquatch IV"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Skladnik"
 msgstr ""
 
-#: main.cpp:29
+#: main.cpp:31
 #, kde-format
 msgid "The japanese warehouse keeper game"
 msgstr "Japanski čuvar skladišta igra"
 
-#: main.cpp:31
+#: main.cpp:33
 #, kde-format
 msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 msgstr ""
 
-#: main.cpp:34
+#: main.cpp:36
 #, kde-format
 msgid "Shlomi Fish"
 msgstr ""
 
-#: main.cpp:35
+#: main.cpp:37
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
 msgstr ""
 
-#: main.cpp:38
+#: main.cpp:40
 #, kde-format
 msgid "Lukasz Kalamlacki"
 msgstr ""
 
-#: main.cpp:39
+#: main.cpp:41
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:44
 #, kde-format
 msgid "Anders Widell"
 msgstr "Anders Widell"
 
-#: main.cpp:43
+#: main.cpp:45
 #, kde-format
 msgid "For writing the original ksokoban game"
 msgstr ""
 
-#: main.cpp:46
+#: main.cpp:48
 #, kde-format
 msgid "David W. Skinner"
 msgstr "David W. Skinner"
 
-#: main.cpp:47
+#: main.cpp:49
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
 msgstr "Za doprinos Sokoban nivoa uključenih u ovu igru"
 
-#: main.cpp:56
+#: main.cpp:60
 #, fuzzy, kde-format
 #| msgid "Level collection file to load"
 msgid "Level collection file to load."

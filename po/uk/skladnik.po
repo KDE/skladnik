@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-12 00:40+0000\n"
+"POT-Creation-Date: 2024-01-23 01:37+0000\n"
 "PO-Revision-Date: 2023-11-12 09:05+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -55,17 +55,17 @@ msgstr "Мікробан (проста гра)"
 msgid "Sasquatch IV"
 msgstr "Саскватч IV"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Skladnik"
 msgstr "Skladnik"
 
-#: main.cpp:29
+#: main.cpp:31
 #, kde-format
 msgid "The japanese warehouse keeper game"
 msgstr "Японська гра у супровід складу"
 
-#: main.cpp:31
+#: main.cpp:33
 #, kde-format
 msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
@@ -74,47 +74,47 @@ msgstr ""
 "© Anders Widell <awl@hem.passagen.se>, 1998\n"
 "© Lukasz Kalamlacki, 2012"
 
-#: main.cpp:34
+#: main.cpp:36
 #, kde-format
 msgid "Shlomi Fish"
 msgstr "Shlomi Fish"
 
-#: main.cpp:35
+#: main.cpp:37
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
 msgstr "За портування на Qt5/KF5 та чищення коду"
 
-#: main.cpp:38
+#: main.cpp:40
 #, kde-format
 msgid "Lukasz Kalamlacki"
 msgstr "Lukasz Kalamlacki"
 
-#: main.cpp:39
+#: main.cpp:41
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
 msgstr "За переписування початкової версії гри ksokoban з kde3 на kde4"
 
-#: main.cpp:42
+#: main.cpp:44
 #, kde-format
 msgid "Anders Widell"
 msgstr "Anders Widell"
 
-#: main.cpp:43
+#: main.cpp:45
 #, kde-format
 msgid "For writing the original ksokoban game"
 msgstr "За створення початкової версії гри ksokoban"
 
-#: main.cpp:46
+#: main.cpp:48
 #, kde-format
 msgid "David W. Skinner"
 msgstr "David W. Skinner"
 
-#: main.cpp:47
+#: main.cpp:49
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
 msgstr "Створення рівнів Сокобану, включених до цієї гри"
 
-#: main.cpp:56
+#: main.cpp:60
 #, kde-format
 msgid "Level collection file to load."
 msgstr "Файл збірки рівнів, який слід завантажити."

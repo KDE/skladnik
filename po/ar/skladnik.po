@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-12 00:40+0000\n"
+"POT-Creation-Date: 2024-01-23 01:37+0000\n"
 "PO-Revision-Date: 2022-08-23 19:12+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: Arabic <kde-l10n-ar@kde.org>\n"
@@ -53,17 +53,17 @@ msgstr "ميكروبان (سهل)"
 msgid "Sasquatch IV"
 msgstr "ذو القدم الكبيرة الرابع"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Skladnik"
 msgstr ""
 
-#: main.cpp:29
+#: main.cpp:31
 #, kde-format
 msgid "The japanese warehouse keeper game"
 msgstr "لعبة أمين المستودع اليابانية"
 
-#: main.cpp:31
+#: main.cpp:33
 #, kde-format
 msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
@@ -72,47 +72,47 @@ msgstr ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 
-#: main.cpp:34
+#: main.cpp:36
 #, kde-format
 msgid "Shlomi Fish"
 msgstr "Shlomi Fish"
 
-#: main.cpp:35
+#: main.cpp:37
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
 msgstr "النقل إلى كيوت 5 وإطار كِيدِي 5 وغيرها من التنظيفات"
 
-#: main.cpp:38
+#: main.cpp:40
 #, kde-format
 msgid "Lukasz Kalamlacki"
 msgstr "Lukasz Kalamlacki"
 
-#: main.cpp:39
+#: main.cpp:41
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
 msgstr "إعادة كتابة اللعبة الأصلية من كِيدِي 3 إلى كِيدِي 4"
 
-#: main.cpp:42
+#: main.cpp:44
 #, kde-format
 msgid "Anders Widell"
 msgstr "Anders Widell"
 
-#: main.cpp:43
+#: main.cpp:45
 #, kde-format
 msgid "For writing the original ksokoban game"
 msgstr "كتابة اللعبة الأصلية"
 
-#: main.cpp:46
+#: main.cpp:48
 #, kde-format
 msgid "David W. Skinner"
 msgstr "David W. Skinner"
 
-#: main.cpp:47
+#: main.cpp:49
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
 msgstr "لمساهمته بمستويات اللعبة المضمنة فيها"
 
-#: main.cpp:56
+#: main.cpp:60
 #, kde-format
 msgid "Level collection file to load."
 msgstr "ملف مجموع المستويات لتحميله."
