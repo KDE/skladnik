@@ -31,19 +31,14 @@ add_executable(skladnik
     skladnik.qrc
 )
 
-if (QT_MAJOR_VERSION STREQUAL "6")
-    target_link_libraries(skladnik KDEGames6)
-else()
-    target_link_libraries(skladnik KF5KDEGames)
-endif()
-
 target_link_libraries(skladnik
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::WidgetsAddons
-    KF${KF_MAJOR_VERSION}::Crash
-    KF${KF_MAJOR_VERSION}::DBusAddons
-    KF${KF_MAJOR_VERSION}::XmlGui
-    KF${KF_MAJOR_VERSION}::KIOCore
+    KDEGames6
+    KF6::I18n
+    KF6::WidgetsAddons
+    KF6::Crash
+    KF6::DBusAddons
+    KF6::XmlGui
+    KF6::KIOCore
 )
 
 install(TARGETS skladnik ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
