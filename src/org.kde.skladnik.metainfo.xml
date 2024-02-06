@@ -17,6 +17,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="fr">Skladnik</name>
   <name xml:lang="it">Skladnik</name>
   <name xml:lang="ka">Skladnik</name>
+  <name xml:lang="ko">Skladnik</name>
   <name xml:lang="nl">Skladnik</name>
   <name xml:lang="pt-BR">Skladnik</name>
   <name xml:lang="sl">Skladnik</name>
@@ -64,6 +65,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="fr">Skladnik est une implémentation du jeu japonais « sokoban » de gardien d'entrepôt.</p>
     <p xml:lang="it">Skladnik è un'implementazione del gioco giapponese del magazziniere «sokoban».</p>
     <p xml:lang="ka">Skladnik - იაპონური საწყობის უფროსის თამაშიზე, სოკობანზეა დაფუძნებული.</p>
+    <p xml:lang="ko">Skladnik는 창고지기 게임 소코반 구현입니다.</p>
     <p xml:lang="nl">Skladnik is een implementatie van het Japanse magazijn-beheerder-spel “sokoban”.</p>
     <p xml:lang="pt-BR">Skladnik é uma implementação do jogo de almoxarife japonês “sokoban”.</p>
     <p xml:lang="sl">Skladnik je izvedba japonske igre skrbnika skladišča "sokoban".</p>
