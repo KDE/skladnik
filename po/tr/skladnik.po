@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-23 01:37+0000\n"
+"POT-Creation-Date: 2024-02-13 00:37+0000\n"
 "PO-Revision-Date: 2023-11-12 05:40+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -52,17 +52,17 @@ msgstr "Mikroban (kolay)"
 msgid "Sasquatch IV"
 msgstr "Kocaayak IV"
 
-#: main.cpp:29
+#: main.cpp:26
 #, kde-format
 msgid "Skladnik"
 msgstr "Skladnik"
 
-#: main.cpp:31
+#: main.cpp:28
 #, kde-format
 msgid "The japanese warehouse keeper game"
 msgstr "Japon depo sorumlusu oyunu"
 
-#: main.cpp:33
+#: main.cpp:30
 #, kde-format
 msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
@@ -71,47 +71,47 @@ msgstr ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 
-#: main.cpp:36
+#: main.cpp:33
 #, kde-format
 msgid "Shlomi Fish"
 msgstr "Shlomi Fish"
 
-#: main.cpp:37
+#: main.cpp:34
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
 msgstr "Qt5/KF5 geçişi ve diğer temizlikler için"
 
-#: main.cpp:40
+#: main.cpp:37
 #, kde-format
 msgid "Lukasz Kalamlacki"
 msgstr "Lukasz Kalamlacki"
 
-#: main.cpp:41
+#: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
 msgstr "Özgün ksokoban oyununu KDE3'ten KDE4'e aktardığı için"
 
-#: main.cpp:44
+#: main.cpp:41
 #, kde-format
 msgid "Anders Widell"
 msgstr "Anders Widell"
 
-#: main.cpp:45
+#: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
 msgstr "Özgün ksokoban oyununu yazdığı için"
 
-#: main.cpp:48
+#: main.cpp:45
 #, kde-format
 msgid "David W. Skinner"
 msgstr "David W. Skinner"
 
-#: main.cpp:49
+#: main.cpp:46
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
 msgstr "Bu oyunda içerilen Sokoban düzeylerine katkıda bulunduğu için"
 
-#: main.cpp:60
+#: main.cpp:57
 #, kde-format
 msgid "Level collection file to load."
 msgstr "Yüklenecek düzey koleksiyonu dosyası."
@@ -182,27 +182,27 @@ msgstr "Dosyadan Düzeyler Yükle"
 msgid "No levels found in file"
 msgstr "Dosyada düzey bulunamadı"
 
-#: PlayField.cpp:102
+#: PlayField.cpp:92
 #, kde-format
 msgid "Level:"
 msgstr "Düzey:"
 
-#: PlayField.cpp:111
+#: PlayField.cpp:101
 #, kde-format
 msgid "Steps:"
 msgstr "Adımlar:"
 
-#: PlayField.cpp:120
+#: PlayField.cpp:110
 #, kde-format
 msgid "Pushes:"
 msgstr "İtmeler:"
 
-#: PlayField.cpp:351
+#: PlayField.cpp:341
 #, kde-format
 msgid "Level completed"
 msgstr "Düzey tamamlandı"
 
-#: PlayField.cpp:680
+#: PlayField.cpp:670
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -211,7 +211,7 @@ msgstr ""
 "Bu, geçerli koleksiyondaki\n"
 "son düzey."
 
-#: PlayField.cpp:686
+#: PlayField.cpp:676
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -220,7 +220,7 @@ msgstr ""
 "Bu düzeyi henüz\n"
 "tamamlamadınız."
 
-#: PlayField.cpp:700
+#: PlayField.cpp:690
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -229,7 +229,7 @@ msgstr ""
 "Bu, geçerli koleksiyondaki\n"
 "ilk düzey."
 
-#: PlayField.cpp:778
+#: PlayField.cpp:768
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -238,7 +238,7 @@ msgstr ""
 "Üzgünüm, dış düzeyler için\n"
 "yer imleri kullanılamıyor."
 
-#: PlayField.cpp:803
+#: PlayField.cpp:793
 #, kde-format
 msgid "This level is broken"
 msgstr "Bu düzey bozuk"

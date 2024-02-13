@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-23 01:37+0000\n"
+"POT-Creation-Date: 2024-02-13 00:37+0000\n"
 "PO-Revision-Date: 2023-11-12 16:11+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -55,17 +55,17 @@ msgstr "Microban (fàcil)"
 msgid "Sasquatch IV"
 msgstr "Sasquatch IV"
 
-#: main.cpp:29
+#: main.cpp:26
 #, kde-format
 msgid "Skladnik"
 msgstr "Skladnik"
 
-#: main.cpp:31
+#: main.cpp:28
 #, kde-format
 msgid "The japanese warehouse keeper game"
 msgstr "El joc japonés de l'encarregat del magatzem"
 
-#: main.cpp:33
+#: main.cpp:30
 #, kde-format
 msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
@@ -74,47 +74,47 @@ msgstr ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 
-#: main.cpp:36
+#: main.cpp:33
 #, kde-format
 msgid "Shlomi Fish"
 msgstr "Shlomi Fish"
 
-#: main.cpp:37
+#: main.cpp:34
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
 msgstr "Per adaptar-lo a les Qt5/KF5 i fer altres neteges de codi"
 
-#: main.cpp:40
+#: main.cpp:37
 #, kde-format
 msgid "Lukasz Kalamlacki"
 msgstr "Lukasz Kalamlacki"
 
-#: main.cpp:41
+#: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
 msgstr "Per tornar a escriure el joc Ksokoban original des de KDE 3 a KDE 4"
 
-#: main.cpp:44
+#: main.cpp:41
 #, kde-format
 msgid "Anders Widell"
 msgstr "Anders Widell"
 
-#: main.cpp:45
+#: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
 msgstr "Per escriure el joc Ksokoban original"
 
-#: main.cpp:48
+#: main.cpp:45
 #, kde-format
 msgid "David W. Skinner"
 msgstr "David W. Skinner"
 
-#: main.cpp:49
+#: main.cpp:46
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
 msgstr "Per contribuir amb els nivells de Sokoban inclosos en este joc"
 
-#: main.cpp:60
+#: main.cpp:57
 #, kde-format
 msgid "Level collection file to load."
 msgstr "El fitxer de col·lecció de nivells que es carregarà."
@@ -185,27 +185,27 @@ msgstr "Carrega nivells des d'un fitxer"
 msgid "No levels found in file"
 msgstr "No s'ha trobat cap nivell en el fitxer"
 
-#: PlayField.cpp:102
+#: PlayField.cpp:92
 #, kde-format
 msgid "Level:"
 msgstr "Nivell:"
 
-#: PlayField.cpp:111
+#: PlayField.cpp:101
 #, kde-format
 msgid "Steps:"
 msgstr "Passos:"
 
-#: PlayField.cpp:120
+#: PlayField.cpp:110
 #, kde-format
 msgid "Pushes:"
 msgstr "Empentes:"
 
-#: PlayField.cpp:351
+#: PlayField.cpp:341
 #, kde-format
 msgid "Level completed"
 msgstr "Nivell completat"
 
-#: PlayField.cpp:680
+#: PlayField.cpp:670
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -214,7 +214,7 @@ msgstr ""
 "Este és l'últim nivell\n"
 "en la col·lecció actual."
 
-#: PlayField.cpp:686
+#: PlayField.cpp:676
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -223,7 +223,7 @@ msgstr ""
 "Encara no has completat\n"
 "este nivell."
 
-#: PlayField.cpp:700
+#: PlayField.cpp:690
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -232,7 +232,7 @@ msgstr ""
 "Este és el primer nivell\n"
 "en la col·lecció actual."
 
-#: PlayField.cpp:778
+#: PlayField.cpp:768
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -241,7 +241,7 @@ msgstr ""
 "Ho sentim. Les adreces d'interés per a nivells\n"
 "externs encara no estan implementades."
 
-#: PlayField.cpp:803
+#: PlayField.cpp:793
 #, kde-format
 msgid "This level is broken"
 msgstr "Este nivell està trencat"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-23 01:37+0000\n"
+"POT-Creation-Date: 2024-02-13 00:37+0000\n"
 "PO-Revision-Date: 2023-12-06 11:48+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -55,17 +55,17 @@ msgstr "Microban (erraza)"
 msgid "Sasquatch IV"
 msgstr "Sasquatch IV"
 
-#: main.cpp:29
+#: main.cpp:26
 #, kde-format
 msgid "Skladnik"
 msgstr "Skladnik"
 
-#: main.cpp:31
+#: main.cpp:28
 #, kde-format
 msgid "The japanese warehouse keeper game"
 msgstr "Biltegizainaren joko japoniarra"
 
-#: main.cpp:33
+#: main.cpp:30
 #, kde-format
 msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
@@ -74,47 +74,47 @@ msgstr ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 
-#: main.cpp:36
+#: main.cpp:33
 #, kde-format
 msgid "Shlomi Fish"
 msgstr "Shlomi Fish"
 
-#: main.cpp:37
+#: main.cpp:34
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
 msgstr "Qt5/KF5era eratortzeagatik eta beste garbiketa batzuk egiteagatik"
 
-#: main.cpp:40
+#: main.cpp:37
 #, kde-format
 msgid "Lukasz Kalamlacki"
 msgstr "Lukasz Kalamlacki"
 
-#: main.cpp:41
+#: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
 msgstr "Jatorrizko KSokoban jokoa KDE3tik KDE4ra berridazteagatik"
 
-#: main.cpp:44
+#: main.cpp:41
 #, kde-format
 msgid "Anders Widell"
 msgstr "Anders Widell"
 
-#: main.cpp:45
+#: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
 msgstr "Jatorrizko KSokoban jokoa idazteagatik"
 
-#: main.cpp:48
+#: main.cpp:45
 #, kde-format
 msgid "David W. Skinner"
 msgstr "David W. Skinner"
 
-#: main.cpp:49
+#: main.cpp:46
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
 msgstr "Joko honetan dauden «Sokoban» mailak emateagatik"
 
-#: main.cpp:60
+#: main.cpp:57
 #, kde-format
 msgid "Level collection file to load."
 msgstr "Zamatu beharreko maila-bilduma fitxategia."
@@ -185,27 +185,27 @@ msgstr "Zamatu mailak fitxategi batetik"
 msgid "No levels found in file"
 msgstr "Fitxategian ez da mailarik aurkitu"
 
-#: PlayField.cpp:102
+#: PlayField.cpp:92
 #, kde-format
 msgid "Level:"
 msgstr "Maila:"
 
-#: PlayField.cpp:111
+#: PlayField.cpp:101
 #, kde-format
 msgid "Steps:"
 msgstr "Urratsak:"
 
-#: PlayField.cpp:120
+#: PlayField.cpp:110
 #, kde-format
 msgid "Pushes:"
 msgstr "Bultzadak:"
 
-#: PlayField.cpp:351
+#: PlayField.cpp:341
 #, kde-format
 msgid "Level completed"
 msgstr "Maila osatu da"
 
-#: PlayField.cpp:680
+#: PlayField.cpp:670
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -214,7 +214,7 @@ msgstr ""
 "Hori da oraingo bildumako\n"
 "azken maila."
 
-#: PlayField.cpp:686
+#: PlayField.cpp:676
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -223,7 +223,7 @@ msgstr ""
 "Oraindik ez duzu maila\n"
 "hau osatu."
 
-#: PlayField.cpp:700
+#: PlayField.cpp:690
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -232,7 +232,7 @@ msgstr ""
 "Hau da oraingo mailako\n"
 "aurreneko maila."
 
-#: PlayField.cpp:778
+#: PlayField.cpp:768
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -241,7 +241,7 @@ msgstr ""
 "Barkatu, kanpoko mailetarako laster-markak\n"
 "oraindik ez daude inplementatuta."
 
-#: PlayField.cpp:803
+#: PlayField.cpp:793
 #, kde-format
 msgid "This level is broken"
 msgstr "Maila hau hautsita dago"
