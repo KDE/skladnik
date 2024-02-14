@@ -44,9 +44,7 @@
 
 <abstract>
 <para
->El &skladnik; és una implementació del joc japonès <quote
->sokoban</quote
-> de l'encarregat del magatzem. </para>
+>El &skladnik; és una implementació del joc japonès «sokoban» de l'encarregat del magatzem. </para>
 </abstract>
 
 <keywordset>
@@ -68,11 +66,7 @@
 >Introducció</title>
 
 <para
->El primer joc del sokoban es va crear el 1982 per en Hiroyuki Imabayashi a la companyia japonesa Thinking Rabbit, Inc. <quote
->Sokoban</quote
-> està en japonès per a <quote
->encarregat del magatzem</quote
->. La idea és que sigueu un encarregat del magatzem que intenta empènyer les caixes cap a les seves ubicacions adequades en un magatzem. </para>
+>El primer joc del sokoban es va crear el 1982 per en Hiroyuki Imabayashi a la companyia japonesa Thinking Rabbit, Inc. «Sokoban» està en japonès per a «encarregat del magatzem». La idea és que sigueu un encarregat del magatzem que intenta empènyer les caixes cap a les seves ubicacions adequades en un magatzem. </para>
 
 <para
 >El problema és que no podeu estirar les caixes ni trepitjar-les. Si no teniu cura, algunes de les caixes podrien quedar atrapades en llocs equivocats i/o bloquejar el camí. </para>
@@ -667,9 +661,7 @@
 >El &skladnik; és copyright &copy; 1998-2000 per n'&Anders.Widell; &Anders.Widell.mail;. </para>
 
 <para
->Els gràfics <quote
->starfield</quote
-> de fons s'han pres del <ulink url="https://www.gimp.org/"
+>Els gràfics «starfield» de fons s'han pres del <ulink url="https://www.gimp.org/"
 >Gimp</ulink
 >. Tots els altres gràfics els va crear n'&Anders.Widell; &Anders.Widell.mail; utilitzant el traçador de raigs <ulink url="https://www.povray.org/"
 >Povray</ulink
