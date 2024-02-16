@@ -8,6 +8,7 @@ SPDX-License-Identifier: CC0-1.0
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>Skladnik</name>
+  <name xml:lang="ar">أمين المستودع</name>
   <name xml:lang="ca">Skladnik</name>
   <name xml:lang="ca-valencia">Skladnik</name>
   <name xml:lang="eo">Skladnik</name>
@@ -25,6 +26,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="tr">Skladnik</name>
   <name xml:lang="uk">Skladnik</name>
   <name xml:lang="x-test">xxSkladnikxx</name>
+  <name xml:lang="zh-TW">Skladnik</name>
   <summary>Sokoban Game</summary>
   <summary xml:lang="ar">لعبة أمين المستودع</summary>
   <summary xml:lang="ca">Joc del Sokoban</summary>
@@ -52,10 +54,12 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="tr">Sokoban Oyunu</summary>
   <summary xml:lang="uk">Гра «Сокобан»</summary>
   <summary xml:lang="x-test">xxSokoban Gamexx</summary>
+  <summary xml:lang="zh-TW">推箱子遊戲</summary>
   <description>
     <p>
       Skladnik is an implementation of the Japanese warehouse keeper game “sokoban”.
     </p>
+    <p xml:lang="ar">لعبة أمين المستودع هي نسخة من للعبة اليابانية أمين المستودع المسماة "سوكوبان"</p>
     <p xml:lang="ca">El Skladnik és una implementació del joc japonès «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="ca-valencia">Skladnik és una implementació del joc japonés «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="eo">Skladnik estas realigo de la japana magazenistoludo “sokoban”.</p>
@@ -73,6 +77,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="tr">Skladnik, Japon depo bekçisi oyunu "Sokoban"ın bir uyarlamasıdır.</p>
     <p xml:lang="uk">Skladnik — реалізація японської гри у комірника, «сокобан».</p>
     <p xml:lang="x-test">xxSkladnik is an implementation of the Japanese warehouse keeper game “sokoban”.xx</p>
+    <p xml:lang="zh-TW">Skladnik 是日本倉庫管理遊戲「倉庫番」（推箱子）的實作。</p>
     <p>
       The idea is that you are a warehouse keeper trying to push crates to their proper locations in a warehouse. The problem is that you cannot pull the crates or step over them. If you are not careful, some of the crates can get stuck in wrong places and/or block your way. 
     </p>
@@ -99,6 +104,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="tr">Buradaki fikir, kasaları bir depodaki uygun yerlerine itmeye çalışan bir depo bekçisi olmanızdır. Sorun şu ki, kasaları çekemiyor veya üzerinden geçemezsiniz. Dikkatli olmazsanız bazı sandıklar yanlış yerlere takılabilir ve/veya yolunuzu kapatabilir.</p>
     <p xml:lang="uk">Ви граєте за комірника, якому треба перетягти скриньки на складі у відповідні їм місця. Проблема полягає у тому, що ви не можете тягнути скриньки або переступати через них. Якщо ви не будете обережними, деякі скриньки може бути заблоковано у невідповідних місцях і/або вони можуть заблокувати вам дорогу.</p>
     <p xml:lang="x-test">xxThe idea is that you are a warehouse keeper trying to push crates to their proper locations in a warehouse. The problem is that you cannot pull the crates or step over them. If you are not careful, some of the crates can get stuck in wrong places and/or block your way.xx</p>
+    <p xml:lang="zh-TW">您扮演一個倉庫管理員，要在倉庫中把箱子推到正確的位置。然而您不能拉動箱子或是採到它們上面。如果您不謹慎，可能會讓箱子卡在不正確的地方，或是擋住您的移動。</p>
   </description>
   <content_rating type="oars-1.1"/>
   <url type="homepage">https://apps.kde.org/skladnik</url>
