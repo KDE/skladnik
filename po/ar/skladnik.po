@@ -1,22 +1,22 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ksokoban package.
 #
-# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2021, 2022.
+# SPDX-FileCopyrightText: 2021, 2022, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-13 00:37+0000\n"
-"PO-Revision-Date: 2022-08-23 19:12+0400\n"
+"PO-Revision-Date: 2024-02-15 17:22+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
-"Language-Team: Arabic <kde-l10n-ar@kde.org>\n"
+"Language-Team: ar\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 21.07.70\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -56,7 +56,7 @@ msgstr "ذو القدم الكبيرة الرابع"
 #: main.cpp:26
 #, kde-format
 msgid "Skladnik"
-msgstr ""
+msgstr "أمين المستودع"
 
 #: main.cpp:28
 #, kde-format
