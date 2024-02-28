@@ -123,6 +123,7 @@ SPDX-License-Identifier: CC0-1.0
     <category>StrategyGame</category>
   </categories>
   <project_group>KDE</project_group>
+  <developer_name translate="no">KDE</developer_name>
   <provides>
     <binary>skladnik</binary>
   </provides>
