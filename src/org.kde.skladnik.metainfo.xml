@@ -17,6 +17,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="fi">Skladnik</name>
   <name xml:lang="fr">Skladnik</name>
   <name xml:lang="hu">Skladnik</name>
+  <name xml:lang="ia">Skladnik</name>
   <name xml:lang="it">Skladnik</name>
   <name xml:lang="ka">Skladnik</name>
   <name xml:lang="ko">Skladnik</name>
@@ -43,6 +44,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="fr">Jeu Sokoban</summary>
   <summary xml:lang="gl">Xogo do Sokoban</summary>
   <summary xml:lang="hu">Szókoban játék</summary>
+  <summary xml:lang="ia">Joco de Sokoban</summary>
   <summary xml:lang="it">Gioco Sokoban</summary>
   <summary xml:lang="ka">თამაში Sokoban</summary>
   <summary xml:lang="ko">소코반 게임</summary>
