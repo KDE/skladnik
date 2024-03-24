@@ -1,5 +1,6 @@
 /*
     SPDX-FileCopyrightText: 1998 Anders Widell <d95-awi@nada.kth.se>
+    SPDX-FileCopyrightText: 2024 Salvo "LtWorf" Tomaselli <ltworf@debian.org>
 
     SPDX-License-Identifier: GPL-2.0-or-later
 */
@@ -56,8 +57,6 @@ PlayField::PlayField(QObject *parent)
     , statusFont_(QFontDatabase::systemFont(QFontDatabase::GeneralFont).family(), 18, QFont::Bold)
     , statusMetrics_(statusFont_)
 {
-    highlightX_ = highlightY_ = 0;
-
     KSharedConfigPtr cfg = KSharedConfig::openConfig();
     KConfigGroup settingsGroup(cfg, QStringLiteral("settings"));
 
@@ -203,7 +202,6 @@ int PlayField::totalPushes() const
 void PlayField::levelChange()
 {
     stopMoving();
-    stopDrag();
     history_->clear();
 
     m_levelNumber->setText(QString::asprintf("%05d", level() + 1));
@@ -211,77 +209,8 @@ void PlayField::levelChange()
     updatePushesDisplay();
 
     m_groundItem->updateSquares();
-    highlight();
 }
 
-void PlayField::mouseMoveEvent(QGraphicsSceneMouseEvent *e)
-{
-    lastMouseXPos_ = e->scenePos().x();
-    lastMouseYPos_ = e->scenePos().y();
-
-    if (!dragInProgress_)
-        return highlight();
-
-    int old_x = dragX_, old_y = dragY_;
-
-    dragX_ = lastMouseXPos_ - mousePosX_;
-    dragY_ = lastMouseYPos_ - mousePosY_;
-
-    const int suqareSize = m_groundItem->squareSize();
-    {
-        // TODO: this logic seems broken, dragx/Y is relative
-        const QPoint square = m_groundItem->squareFromScene({dragX_ + suqareSize / 2, dragY_ + suqareSize / 2});
-        int x = square.x();
-        int y = square.y();
-        if (levelMap_->map().hasCoord(x, y) && pathFinder_.canDragTo(x, y)) {
-            const QPointF dragScenePos = m_groundItem->squareToScene({x, y});
-            const qreal dragX =  dragScenePos.x();
-            const qreal dragY =  dragScenePos.y();
-
-            if (dragX_ >= dragX - suqareSize / 4 && dragX_ < dragX + suqareSize / 4 &&
-                dragY_ >= dragY - suqareSize / 4 && dragY_ < dragY + suqareSize / 4) {
-                dragX_ = dragX;
-                dragY_ = dragY;
-            }
-        }
-    }
-
-    if (dragX_ == old_x && dragY_ == old_y)
-        return;
-
-    update();
-}
-
-void PlayField::highlight()
-{
-    // FIXME: the line below should not be needed
-    if (m_groundItem->squareSize() == 0)
-        return;
-
-    const QPoint square = m_groundItem->squareFromScene({lastMouseXPos_, lastMouseYPos_});
-    const int x = square.x();
-    const int y = square.y();
-
-    if (!levelMap_->map().hasCoord(x, y))
-        return;
-
-    if (x == highlightX_ && y == highlightY_)
-        return;
-
-    if (pathFinder_.canDrag(x, y)) {
-        highlightX_ = x;
-        highlightY_ = y;
-        update();
-    } else {
-        if (pathFinder_.canWalkTo(x, y))
-            changeCursor(&crossCursor);
-        else
-            changeCursor(nullptr);
-        if (highlightX_ >= 0) {
-            update();
-        }
-    }
-}
 
 void PlayField::stopMoving()
 {
@@ -545,65 +474,30 @@ void PlayField::keyPressEvent(QKeyEvent *e)
     }
 }
 
-void PlayField::stopDrag()
-{
-    if (!dragInProgress_)
-        return;
-
-    changeCursor(nullptr);
-
-    update();
-    dragInProgress_ = false;
-}
-
-void PlayField::dragObject(int xpixel, int ypixel)
-{
-    const int squareSize = m_groundItem->squareSize();
-    const QPoint square = m_groundItem->squareFromScene({xpixel - mousePosX_ + squareSize / 2,
-                                                         ypixel - mousePosY_ + squareSize / 2});
-    const int x = square.x();
-    const int y = square.y();
-
-    if (x == highlightX_ && y == highlightY_)
-        return;
-
-    printf("drag %d,%d to %d,%d\n", highlightX_, highlightY_, x, y);
-    pathFinder_.drag(highlightX_, highlightY_, x, y);
-    stopDrag();
-}
-
 void PlayField::mousePressEvent(QGraphicsSceneMouseEvent *e)
 {
     if (!canMoveNow())
         return;
 
-    if (dragInProgress_) {
-        if (e->button() == Qt::LeftButton)
-            dragObject(e->scenePos().x(), e->scenePos().y());
-        else
-            stopDrag();
-        return;
-    }
+    pressedButton_ = e->button();
+    lastMousePosition_ = e->scenePos();
 
+
+}
+
+void PlayField::mouseReleaseEvent(QGraphicsSceneMouseEvent *e)
+{
+    pressedButton_ = Qt::NoButton;
     const QPoint square = m_groundItem->squareFromScene(e->scenePos());
+    const QPoint last_square = m_groundItem->squareFromScene(lastMousePosition_);
+
+    if (square != last_square)
+        return;
+
     const int x = square.x();
     const int y = square.y();
     if (!levelMap_->map().hasCoord(x, y))
         return;
-
-    if (e->button() == Qt::LeftButton && pathFinder_.canDrag(x, y)) {
-        update();
-        highlightX_ = x;
-        highlightY_ = y;
-        pathFinder_.updatePossibleDestinations(x, y);
-
-        const QPointF dragScenePos = m_groundItem->squareToScene({x, y});
-        dragX_ = dragScenePos.x();
-        dragY_ = dragScenePos.y();
-        mousePosX_ = e->scenePos().x() - dragX_;
-        mousePosY_ = e->scenePos().y() - dragY_;
-        dragInProgress_ = true;
-    }
 
     Move *m;
     switch (e->button()) {
@@ -628,6 +522,38 @@ void PlayField::mousePressEvent(QGraphicsSceneMouseEvent *e)
     }
 }
 
+
+void PlayField::mouseMoveEvent(QGraphicsSceneMouseEvent *e)
+{
+    if (pressedButton_ != Qt::LeftButton)
+        return;
+
+    qreal size = m_groundItem->squareSize();
+    qreal xdiff = lastMousePosition_.x() - e->scenePos().x();
+    qreal ydiff = lastMousePosition_.y() - e->scenePos().y();
+
+    int x = levelMap_->xpos();
+    int y = levelMap_->ypos();
+
+    if (abs(xdiff) > size) {
+        lastMousePosition_ = e->scenePos();
+        if (xdiff > 0)
+            push(x - 1, y);
+        else
+            push(x + 1, y);
+    }
+
+    if (abs(ydiff) > size) {
+        lastMousePosition_ = e->scenePos();
+        if (ydiff > 0)
+            push(x, y - 1);
+        else
+            push(x, y + 1);
+    }
+
+}
+
+
 void PlayField::wheelEvent(QGraphicsSceneWheelEvent *e)
 {
     wheelDelta_ += e->delta();
@@ -641,20 +567,6 @@ void PlayField::wheelEvent(QGraphicsSceneWheelEvent *e)
     }
 }
 
-void PlayField::mouseReleaseEvent(QGraphicsSceneMouseEvent *e)
-{
-    if (dragInProgress_)
-        dragObject(e->scenePos().x(), e->scenePos().y());
-}
-
-
-#if 0
-void PlayField::leaveEvent(QEvent *)
-{
-    TODO: no leaveEvent for scene, so disabled for now. but does this make sense at all?
-    stopDrag();
-}
-#endif
 
 void PlayField::setSize(int w, int h)
 {

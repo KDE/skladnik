@@ -1,5 +1,6 @@
 /*
     SPDX-FileCopyrightText: 1998 Anders Widell <d95-awi@nada.kth.se>
+    SPDX-FileCopyrightText: 2024 Salvo "LtWorf" Tomaselli <ltworf@debian.org>
 
     SPDX-License-Identifier: GPL-2.0-or-later
 */
@@ -111,9 +112,6 @@ private:
     void levelChange();
     void step(int _x, int _y);
     void push(int _x, int _y);
-    void stopDrag();
-    void dragObject(int xpixel, int ypixel);
-    void highlight();
     void changeCursor(const QCursor *c);
 
     void startMoving(Move *m);
@@ -127,19 +125,11 @@ private:
     History *history_;
     MoveSequence *moveSequence_ = nullptr;
     bool moveInProgress_ = false;
-    bool dragInProgress_ = false;
     PathFinder pathFinder_;
     int animDelay_;
     const QCursor *cursor_;
-
-    int highlightX_;
-    int highlightY_;
-    qreal dragX_;
-    qreal dragY_;
-    qreal lastMouseXPos_;
-    qreal lastMouseYPos_;
-    qreal mousePosX_;
-    qreal mousePosY_;
+    Qt::MouseButton pressedButton_ = Qt::NoButton;
+    QPointF lastMousePosition_;
     int wheelDelta_ = 0;
 
     QList<int> timers;
