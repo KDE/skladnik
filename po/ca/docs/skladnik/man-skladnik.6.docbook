@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY % Catalan  "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: Salvo Tomaselli <ltworf@debian.org>
+SPDX-License-Identifier: GFDL-1.2-or-later
+-->
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>Pàgina de manual del &skladnik;</title>
+<date
+>22 de març de 2024</date>
+<releaseinfo
+>&skladnik; 0.5.2</releaseinfo>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>skladnik</command
+></refentrytitle>
+<manvolnum
+>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>skladnik</command
+></refname>
+<refpurpose
+>Joc del Sokoban -encarregat del magatzem-</refpurpose>
+</refnamediv>
+
+<refsect1 id="description">
+<title
+>Descripció</title>
+
+<para
+>El Skladnik és una implementació del joc japonès «Sokoban» de l'encarregat de magatzem.</para>
+
+<para
+>La idea és que sou un encarregat de magatzem que intenta empènyer caixes a les seves ubicacions apropiades en un magatzem. El problema és que no podeu estirar les caixes ni trepitjar-les. Si no teniu cura, algunes de les caixes podrien quedar atrapades en llocs equivocats o bloquejar el camí.</para>
+
+</refsect1>
+
+
+<refsect1 id="options">
+<title
+>Opcions</title>
+
+<para
+>El &skladnik; es configura gràficament, i no posseeix cap opció de línia d'ordres a part de les opcions estàndards dels Frameworks 6 de KDE i de les &Qt;.</para>
+
+<variablelist>
+<title
+>Opcions del &skladnik;</title>
+<varlistentry>
+<term
+><option
+>--help</option
+></term>
+<listitem>
+<para
+>Mostra l'ajuda i surt.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--help-all</option
+></term>
+<listitem>
+<para
+>Mostra l'ajuda incloent les opcions específiques de les Qt.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--version</option
+></term>
+<listitem>
+<para
+>Mostra la versió i surt.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--author</option
+></term>
+<listitem>
+<para
+>Mostra informació sobre els autors.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--license</option
+></term>
+<listitem>
+<para
+>Mostra la informació sobre la llicència.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--desktopfile</option
+> <parameter
+>NOM_FITXER</parameter
+></term>
+<listitem>
+<para
+>Usa NOM_FITXER com a nom de fitxer base de l'entrada «desktop» per a aquesta aplicació.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Vegeu també</title>
+
+<simplelist>
+<member
+>Hi ha disponible documentació d'usuari més detallada des de <ulink url="help:/skladnik"
+>help:/skladnik</ulink
+> (podeu emprar aquest &URL; o bé executar <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/skladnik</parameter
+></userinput
+>).</member>
+<member
+><ulink
+url="https://apps.kde.org/skladnik/"
+>Pàgina web del &skladnik;</ulink
+></member>
+<member
+>kf6options(7)</member>
+<member
+>qt6options(7)</member>
+</simplelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Autors</title>
+<para
+>El &skladnik; està mantingut pels esforços conjunts de la comunitat &kde;.</para>
+<para
+>Aquesta pàgina de manual l'ha preparat <personname
+><firstname
+>Salvo</firstname
+><surname
+>Tomaselli</surname
+></personname
+> <email
+>ltworf@debian.org</email
+> per al sistema &GNU;/&Linux; &Debian; (però altres el poden fer servir).</para>
+</refsect1>
+
+</refentry>
