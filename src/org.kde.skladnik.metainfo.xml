@@ -20,6 +20,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="eu">Skladnik</name>
   <name xml:lang="fi">Skladnik</name>
   <name xml:lang="fr">Skladnik</name>
+  <name xml:lang="he">סקלדניק</name>
   <name xml:lang="hu">Skladnik</name>
   <name xml:lang="ia">Skladnik</name>
   <name xml:lang="it">Skladnik</name>
@@ -47,6 +48,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="fi">Sokoban-peli</summary>
   <summary xml:lang="fr">Jeu Sokoban</summary>
   <summary xml:lang="gl">Xogo do Sokoban</summary>
+  <summary xml:lang="he">משחק סוקובן</summary>
   <summary xml:lang="hu">Szókoban játék</summary>
   <summary xml:lang="ia">Joco de Sokoban</summary>
   <summary xml:lang="it">Gioco Sokoban</summary>
@@ -76,6 +78,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="eu">Skladnik, "Sokoban" biltegizainaren joko japoniarraren inplementazio bat da.</p>
     <p xml:lang="fi">Skladnik on toteutus japanilaisesta ”sokoban”-varastotyöntekijäpelistä.</p>
     <p xml:lang="fr">Skladnik est une implémentation du jeu japonais « sokoban » de gardien d'entrepôt.</p>
+    <p xml:lang="he">סקלדניק הוא מימוש של משחק המחסנאות היפני „סוקובן”.</p>
     <p xml:lang="hu">A Skladnik a japán raktáros játék, a szókoban egy megvalósítása.</p>
     <p xml:lang="it">Skladnik è un'implementazione del gioco giapponese del magazziniere «sokoban».</p>
     <p xml:lang="ka">Skladnik - იაპონური საწყობის უფროსის თამაშიზე, სოკობანზეა დაფუძნებული.</p>
@@ -102,6 +105,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="fi">Ideana on, että olet varastotyöntekijä, joka yrittää työntää laatikot oikeille paikoilleen varastossa. Ongelmana on, ettei laatikoita voi vetää tai niiden yli astua. Ellet ole huolellinen, jotkin laatikoista jäävät jumiin vääriin paikkoihin ja mahdollisesti estävät kulkusi.</p>
     <p xml:lang="fr">L'idée est que vous êtes un magasinier d'entrepôt, essayant de pousser des caisses à leurs emplacements corrects dans un entrepôt. Le problème est que vous ne pouvez pas tirer les caisses ni les enjamber. Si vous ne faites pas attention, certaines caisses peuvent se coincer au mauvais endroit et / ou vous bloquer le passage.</p>
     <p xml:lang="gl">A idea é que estás a gardar un almacén, intentando empurrar as caixas ao seu lugar correcto no almacén. O problema é que non podes tirar das caixas ou pasar por riba delas. Se non tes coidado, algunhas caixas poderían quedar atrapadas en lugares incorrectos ou bloquearte o camiño.</p>
+    <p xml:lang="he">הרעיון מאחורי המשחק הוא שהשחקן הוא למעשה מחסנאי שמנסה לדחוף ארגזים למקומם המתאים במחסן. הבעיה היא שאי אפשר למשוך את הארגזים או לעבור מעליהם. חוסר זהירות יכול להוביל חלק מהארגזים למקומות שגויים ו/או לחסום את הדרך.</p>
     <p xml:lang="hu">A játék lényege, hogy Ön egy raktáros, aki ládákat próbál a megfelelő helyre tolni a raktárban. A probléma az, hogy nem tudja húzni a ládákat, vagy átlépni azokon. Ha nem elég óvatos, néhány láda rossz helyen elakadhat és/vagy elállhatja az utadat.</p>
     <p xml:lang="it">L'idea è che sei un magazziniere che cerca di spingere le casse nelle loro posizioni corrette in un magazzino. Il problema è che non puoi tirare le casse o scavalcarle. Se non stai attento, alcune casse possono rimanere bloccate in posti sbagliati e/o bloccarti la strada.</p>
     <p xml:lang="ka">თამაშის აზრია: თქვენ საწყობის მმართველი ბრძანდებით, რომლებიც ყუთებს თავის ადგილას ალაგებს. პრობლემა ისაა, რომ თქვენ ყუთს ვერ გამოქაჩავთ და ვერ გადააბიჯებთ. თუ ფრთხილად არ იქნებით, ზოგიერთი ყუთი შეიძლება არასწორ ადგილას დაგივარდეთ და გზა ჩაგიხერგოთ.</p>
