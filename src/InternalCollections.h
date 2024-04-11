@@ -11,7 +11,7 @@
 
 #include <QString>
 #include <QByteArray>
-#include <QVector>
+#include <QList>
 
 #include <cassert>
 
@@ -40,7 +40,7 @@ private:
     static QString collectionName(int _level);
 
 private:
-    QVector<LevelCollection *> collections_;
+    QList<LevelCollection *> collections_;
     QByteArray m_data;
 };
 

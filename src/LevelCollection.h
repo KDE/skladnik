@@ -9,7 +9,7 @@
 
 #include <QByteArray>
 #include <QString>
-#include <QVector>
+#include <QList>
 
 class Map;
 
@@ -54,7 +54,7 @@ private:
     void addSeparator();
 
 private:
-    QVector<const char *> index_;
+    QList<const char *> index_;
     QByteArray data_;
     // int    dataLen_;
 

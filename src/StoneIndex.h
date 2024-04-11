@@ -8,7 +8,7 @@
 #ifndef STONEINDEX_H
 #define STONEINDEX_H
 
-#include <QVector>
+#include <QList>
 
 class StoneIndex
 {
@@ -31,10 +31,10 @@ private:
     int m_smallStoneCount = 0;
 
     mutable int m_indexSize = 0;
-    mutable QVector<uchar> m_upperLargeIndex;
-    mutable QVector<uchar> m_lowerLargeIndex;
-    mutable QVector<uchar> m_leftSmallIndex;
-    mutable QVector<uchar> m_rightSmallIndex;
+    mutable QList<uchar> m_upperLargeIndex;
+    mutable QList<uchar> m_lowerLargeIndex;
+    mutable QList<uchar> m_leftSmallIndex;
+    mutable QList<uchar> m_rightSmallIndex;
 };
 
 #endif
