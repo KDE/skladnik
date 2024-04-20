@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:37+0000\n"
+"POT-Creation-Date: 2024-04-20 00:37+0000\n"
 "PO-Revision-Date: 2022-08-22 17:13+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -182,27 +182,27 @@ msgstr "Load Levels from a File"
 msgid "No levels found in file"
 msgstr "No levels found in file"
 
-#: PlayField.cpp:92
+#: PlayField.cpp:91
 #, kde-format
 msgid "Level:"
 msgstr "Level:"
 
-#: PlayField.cpp:101
+#: PlayField.cpp:100
 #, kde-format
 msgid "Steps:"
 msgstr "Steps:"
 
-#: PlayField.cpp:110
+#: PlayField.cpp:109
 #, kde-format
 msgid "Pushes:"
 msgstr "Pushes:"
 
-#: PlayField.cpp:341
+#: PlayField.cpp:270
 #, kde-format
 msgid "Level completed"
 msgstr "Level completed"
 
-#: PlayField.cpp:670
+#: PlayField.cpp:582
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -211,7 +211,7 @@ msgstr ""
 "This is the last level in\n"
 "the current collection."
 
-#: PlayField.cpp:676
+#: PlayField.cpp:588
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -220,7 +220,7 @@ msgstr ""
 "You have not completed\n"
 "this level yet."
 
-#: PlayField.cpp:690
+#: PlayField.cpp:602
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -229,7 +229,7 @@ msgstr ""
 "This is the first level in\n"
 "the current collection."
 
-#: PlayField.cpp:768
+#: PlayField.cpp:680
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -238,7 +238,7 @@ msgstr ""
 "Sorry, bookmarks for external levels\n"
 "is not implemented yet."
 
-#: PlayField.cpp:793
+#: PlayField.cpp:705
 #, kde-format
 msgid "This level is broken"
 msgstr "This level is broken"

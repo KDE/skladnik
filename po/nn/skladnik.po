@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:37+0000\n"
+"POT-Creation-Date: 2024-04-20 00:37+0000\n"
 "PO-Revision-Date: 2022-08-24 10:10+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -185,27 +185,27 @@ msgstr "Last brett frå fil"
 msgid "No levels found in file"
 msgstr "Fann ingen brett i fila"
 
-#: PlayField.cpp:92
+#: PlayField.cpp:91
 #, kde-format
 msgid "Level:"
 msgstr "Brett:"
 
-#: PlayField.cpp:101
+#: PlayField.cpp:100
 #, kde-format
 msgid "Steps:"
 msgstr "Steg:"
 
-#: PlayField.cpp:110
+#: PlayField.cpp:109
 #, kde-format
 msgid "Pushes:"
 msgstr "Skubb:"
 
-#: PlayField.cpp:341
+#: PlayField.cpp:270
 #, kde-format
 msgid "Level completed"
 msgstr "Brett fullført"
 
-#: PlayField.cpp:670
+#: PlayField.cpp:582
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -214,7 +214,7 @@ msgstr ""
 "Dette er det siste brettet\n"
 "i denne samlinga."
 
-#: PlayField.cpp:676
+#: PlayField.cpp:588
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -223,7 +223,7 @@ msgstr ""
 "Du er ikkje ferdig med\n"
 "dette brettet enno."
 
-#: PlayField.cpp:690
+#: PlayField.cpp:602
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -232,7 +232,7 @@ msgstr ""
 "Dette er det første brettet\n"
 "i denne samlinga."
 
-#: PlayField.cpp:768
+#: PlayField.cpp:680
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -241,7 +241,7 @@ msgstr ""
 "Bokmerke for eksterne nivå\n"
 "er ikkje implementert enno."
 
-#: PlayField.cpp:793
+#: PlayField.cpp:705
 #, kde-format
 msgid "This level is broken"
 msgstr "Dette brettet er øydelagt"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:37+0000\n"
+"POT-Creation-Date: 2024-04-20 00:37+0000\n"
 "PO-Revision-Date: 2023-11-12 16:11+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -185,27 +185,27 @@ msgstr "Carrega nivells des d'un fitxer"
 msgid "No levels found in file"
 msgstr "No s'ha trobat cap nivell al fitxer"
 
-#: PlayField.cpp:92
+#: PlayField.cpp:91
 #, kde-format
 msgid "Level:"
 msgstr "Nivell:"
 
-#: PlayField.cpp:101
+#: PlayField.cpp:100
 #, kde-format
 msgid "Steps:"
 msgstr "Passos:"
 
-#: PlayField.cpp:110
+#: PlayField.cpp:109
 #, kde-format
 msgid "Pushes:"
 msgstr "Empentes:"
 
-#: PlayField.cpp:341
+#: PlayField.cpp:270
 #, kde-format
 msgid "Level completed"
 msgstr "Nivell completat"
 
-#: PlayField.cpp:670
+#: PlayField.cpp:582
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -214,7 +214,7 @@ msgstr ""
 "Aquest és l'últim nivell\n"
 "a la col·lecció actual."
 
-#: PlayField.cpp:676
+#: PlayField.cpp:588
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -223,7 +223,7 @@ msgstr ""
 "Encara no has completat\n"
 "aquest nivell."
 
-#: PlayField.cpp:690
+#: PlayField.cpp:602
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -232,7 +232,7 @@ msgstr ""
 "Aquest és el primer nivell\n"
 "a la col·lecció actual."
 
-#: PlayField.cpp:768
+#: PlayField.cpp:680
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -241,7 +241,7 @@ msgstr ""
 "Ho sentim. Les adreces d'interès per a nivells\n"
 "externs encara no estan implementades."
 
-#: PlayField.cpp:793
+#: PlayField.cpp:705
 #, kde-format
 msgid "This level is broken"
 msgstr "Aquest nivell està trencat"

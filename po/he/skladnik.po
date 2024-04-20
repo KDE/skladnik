@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:37+0000\n"
+"POT-Creation-Date: 2024-04-20 00:37+0000\n"
 "PO-Revision-Date: 2024-04-07 13:28+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -183,27 +183,27 @@ msgstr "טעינת שלבים מקובץ"
 msgid "No levels found in file"
 msgstr "לא נמצאו שלבים בקובץ"
 
-#: PlayField.cpp:92
+#: PlayField.cpp:91
 #, kde-format
 msgid "Level:"
 msgstr "שלב:"
 
-#: PlayField.cpp:101
+#: PlayField.cpp:100
 #, kde-format
 msgid "Steps:"
 msgstr "מהלכים:"
 
-#: PlayField.cpp:110
+#: PlayField.cpp:109
 #, kde-format
 msgid "Pushes:"
 msgstr "דחיפות:"
 
-#: PlayField.cpp:341
+#: PlayField.cpp:270
 #, kde-format
 msgid "Level completed"
 msgstr "השלב הושלם"
 
-#: PlayField.cpp:670
+#: PlayField.cpp:582
 #, kde-format
 msgid ""
 "This is the last level in\n"
@@ -212,7 +212,7 @@ msgstr ""
 "זה השלב האחרון\n"
 "באוסף הנוכחי."
 
-#: PlayField.cpp:676
+#: PlayField.cpp:588
 #, kde-format
 msgid ""
 "You have not completed\n"
@@ -221,7 +221,7 @@ msgstr ""
 "עדיין לא השלמת\n"
 "את השלב הזה."
 
-#: PlayField.cpp:690
+#: PlayField.cpp:602
 #, kde-format
 msgid ""
 "This is the first level in\n"
@@ -230,7 +230,7 @@ msgstr ""
 "זה השלב הראשון\n"
 "באוסף הנוכחי."
 
-#: PlayField.cpp:768
+#: PlayField.cpp:680
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
@@ -239,7 +239,7 @@ msgstr ""
 "עדיין אין תמיכה בסימניות לשלבים\n"
 "חיצוניים, עמך הסליחה."
 
-#: PlayField.cpp:793
+#: PlayField.cpp:705
 #, kde-format
 msgid "This level is broken"
 msgstr "השלב הזה פגום"

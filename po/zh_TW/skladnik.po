@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:37+0000\n"
+"POT-Creation-Date: 2024-04-20 00:37+0000\n"
 "PO-Revision-Date: 2024-02-13 20:41+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -182,55 +182,55 @@ msgstr "從檔案載入關卡"
 msgid "No levels found in file"
 msgstr "檔案中找不到關卡"
 
-#: PlayField.cpp:92
+#: PlayField.cpp:91
 #, kde-format
 msgid "Level:"
 msgstr "關卡："
 
-#: PlayField.cpp:101
+#: PlayField.cpp:100
 #, kde-format
 msgid "Steps:"
 msgstr "步數："
 
-#: PlayField.cpp:110
+#: PlayField.cpp:109
 #, kde-format
 msgid "Pushes:"
 msgstr "推動次數："
 
-#: PlayField.cpp:341
+#: PlayField.cpp:270
 #, kde-format
 msgid "Level completed"
 msgstr "完成關卡"
 
-#: PlayField.cpp:670
+#: PlayField.cpp:582
 #, kde-format
 msgid ""
 "This is the last level in\n"
 "the current collection."
 msgstr "這是目前集合中的最後一關。"
 
-#: PlayField.cpp:676
+#: PlayField.cpp:588
 #, kde-format
 msgid ""
 "You have not completed\n"
 "this level yet."
 msgstr "您尚未完成此關卡。"
 
-#: PlayField.cpp:690
+#: PlayField.cpp:602
 #, kde-format
 msgid ""
 "This is the first level in\n"
 "the current collection."
 msgstr "這是目前集合中的第一關。"
 
-#: PlayField.cpp:768
+#: PlayField.cpp:680
 #, kde-format
 msgid ""
 "Sorry, bookmarks for external levels\n"
 "is not implemented yet."
 msgstr "抱歉，我們尚未實作外部關卡的書籤。"
 
-#: PlayField.cpp:793
+#: PlayField.cpp:705
 #, kde-format
 msgid "This level is broken"
 msgstr "這個關卡壞掉了"
