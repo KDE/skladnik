@@ -136,7 +136,7 @@ can of course also restart the level from the very beginning.
 <para>
 &skladnik; has the ability to load external sokoban levels from text
 files.  You can load levels using the <menuchoice><guimenu>Game</guimenu>
-<guimenuitem>Load Levels...</guimenuitem></menuchoice> menu item, or by
+<guimenuitem>Load Levels…</guimenuitem></menuchoice> menu item, or by
 specifying the level file &URL; as a command line argument when starting
 &skladnik; from a shell.
 </para>
@@ -197,7 +197,7 @@ As an example, below is a text representation of the first level in the
 <varlistentry>
 <term><menuchoice>
 <guimenu>Game</guimenu>
-<guimenuitem>Load Levels...</guimenuitem>
+<guimenuitem>Load Levels…</guimenuitem>
 </menuchoice></term>
 <listitem>
 <para><action>Load an external level.</action> See the section <link
