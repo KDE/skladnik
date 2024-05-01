@@ -702,7 +702,7 @@ bool PlayField::canMoveNow()
     if (moveInProgress_)
         return false;
     if (!levelMap_->goodLevel()) {
-        showMessage(i18n("This level is broken"));
+        showMessage(i18n("This level is broken."));
         return false;
     }
     return true;
