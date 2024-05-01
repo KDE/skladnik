@@ -3,9 +3,6 @@
   <!ENTITY % Italian "INCLUDE"
 > <!-- change language only here -->
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY skladnik "<application
->Skladnik</application
->">
 ]>
 	
 <book lang="&language;">
