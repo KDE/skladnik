@@ -35,7 +35,7 @@
 
 void MainWindow::createCollectionMenu()
 {
-    collectionsAct_ = new KSelectAction(i18n("&Level Collection"), this);
+    collectionsAct_ = new KSelectAction(i18nc("@title:menu", "Level Collection"), this);
     actionCollection()->addAction(QStringLiteral("collections"), collectionsAct_);
     connect(collectionsAct_, &KSelectAction::indexTriggered, this, &MainWindow::changeCollection);
 
@@ -98,17 +98,17 @@ void MainWindow::setupActions()
 
     QAction *nextLevel = ac->addAction(QStringLiteral("next_level"), playField_, &PlayField::nextLevel);
     nextLevel->setIcon(QIcon::fromTheme(QStringLiteral("go-next")));
-    nextLevel->setText(i18n("&Next Level"));
+    nextLevel->setText(i18nc("@action", "Next Level"));
     ac->setDefaultShortcut(nextLevel, QKeySequence(Qt::Key_N));
 
     QAction *prevLevel = ac->addAction(QStringLiteral("prev_level"), playField_, &PlayField::previousLevel);
     prevLevel->setIcon(QIcon::fromTheme(QStringLiteral("go-previous")));
-    prevLevel->setText(i18n("&Previous Level"));
+    prevLevel->setText(i18nc("@action", "Previous Level"));
     ac->setDefaultShortcut(prevLevel, QKeySequence(Qt::Key_P));
 
     QAction *reload = ac->addAction(QStringLiteral("reload_level"), playField_, &PlayField::restartLevel);
     reload->setIcon(QIcon::fromTheme(QStringLiteral("view-refresh")));
-    reload->setText(i18n("Re&start Level"));
+    reload->setText(i18nc("@action", "Restart Level"));
     ac->setDefaultShortcut(reload, QKeySequence(Qt::Key_Escape));
 
     createCollectionMenu();
@@ -121,22 +121,22 @@ void MainWindow::setupActions()
     connect(animGrp, &QActionGroup::triggered, this, &MainWindow::handleAnimSpeedSelected);
 
     qa_slow = ac->addAction(QStringLiteral("anim_slow"));
-    qa_slow->setText(i18n("&Slow"));
+    qa_slow->setText(i18nc("@item animation speed", "Slow"));
     qa_slow->setCheckable(true);
     qa_slow->setData(3);
     qa_slow->setActionGroup(animGrp);
     qa_medium = ac->addAction(QStringLiteral("anim_medium"));
-    qa_medium->setText(i18n("&Medium"));
+    qa_medium->setText(i18nc("@item animation speed", "Medium"));
     qa_medium->setCheckable(true);
     qa_medium->setData(2);
     qa_medium->setActionGroup(animGrp);
     qa_fast = ac->addAction(QStringLiteral("anim_fast"));
-    qa_fast->setText(i18n("&Fast"));
+    qa_fast->setText(i18nc("@item animation speed", "Fast"));
     qa_fast->setCheckable(true);
     qa_fast->setData(1);
     qa_fast->setActionGroup(animGrp);
     qa_off = ac->addAction(QStringLiteral("anim_off"));
-    qa_off->setText(i18n("&Off"));
+    qa_off->setText(i18nc("@item animation speed", "Off"));
     qa_off->setCheckable(true);
     qa_off->setData(0);
     qa_off->setActionGroup(animGrp);
@@ -176,7 +176,7 @@ void MainWindow::setupActions()
         auto &actionData = bokkmarkActionData[i];
         QAction *action = ac->addAction(actionData.addActionId);
         action->setIcon(QIcon::fromTheme(QStringLiteral("bookmark-new")));
-        action->setText(i18n("(unused)"));
+        action->setText(i18nc("@item bookmark entry", "(unused)"));
         ac->setDefaultShortcut(action, QKeySequence(Qt::CTRL | actionData.key));
         action->setData(i + 1);
         action->setActionGroup(setBmGrp);
@@ -190,7 +190,7 @@ void MainWindow::setupActions()
     for (int i = 0; i < 10; i++) {
         auto &actionData = bokkmarkActionData[i];
         QAction *action = ac->addAction(actionData.gotoActionId);
-        action->setText(i18n("(unused)"));
+        action->setText(i18nc("@item bookmark entry", "(unused)"));
         ac->setDefaultShortcut(action, QKeySequence(actionData.key));
         action->setData(i + 1);
         action->setActionGroup(gotoBmGrp);
@@ -226,7 +226,7 @@ void MainWindow::updateBookmark(int num)
     if (col >= 0 && col < internalCollections_.collections())
         name = internalCollections_[col]->name();
     else
-        name = i18n("(invalid)");
+        name = i18nc("@item bookmark entry", "(invalid)");
     QString l;
     l.setNum(lev + 1);
     name += QLatin1String(" #") + l;
@@ -320,7 +320,7 @@ void MainWindow::openURL(const QUrl &_url)
     auto *tmpCollection = new LevelCollection(levelFile, levelName);
 
     if (tmpCollection->noOfLevels() < 1) {
-        KMessageBox::error(this, i18n("No levels found in file"));
+        KMessageBox::error(this, i18nc("@info", "No levels found in file."));
         delete tmpCollection;
         return;
     }

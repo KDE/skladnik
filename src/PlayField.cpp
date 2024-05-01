@@ -88,7 +88,7 @@ PlayField::PlayField(QObject *parent)
 
     bottomBarLayout->addStretch();
 
-    m_levelLabel = new SimpleTextItem(i18n("Level:"));
+    m_levelLabel = new SimpleTextItem(i18nc("@label", "Level:"));
     m_levelLabel->setFont(statusFont_);
     m_levelLabel->setBrush(QColor(128, 128, 128));
     m_levelNumber = new SimpleTextItem();
@@ -97,7 +97,7 @@ PlayField::PlayField(QObject *parent)
     bottomBarLayout->addItem(m_levelLabel);
     bottomBarLayout->addItem(m_levelNumber);
 
-    m_stepsLabel = new SimpleTextItem(i18n("Steps:"));
+    m_stepsLabel = new SimpleTextItem(i18nc("@label", "Steps:"));
     m_stepsLabel->setFont(statusFont_);
     m_stepsLabel->setBrush(QColor(128, 128, 128));
     m_stepsNumber = new SimpleTextItem();
@@ -106,7 +106,7 @@ PlayField::PlayField(QObject *parent)
     bottomBarLayout->addItem(m_stepsLabel);
     bottomBarLayout->addItem(m_stepsNumber);
 
-    m_pushesLabel = new SimpleTextItem(i18n("Pushes:"));
+    m_pushesLabel = new SimpleTextItem(i18nc("@label", "Pushes:"));
     m_pushesLabel->setFont(statusFont_);
     m_pushesLabel->setBrush(QColor(128, 128, 128));
     m_pushesNumber = new SimpleTextItem();
@@ -267,7 +267,7 @@ void PlayField::timerEvent(QTimerEvent *)
         update();
         if (levelMap_->completed()) {
             stopMoving();
-            showMessage(i18n("Level completed"), this, &PlayField::nextLevel);
+            showMessage(i18nc("@info", "Level completed."), this, &PlayField::nextLevel);
             return;
         }
     } else
