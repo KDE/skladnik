@@ -579,15 +579,11 @@ void PlayField::setSize(int w, int h)
 void PlayField::nextLevel()
 {
     if (levelMap_->level() + 1 >= levelMap_->noOfLevels()) {
-        showMessage(i18n("\
-This is the last level in\n\
-the current collection."));
+        showMessage(i18n("This is the last level in the current collection."));
         return;
     }
     if (levelMap_->level() >= levelMap_->completedLevels()) {
-        showMessage(i18n("\
-You have not completed\n\
-this level yet."));
+        showMessage(i18n("You have not completed this level yet."));
         return;
     }
 
@@ -599,9 +595,7 @@ this level yet."));
 void PlayField::previousLevel()
 {
     if (levelMap_->level() <= 0) {
-        showMessage(i18n("\
-This is the first level in\n\
-the current collection."));
+        showMessage(i18n("This is the first level in the current collection."));
         return;
     }
     level(levelMap_->level() - 1);
