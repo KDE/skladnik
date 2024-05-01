@@ -677,8 +677,7 @@ void PlayField::setBookmark(Bookmark *bm)
 
     if (collection()->id() < 0) {
         KMessageBox::error(nullptr,
-                           i18n("Sorry, bookmarks for external levels\n"
-                                "is not implemented yet."));
+                           i18n("Bookmarks for external levels is not implemented yet."));
         return;
     }
 
