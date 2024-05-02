@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-20 00:37+0000\n"
+"POT-Creation-Date: 2024-05-02 00:37+0000\n"
 "PO-Revision-Date: 2020-01-22 21:20+0200\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -118,57 +118,79 @@ msgid "Level collection file to load."
 msgstr "Laaditav tasemete kogu"
 
 #: MainWindow.cpp:38
-#, kde-format
-msgid "&Level Collection"
+#, fuzzy, kde-format
+#| msgid "&Level Collection"
+msgctxt "@title:menu"
+msgid "Level Collection"
 msgstr "&Tasemete kogu"
 
 #: MainWindow.cpp:97
-#, kde-format
-msgid "&Load Levels..."
+#, fuzzy, kde-format
+#| msgid "&Load Levels..."
+msgctxt "@action"
+msgid "Load Levels…"
 msgstr "&Laadi tasemed ..."
 
 #: MainWindow.cpp:101
-#, kde-format
-msgid "&Next Level"
+#, fuzzy, kde-format
+#| msgid "&Next Level"
+msgctxt "@action"
+msgid "Next Level"
 msgstr "&Järgmine tase"
 
 #: MainWindow.cpp:106
-#, kde-format
-msgid "&Previous Level"
+#, fuzzy, kde-format
+#| msgid "&Previous Level"
+msgctxt "@action"
+msgid "Previous Level"
 msgstr "&Eelmine tase"
 
 #: MainWindow.cpp:111
-#, kde-format
-msgid "Re&start Level"
+#, fuzzy, kde-format
+#| msgid "Re&start Level"
+msgctxt "@action"
+msgid "Restart Level"
 msgstr "&Käivita tase uuesti"
 
 #: MainWindow.cpp:124
-#, kde-format
-msgid "&Slow"
+#, fuzzy, kde-format
+#| msgid "&Slow"
+msgctxt "@item animation speed"
+msgid "Slow"
 msgstr "&Aeglane"
 
 #: MainWindow.cpp:129
-#, kde-format
-msgid "&Medium"
+#, fuzzy, kde-format
+#| msgid "&Medium"
+msgctxt "@item animation speed"
+msgid "Medium"
 msgstr "&Keskmine"
 
 #: MainWindow.cpp:134
-#, kde-format
-msgid "&Fast"
+#, fuzzy, kde-format
+#| msgid "&Fast"
+msgctxt "@item animation speed"
+msgid "Fast"
 msgstr "K&iire"
 
 #: MainWindow.cpp:139
-#, kde-format
-msgid "&Off"
+#, fuzzy, kde-format
+#| msgid "&Off"
+msgctxt "@item animation speed"
+msgid "Off"
 msgstr "&Väljas"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "(unused)"
+msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(kasutamata)"
 
 #: MainWindow.cpp:229
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "(invalid)"
+msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "(vigane)"
 
@@ -180,69 +202,84 @@ msgid "Load Levels from a File"
 msgstr "Tasemete laadimine failist"
 
 #: MainWindow.cpp:323
-#, kde-format
-msgid "No levels found in file"
+#, fuzzy, kde-format
+#| msgid "No levels found in file"
+msgctxt "@info"
+msgid "No levels found in file."
 msgstr "Failis ei leitud ühtegi taset"
 
 #: PlayField.cpp:91
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Level:"
+msgctxt "@label"
 msgid "Level:"
 msgstr "Tase:"
 
 #: PlayField.cpp:100
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Steps:"
+msgctxt "@label"
 msgid "Steps:"
 msgstr "Sammud: "
 
 #: PlayField.cpp:109
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Pushes:"
+msgctxt "@label"
 msgid "Pushes:"
 msgstr "Lükkeid:"
 
 #: PlayField.cpp:270
-#, kde-format
-msgid "Level completed"
+#, fuzzy, kde-format
+#| msgid "Level completed"
+msgctxt "@info"
+msgid "Level completed."
 msgstr "Tase on läbitud"
 
 #: PlayField.cpp:582
-#, kde-format
-msgid ""
-"This is the last level in\n"
-"the current collection."
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the last level in\n"
+#| "the current collection."
+msgid "This is the last level in the current collection."
 msgstr ""
 "See on viimane tase\n"
 "aktiivses kogus."
 
-#: PlayField.cpp:588
-#, kde-format
-msgid ""
-"You have not completed\n"
-"this level yet."
+#: PlayField.cpp:586
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have not completed\n"
+#| "this level yet."
+msgid "You have not completed this level yet."
 msgstr ""
 "Sa ei ole veel\n"
 "seda taset lõpetanud."
 
-#: PlayField.cpp:602
-#, kde-format
-msgid ""
-"This is the first level in\n"
-"the current collection."
+#: PlayField.cpp:598
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the first level in\n"
+#| "the current collection."
+msgid "This is the first level in the current collection."
 msgstr ""
 "See on esimene tase\n"
 "aktiivses kogus."
 
-#: PlayField.cpp:680
-#, kde-format
-msgid ""
-"Sorry, bookmarks for external levels\n"
-"is not implemented yet."
+#: PlayField.cpp:674
+#, fuzzy, kde-format
+#| msgid ""
+#| "Sorry, bookmarks for external levels\n"
+#| "is not implemented yet."
+msgid "Bookmarks for external levels is not implemented yet."
 msgstr ""
 "Vabandust, väliste tasemete\n"
 "järjehoidjad pole veel toetatud."
 
-#: PlayField.cpp:705
-#, kde-format
-msgid "This level is broken"
+#: PlayField.cpp:698
+#, fuzzy, kde-format
+#| msgid "This level is broken"
+msgid "This level is broken."
 msgstr "See tase on vigane"
 
 #. i18n: ectx: Menu (game)

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-20 00:37+0000\n"
+"POT-Creation-Date: 2024-05-02 00:37+0000\n"
 "PO-Revision-Date: 2024-04-07 13:28+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -118,57 +118,79 @@ msgid "Level collection file to load."
 msgstr "קובץ אוסף שלבים לטעינה."
 
 #: MainWindow.cpp:38
-#, kde-format
-msgid "&Level Collection"
+#, fuzzy, kde-format
+#| msgid "&Level Collection"
+msgctxt "@title:menu"
+msgid "Level Collection"
 msgstr "&אוסף שלבים"
 
 #: MainWindow.cpp:97
-#, kde-format
-msgid "&Load Levels..."
+#, fuzzy, kde-format
+#| msgid "&Load Levels..."
+msgctxt "@action"
+msgid "Load Levels…"
 msgstr "&טעינת שלבים…"
 
 #: MainWindow.cpp:101
-#, kde-format
-msgid "&Next Level"
+#, fuzzy, kde-format
+#| msgid "&Next Level"
+msgctxt "@action"
+msgid "Next Level"
 msgstr "השלב ה&בא"
 
 #: MainWindow.cpp:106
-#, kde-format
-msgid "&Previous Level"
+#, fuzzy, kde-format
+#| msgid "&Previous Level"
+msgctxt "@action"
+msgid "Previous Level"
 msgstr "השלב ה&קודם"
 
 #: MainWindow.cpp:111
-#, kde-format
-msgid "Re&start Level"
+#, fuzzy, kde-format
+#| msgid "Re&start Level"
+msgctxt "@action"
+msgid "Restart Level"
 msgstr "התחלת השלב מ&חדש"
 
 #: MainWindow.cpp:124
-#, kde-format
-msgid "&Slow"
+#, fuzzy, kde-format
+#| msgid "&Slow"
+msgctxt "@item animation speed"
+msgid "Slow"
 msgstr "&איטית"
 
 #: MainWindow.cpp:129
-#, kde-format
-msgid "&Medium"
+#, fuzzy, kde-format
+#| msgid "&Medium"
+msgctxt "@item animation speed"
+msgid "Medium"
 msgstr "&בינונית"
 
 #: MainWindow.cpp:134
-#, kde-format
-msgid "&Fast"
+#, fuzzy, kde-format
+#| msgid "&Fast"
+msgctxt "@item animation speed"
+msgid "Fast"
 msgstr "&מהירה"
 
 #: MainWindow.cpp:139
-#, kde-format
-msgid "&Off"
+#, fuzzy, kde-format
+#| msgid "&Off"
+msgctxt "@item animation speed"
+msgid "Off"
 msgstr "&כבויה"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "(unused)"
+msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(לא בשימוש)"
 
 #: MainWindow.cpp:229
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "(invalid)"
+msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "(שגוי)"
 
@@ -179,69 +201,84 @@ msgid "Load Levels from a File"
 msgstr "טעינת שלבים מקובץ"
 
 #: MainWindow.cpp:323
-#, kde-format
-msgid "No levels found in file"
+#, fuzzy, kde-format
+#| msgid "No levels found in file"
+msgctxt "@info"
+msgid "No levels found in file."
 msgstr "לא נמצאו שלבים בקובץ"
 
 #: PlayField.cpp:91
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Level:"
+msgctxt "@label"
 msgid "Level:"
 msgstr "שלב:"
 
 #: PlayField.cpp:100
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Steps:"
+msgctxt "@label"
 msgid "Steps:"
 msgstr "מהלכים:"
 
 #: PlayField.cpp:109
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Pushes:"
+msgctxt "@label"
 msgid "Pushes:"
 msgstr "דחיפות:"
 
 #: PlayField.cpp:270
-#, kde-format
-msgid "Level completed"
+#, fuzzy, kde-format
+#| msgid "Level completed"
+msgctxt "@info"
+msgid "Level completed."
 msgstr "השלב הושלם"
 
 #: PlayField.cpp:582
-#, kde-format
-msgid ""
-"This is the last level in\n"
-"the current collection."
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the last level in\n"
+#| "the current collection."
+msgid "This is the last level in the current collection."
 msgstr ""
 "זה השלב האחרון\n"
 "באוסף הנוכחי."
 
-#: PlayField.cpp:588
-#, kde-format
-msgid ""
-"You have not completed\n"
-"this level yet."
+#: PlayField.cpp:586
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have not completed\n"
+#| "this level yet."
+msgid "You have not completed this level yet."
 msgstr ""
 "עדיין לא השלמת\n"
 "את השלב הזה."
 
-#: PlayField.cpp:602
-#, kde-format
-msgid ""
-"This is the first level in\n"
-"the current collection."
+#: PlayField.cpp:598
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the first level in\n"
+#| "the current collection."
+msgid "This is the first level in the current collection."
 msgstr ""
 "זה השלב הראשון\n"
 "באוסף הנוכחי."
 
-#: PlayField.cpp:680
-#, kde-format
-msgid ""
-"Sorry, bookmarks for external levels\n"
-"is not implemented yet."
+#: PlayField.cpp:674
+#, fuzzy, kde-format
+#| msgid ""
+#| "Sorry, bookmarks for external levels\n"
+#| "is not implemented yet."
+msgid "Bookmarks for external levels is not implemented yet."
 msgstr ""
 "עדיין אין תמיכה בסימניות לשלבים\n"
 "חיצוניים, עמך הסליחה."
 
-#: PlayField.cpp:705
-#, kde-format
-msgid "This level is broken"
+#: PlayField.cpp:698
+#, fuzzy, kde-format
+#| msgid "This level is broken"
+msgid "This level is broken."
 msgstr "השלב הזה פגום"
 
 #. i18n: ectx: Menu (game)
