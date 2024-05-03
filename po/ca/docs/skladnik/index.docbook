@@ -226,7 +226,7 @@
 ><guimenu
 >Joc</guimenu
 > <guimenuitem
->Carrega nivells...</guimenuitem
+>Carrega els nivells…</guimenuitem
 ></menuchoice
 > o especificant l'&URL; del fitxer de nivells com un argument de la línia d'ordres en iniciar el &skladnik; des d'un intèrpret d'ordres. </para>
 
@@ -342,7 +342,7 @@
 ><guimenu
 >Joc</guimenu
 > <guimenuitem
->Carrega els nivells...</guimenuitem
+>Carrega els nivells…</guimenuitem
 > </menuchoice
 ></term>
 <listitem>

@@ -232,7 +232,7 @@
 ><guimenu
 >Spel</guimenu
 > <guimenuitem
->Levels laden...</guimenuitem
+>Levels laden…</guimenuitem
 > </menuchoice
 >, of door de&URL; van het level-bestand als parameter op de commandoregel op te geven bij het starten van &skladnik; vanuit een shell. </para>
 
@@ -348,7 +348,7 @@
 ><guimenu
 >Spel</guimenu
 > <guimenuitem
->Laad Levels...</guimenuitem
+>Laad Levels…</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
