@@ -1,6 +1,6 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Xavier Besnard <xavier.besnard@kde.org>, 2012, 2013, 2021, 2022.
+# SPDX-FileCopyrightText: 2012, 2013, 2021, 2022, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # Simon Depiets <sdepiets@gmail.com>, 2019.
 # SPDX-FileCopyrightText: 2023 Xavier Besnard <xavier.besnard@kde.org>
 #
@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-20 00:37+0000\n"
-"PO-Revision-Date: 2023-12-20 09:42+0100\n"
+"PO-Revision-Date: 2024-04-29 14:56+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -94,7 +94,7 @@ msgstr "Lukasz Kalamlacki"
 #: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
-msgstr "Réécriture du jeu ksokoban d'origine de kde3 vers kde4"
+msgstr "Ré-écriture du jeu KSokoban d'origine de KDE3 vers KDE4"
 
 #: main.cpp:41
 #, kde-format
@@ -104,7 +104,7 @@ msgstr "Anders Widell"
 #: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
-msgstr "Écriture du jeu ksokoban d'origine"
+msgstr "Écriture du jeu KSokoban d'origine"
 
 #: main.cpp:45
 #, kde-format
