@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2024-02-13 20:41+0900\n"
+"PO-Revision-Date: 2024-05-06 09:49+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 24.04.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -117,78 +117,67 @@ msgid "Level collection file to load."
 msgstr "要載入的關卡集合檔。"
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
-#| msgid "&Level Collection"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "關卡集合(&L)"
+msgstr "關卡集合"
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
-#| msgid "&Load Levels..."
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "載入關卡(&L)..."
+msgstr "載入關卡…"
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "下一關(&N)"
+msgstr "下一關"
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Previous Level"
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "上一關(&P)"
+msgstr "上一關"
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Re&start Level"
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "重新開始關卡(&S)"
+msgstr "重新開始關卡"
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
-#| msgid "&Slow"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "慢(&S)"
+msgstr "慢"
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Medium"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "中(&M)"
+msgstr "中"
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "&Fast"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "快(&F)"
+msgstr "快"
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
-#| msgid "&Off"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "關閉(&O)"
+msgstr "關閉"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
-#| msgid "(unused)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "（未使用）"
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
-#| msgid "(invalid)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "（無效）"
@@ -200,77 +189,59 @@ msgid "Load Levels from a File"
 msgstr "從檔案載入關卡"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
-#| msgid "No levels found in file"
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "檔案中找不到關卡"
+msgstr "檔案中找不到關卡。"
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
-#| msgid "Level:"
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
 msgstr "關卡："
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
-#| msgid "Steps:"
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
 msgstr "步數："
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
-#| msgid "Pushes:"
+#, kde-format
 msgctxt "@label"
 msgid "Pushes:"
 msgstr "推動次數："
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
-#| msgid "Level completed"
+#, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "完成關卡"
+msgstr "完成關卡。"
 
 #: PlayField.cpp:582
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the last level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the last level in the current collection."
 msgstr "這是目前集合中的最後一關。"
 
 #: PlayField.cpp:586
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have not completed\n"
-#| "this level yet."
+#, kde-format
 msgid "You have not completed this level yet."
 msgstr "您尚未完成此關卡。"
 
 #: PlayField.cpp:598
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the first level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the first level in the current collection."
 msgstr "這是目前集合中的第一關。"
 
 #: PlayField.cpp:674
-#, fuzzy, kde-format
-#| msgid ""
-#| "Sorry, bookmarks for external levels\n"
-#| "is not implemented yet."
+#, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr "抱歉，我們尚未實作外部關卡的書籤。"
+msgstr "尚未實作外部關卡的書籤。"
 
 #: PlayField.cpp:698
-#, fuzzy, kde-format
-#| msgid "This level is broken"
+#, kde-format
 msgid "This level is broken."
-msgstr "這個關卡壞掉了"
+msgstr "這個關卡壞掉了。"
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
