@@ -244,13 +244,13 @@
 >Завантаження сторонніх рівнів</title>
 
 <para
->У &skladnik; передбачено можливість завантаження сторонніх рівнів сокобан з текстових файлів. Завантажити рівні можна за допомогою пункту меню <menuchoice
+>&skladnik; has the ability to load external sokoban levels from text files. You can load levels using the <menuchoice
 ><guimenu
->Гра</guimenu
+>Game</guimenu
 > <guimenuitem
->Завантажити рівні...</guimenuitem
-> </menuchoice
-> або вказавши адресу файла рівнів як аргумент командного рядка під час запуску &skladnik; з командної оболонки. </para>
+>Load Levels…</guimenuitem
+></menuchoice
+> menu item, or by specifying the level file &URL; as a command line argument when starting &skladnik; from a shell. </para>
 
 <para
 >Сторонні рівні має бути записано за допомогою стандартних символів, які наведено у таблиці нижче. Якщо у файлі міститься декілька рівнів, рівні має бути відокремлено порожніми рядками. Крім того, у файлі можна розміщувати текст між рівнями. </para>
@@ -362,9 +362,9 @@
 <term
 ><menuchoice
 ><guimenu
->Гра</guimenu
+>Game</guimenu
 > <guimenuitem
->Завантажити рівні…</guimenuitem
+>Load Levels…</guimenuitem
 > </menuchoice
 ></term>
 <listitem>
