@@ -121,74 +121,64 @@ msgid "Level Collection"
 msgstr ""
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
-#| msgid "&Load Levels..."
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "Načís&t úrovně..."
+msgstr ""
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "&Následující úroveň"
+msgstr ""
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Previous Level"
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "&Předchozí úroveň"
+msgstr ""
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "&Následující úroveň"
+msgstr ""
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
-#| msgid "&Slow"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "&Pomalu"
+msgstr ""
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Medium"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "&Střední"
+msgstr ""
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "&Fast"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "&Rychle"
+msgstr ""
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
-#| msgid "&Off"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "Vypnut&o"
+msgstr ""
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
-#| msgid "(unused)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
-msgstr "(nepoužito)"
+msgstr ""
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
-#| msgid "(invalid)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
-msgstr "(neplatný)"
+msgstr ""
 
 #: MainWindow.cpp:288
 #, kde-format
@@ -197,26 +187,22 @@ msgid "Load Levels from a File"
 msgstr "Načíst úrovně ze souboru"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Load Levels from a File"
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "Načíst úrovně ze souboru"
+msgstr ""
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
-#| msgid "Level:"
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
-msgstr "Úroveň:"
+msgstr ""
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
-#| msgid "Steps:"
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
-msgstr "Kroky:"
+msgstr ""
 
 #: PlayField.cpp:109
 #, kde-format
