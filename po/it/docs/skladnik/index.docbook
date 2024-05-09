@@ -243,12 +243,12 @@
 
 <para
 >&skladnik; ha la capacità di caricare livelli di sokoban esterni da file di testo. È possibile caricare i livelli utilizzando la voce di menu <menuchoice
-> <guimenu
+><guimenu
 >Carica livelli...</guimenu
-> <guimenuitem
+><guimenuitem
 > Carica livelli...</guimenuitem
 > </menuchoice
-> o specificando l'&URL; del file di livello; come argomento da riga di comando all'avvio di &skladnik; da una shell. </para>
+> o specificando l'&URL; del file di livello; come argomento da riga di comando quando si avvia &skladnik; da una shell. </para>
 
 <para
 >I livelli esterni devono essere definiti utilizzando i caratteri standard mostrati nella tabella seguente. Se il file contiene più di un livello, i livelli devono essere separati da righe vuote. Il file può contenere anche testo tra i livelli. </para>
