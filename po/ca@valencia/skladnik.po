@@ -127,7 +127,7 @@ msgstr "Co&l·lecció de nivells"
 #: MainWindow.cpp:97
 #, kde-format
 msgid "&Load Levels..."
-msgstr "Ca&rrega nivells..."
+msgstr "Ca&rrega nivells…"
 
 #: MainWindow.cpp:101
 #, kde-format
