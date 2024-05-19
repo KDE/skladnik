@@ -3,9 +3,6 @@
   <!ENTITY % Spanish "INCLUDE"
 > <!-- change language only here -->
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY skladnik "<application
->Skladnik</application
->">
 ]>
 	
 <book lang="&language;">
@@ -83,15 +80,15 @@
 >El primer juego de sokoban fue creado en 1982 por Hiroyuki Imabayashi en la compañía japonesa Thinking Rabbit, Inc. «Sokoban» significa «encargado de almacén» en japonés. El jugador es el encargado de almacén que tiene que empujar las cajas a su lugar correcto en el almacén. </para>
 
 <para
->El problema es que no se puede tirar de las cajas ni pasar sobre ellas. Si no tiene cuidado, algunas cajas quedarán inmovilizadas en lugares incorrectos y le bloquearán el paso. </para>
+>El problema es que no se puede tirar de las cajas ni pasar sobre ellas. Si no tienes cuidado, algunas cajas quedarán inmovilizadas en lugares incorrectos y te bloquearán el paso. </para>
 
 <para
->Puede ser bastante difícil resolver un nivel. Pero si quiere hacerlo aún más difícil, puede intentar reducir la cantidad de movimientos y/o empujones necesarios para resolver el nivel. </para>
+>Puede ser bastante difícil resolver un nivel. Pero si quieres hacerlo aún más difícil, puedes intentar reducir la cantidad de movimientos y/o empujones necesarios para resolver el nivel. </para>
 
 <para
 >Para que el juego sea más divertido para los niños más jóvenes (menores de 10 años), &skladnik; también incluye algunas colecciones con niveles más fáciles. Estas colecciones están marcadas con la etiqueta <emphasis
 >(fácil)</emphasis
-> en el menú de la colección de niveles. Por supuesto, estos niveles también pueden ser divertidos para los mayores (por ejemplo, si no quiere exponerse a demasiada tensión mental). </para>
+> en el menú de la colección de niveles. Por supuesto, estos niveles también pueden ser divertidos para los mayores (por ejemplo, si no quieres exponerte a demasiada tensión mental). </para>
 </chapter>
 
 <chapter id="how-to-play">
@@ -102,10 +99,10 @@
 >El objetivo del juego es empujar todas las gemas rojas a los cuadrados de meta, que están marcados con objetos redondos de aspecto verde vidrioso en el suelo. </para>
 
 <para
->Use las teclas del cursor o el ratón para moverse. Si se mueve hasta una gema usando las teclas del cursor o el &MMB; y no hay nada que la pueda bloquear en el lado opuesto, se empujará la gema en dicha dirección. No se puede tirar de las gemas, por lo que si la empuja hasta una esquina quedará inmovilizada en dicho lugar. Tampoco se puede pasar por encima de las gemas, por lo que puede quedar atrapado en alguna parte del laberinto si bloquea el paso con gemas. También debe tener en cuenta que no se puede empujar más de una gema a la vez. </para>
+>Usa las teclas del cursor o el ratón para moverte. Si te mueves hasta una gema usando las teclas del cursor o el &MMB; y no hay nada que la pueda bloquear en el lado opuesto, se empujará la gema en dicha dirección. No se puede tirar de las gemas, por lo que si la empujas hasta una esquina quedará inmovilizada en dicho lugar. Tampoco se puede pasar por encima de las gemas, por lo que puedes quedar atrapado en alguna parte del laberinto si bloqueas el paso con gemas. También debes tener en cuenta que no se puede empujar más de una gema a la vez. </para>
 
 <para
->Si cae en la cuenta de que ha movido las gemas de tal modo que ya no puede resolver el nivel, siempre podrá usar la funcionalidad de deshacer un movimiento para retroceder hasta una posición en la que todavía no haya cometido el error. Por supuesto, también puede reiniciar el nivel desde el principio. </para>
+>Si caes en la cuenta de que has movido las gemas de tal modo que ya no puedes resolver el nivel, siempre podrás usar la función de deshacer un movimiento para retroceder hasta una posición en la que todavía no hayas cometido el error. Por supuesto, también puedes reiniciar el nivel desde el principio. </para>
 
 <sect1 id="controls">
 <title
@@ -239,16 +236,16 @@
 >Carga de niveles externos</title>
 
 <para
->&skladnik; permite la posibilidad de cargar niveles externos de sokoban usando archivos de texto. Puede cargar estos niveles usando la opción del menú <menuchoice
+>&skladnik; permite la posibilidad de cargar niveles externos de sokoban usando archivos de texto. Puedes cargar estos niveles usando la opción del menú <menuchoice
 ><guimenu
 >Juego</guimenu
 > <guimenuitem
 >Cargar niveles...</guimenuitem
 > </menuchoice
->, o especificando la &URL; del archivo de nivel como argumento de la línea de órdenes si inicia &skladnik; desde la consola. </para>
+>, o especificando la &URL; del archivo de nivel como argumento de la línea de órdenes si lanzas &skladnik; desde la consola. </para>
 
 <para
->Los niveles externos se deben definir usando los caracteres estándares que se muestran en la siguiente tabla. Si el archivo contiene más de un nivel, debe separar los niveles mediante líneas en blanco. El archivo también puede contener texto entre los niveles. </para>
+>Los niveles externos se deben definir usando los caracteres estándares que se muestran en la siguiente tabla. Si el archivo contiene más de un nivel, debes separar los niveles mediante líneas en blanco. El archivo también puede contener texto entre los niveles. </para>
 
 <informaltable>
 <tgroup cols="2">
@@ -366,7 +363,7 @@
 <para
 ><action
 >Carga un nivel externo</action
->. Consulte la sección <link linkend="loading-external-levels"
+>. Consulta la sección <link linkend="loading-external-levels"
 >Carga de niveles externos</link
 > para obtener más información.</para>
 </listitem>
@@ -446,7 +443,7 @@
 <para
 ><action
 >Un submenú para cambiar a un conjunto de niveles distinto.</action
-> &skladnik; contiene varios conjuntos de niveles, aunque puede cargar más niveles que puede encontrar en Internet.</para>
+> &skladnik; contiene varios conjuntos de niveles, aunque puedes cargar más niveles que encontrarás en Internet.</para>
 </listitem>
 </varlistentry>
 
@@ -557,7 +554,7 @@
 ></term>
 <listitem>
 <para
->Esta es la preferencia predeterminada. <action
+>Este es el ajuste predeterminado. <action
 >Muestra la animación de reproducción a un ritmo algo más rápido</action
 >.</para>
 </listitem>
@@ -617,11 +614,11 @@
 ></term>
 <listitem>
 <para
->&skladnik; le permite <action
+>&skladnik; permite <action
 >definir marcadores con un nivel en un determinado estado</action
->. Puede usar esta función para ahorrarse repetir los mismos pasos iniciales de un nivel.</para>
+>. Puedes usar esta función para ahorrarte repetir los mismos pasos iniciales de un nivel.</para>
 <para
->Puede tener un máximo de diez marcadores al mismo tiempo y acceder a ellos usando el acceso rápido de teclado <keycombo action="simul"
+>Puedes tener un máximo de diez marcadores al mismo tiempo y acceder a ellos usando el acceso rápido de teclado <keycombo action="simul"
 >&Ctrl;<keycap
 ><replaceable
 >X</replaceable
@@ -645,7 +642,7 @@
 <listitem>
 <para
 ><action
->Salta al estado que haya guardado previamente como marcador.</action
+>Saltar al estado que hayas guardado previamente como marcador.</action
 ></para>
 </listitem>
 </varlistentry>
@@ -660,7 +657,7 @@
 <para
 >&skladnik; posee el elemento de menú común de &kde; <guimenu
 >Ayuda</guimenu
->. Para más información, consulte la sección sobre el <ulink url="help:/fundamentals/menu.html#menus-help"
+>. Para más información, consulta la sección sobre el <ulink url="help:/fundamentals/menu.html#menus-help"
 >menú Ayuda</ulink
 > de los principios fundamentales de &kde;. </para>
 
@@ -686,14 +683,14 @@
 <para
 >Todos los niveles de sokoban incluidos en la actualidad han sido creados por David W. Skinner <email
 >sasquatch@bentonrea.com</email
->. Consulte <ulink url="https://www.sokobanonline.com/play/web-archive/david-w-skinner"
+>. Consulta <ulink url="https://www.sokobanonline.com/play/web-archive/david-w-skinner"
 >su página sobre sokoban</ulink
 >. </para>
 
 <para
->Traducido por Eloy Cuadra <email
+>Documentación traducida por Eloy Cuadra <email
 >ecuadra@eloihr.net</email
-></para
+>.</para
 > &underFDL; &underGPL; </chapter>
 
 &documentation.index;
