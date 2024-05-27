@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2024-02-24 16:31+0100\n"
+"PO-Revision-Date: 2024-05-26 12:06+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10"
+" || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -119,77 +119,77 @@ msgid "Level collection file to load."
 msgstr "Plik zbioru poziomów do wczytania."
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Level Collection"
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "&Zbiór poziomów"
+msgstr "Zbiór poziomów"
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Load Levels..."
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "&Wczytaj poziomy..."
+msgstr "Wczytaj poziomy…"
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Next Level"
 msgctxt "@action"
 msgid "Next Level"
-msgstr "&Następny poziom"
+msgstr "Następny poziom"
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Previous Level"
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "&Poprzedni poziom"
+msgstr "Poprzedni poziom"
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Re&start Level"
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "&Uruchom poziom ponownie"
+msgstr "Uruchom poziom ponownie"
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Slow"
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "&Wolno"
+msgstr "Wolno"
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Medium"
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "Ś&rednio"
+msgstr "Średnio"
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Fast"
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "&Szybko"
+msgstr "Szybko"
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Off"
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "&Wyłączony"
+msgstr "Wyłączony"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(unused)"
 msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(nieużywany)"
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(invalid)"
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
@@ -202,85 +202,77 @@ msgid "Load Levels from a File"
 msgstr "Wczytaj poziomy z pliku"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No levels found in file"
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "Nie znaleziono poziomów w pliku"
+msgstr "Nie znaleziono poziomów w pliku."
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Level:"
 msgctxt "@label"
 msgid "Level:"
 msgstr "Poziom:"
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Steps:"
 msgctxt "@label"
 msgid "Steps:"
 msgstr "Kroki:"
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Pushes:"
 msgctxt "@label"
 msgid "Pushes:"
 msgstr "Pchnięcia:"
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Level completed"
 msgctxt "@info"
 msgid "Level completed."
-msgstr "Ukończono poziom"
+msgstr "Ukończono poziom."
 
 #: PlayField.cpp:582
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "This is the last level in\n"
 #| "the current collection."
 msgid "This is the last level in the current collection."
-msgstr ""
-"To ostatni poziom\n"
-"w bieżącym zbiorze."
+msgstr "To ostatni poziom w bieżącym zbiorze."
 
 #: PlayField.cpp:586
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "You have not completed\n"
 #| "this level yet."
 msgid "You have not completed this level yet."
-msgstr ""
-"Jeszcze nie ukończono\n"
-"tego poziomu."
+msgstr "Jeszcze nie ukończono tego poziomu."
 
 #: PlayField.cpp:598
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "This is the first level in\n"
 #| "the current collection."
 msgid "This is the first level in the current collection."
-msgstr ""
-"To pierwszy poziom\n"
-"w bieżącym zbiorze."
+msgstr "To pierwszy poziom w bieżącym zbiorze."
 
 #: PlayField.cpp:674
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Sorry, bookmarks for external levels\n"
 #| "is not implemented yet."
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
-"Wybacz, zakładki dla zewnętrznych poziomów\n"
-"nie są jeszcze zaimplementowane."
+msgstr "Zakładki dla zewnętrznych poziomów nie są jeszcze zaimplementowane."
 
 #: PlayField.cpp:698
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "This level is broken"
 msgid "This level is broken."
-msgstr "Poziom ten jest uszkodzony"
+msgstr "Ten poziom jest uszkodzony."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
@@ -344,3 +336,4 @@ msgstr "&Przejdź do zakładki"
 
 #~ msgid "(c) 1998-2001  Anders Widell"
 #~ msgstr "(c) 1998-2001  Anders Widell"
+
