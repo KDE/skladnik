@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Vit Pelcak <vit@pelcak.org>, 2012, 2014, 2019, 2021, 2022.
+# SPDX-FileCopyrightText: 2012, 2014, 2019, 2021, 2022, 2024 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2021-08-19 10:55+0200\n"
+"PO-Revision-Date: 2024-05-30 10:43+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,32 +30,32 @@ msgstr "vit@pelcak.org"
 #: InternalCollections.cpp:32
 #, kde-format
 msgid "Sasquatch"
-msgstr ""
+msgstr "Sasquatch"
 
 #: InternalCollections.cpp:36
 #, kde-format
 msgid "Mas Sasquatch"
-msgstr ""
+msgstr "Mas Sasquatch"
 
 #: InternalCollections.cpp:40
 #, kde-format
 msgid "Sasquatch III"
-msgstr ""
+msgstr "Sasquatch III"
 
 #: InternalCollections.cpp:44
 #, kde-format
 msgid "Microban (easy)"
-msgstr ""
+msgstr "Microban (easy)"
 
 #: InternalCollections.cpp:48
 #, kde-format
 msgid "Sasquatch IV"
-msgstr ""
+msgstr "Sasquatch IV"
 
 #: main.cpp:26
 #, kde-format
 msgid "Skladnik"
-msgstr ""
+msgstr "Skladnik"
 
 #: main.cpp:28
 #, kde-format
@@ -118,67 +118,67 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr ""
+msgstr "Sbírka úrovní"
 
 #: MainWindow.cpp:97
 #, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr ""
+msgstr "Načís&t úrovně…"
 
 #: MainWindow.cpp:101
 #, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr ""
+msgstr "Následující úroveň"
 
 #: MainWindow.cpp:106
 #, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr ""
+msgstr "Předchozí úroveň"
 
 #: MainWindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr ""
+msgstr "Restartovat úroveň"
 
 #: MainWindow.cpp:124
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr ""
+msgstr "Pomalu"
 
 #: MainWindow.cpp:129
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr ""
+msgstr "Střední"
 
 #: MainWindow.cpp:134
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr ""
+msgstr "Rychle"
 
 #: MainWindow.cpp:139
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr ""
+msgstr "Vypnuto"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
-msgstr ""
+msgstr "(nepoužito)"
 
 #: MainWindow.cpp:229
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
-msgstr ""
+msgstr "(neplatný)"
 
 #: MainWindow.cpp:288
 #, kde-format
@@ -190,19 +190,19 @@ msgstr "Načíst úrovně ze souboru"
 #, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr ""
+msgstr "V tomto souboru nebyly nalezeny žádné úrovně."
 
 #: PlayField.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid "Level:"
-msgstr ""
+msgstr "Úroveň:"
 
 #: PlayField.cpp:100
 #, kde-format
 msgctxt "@label"
 msgid "Steps:"
-msgstr ""
+msgstr "Kroky:"
 
 #: PlayField.cpp:109
 #, kde-format
@@ -214,17 +214,17 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr ""
+msgstr "Úroveň byla dokončena."
 
 #: PlayField.cpp:582
 #, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
+msgstr "Toto je první úroveň současné sbírky."
 
 #: PlayField.cpp:586
 #, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
+msgstr "Ještě jste tuto úroveň nedokončili."
 
 #: PlayField.cpp:598
 #, kde-format
