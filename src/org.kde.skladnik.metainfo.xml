@@ -15,6 +15,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="ast">Skladnik</name>
   <name xml:lang="ca">Skladnik</name>
   <name xml:lang="ca-valencia">Skladnik</name>
+  <name xml:lang="en-GB">Skladnik</name>
   <name xml:lang="eo">Skladnik</name>
   <name xml:lang="es">Skladnik</name>
   <name xml:lang="eu">Skladnik</name>
@@ -73,6 +74,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ar">لعبة أمين المستودع هي نسخة من للعبة اليابانية أمين المستودع المسماة "سوكوبان"</p>
     <p xml:lang="ca">El Skladnik és una implementació del joc japonès «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="ca-valencia">Skladnik és una implementació del joc japonés «Sokoban» de l'encarregat de magatzem.</p>
+    <p xml:lang="en-GB">Skladnik is an implementation of the Japanese warehouse keeper game “sokoban”.</p>
     <p xml:lang="eo">Skladnik estas realigo de la japana magazenistoludo “sokoban”.</p>
     <p xml:lang="es">Skladnik es una implementación del juego japonés del encargado de almacén «sokoban».</p>
     <p xml:lang="eu">Skladnik, "Sokoban" biltegizainaren joko japoniarraren inplementazio bat da.</p>
