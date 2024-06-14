@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Vit Pelcak <vit@pelcak.org>, 2012, 2014, 2019, 2021, 2022.
+# SPDX-FileCopyrightText: 2012, 2014, 2019, 2021, 2022, 2024 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-20 00:37+0000\n"
-"PO-Revision-Date: 2021-08-19 10:55+0200\n"
+"PO-Revision-Date: 2024-05-30 10:43+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,32 +30,32 @@ msgstr "vit@pelcak.org"
 #: InternalCollections.cpp:32
 #, kde-format
 msgid "Sasquatch"
-msgstr ""
+msgstr "Sasquatch"
 
 #: InternalCollections.cpp:36
 #, kde-format
 msgid "Mas Sasquatch"
-msgstr ""
+msgstr "Mas Sasquatch"
 
 #: InternalCollections.cpp:40
 #, kde-format
 msgid "Sasquatch III"
-msgstr ""
+msgstr "Sasquatch III"
 
 #: InternalCollections.cpp:44
 #, kde-format
 msgid "Microban (easy)"
-msgstr ""
+msgstr "Microban (easy)"
 
 #: InternalCollections.cpp:48
 #, kde-format
 msgid "Sasquatch IV"
-msgstr ""
+msgstr "Sasquatch IV"
 
 #: main.cpp:26
 #, kde-format
 msgid "Skladnik"
-msgstr ""
+msgstr "Skladnik"
 
 #: main.cpp:28
 #, kde-format
