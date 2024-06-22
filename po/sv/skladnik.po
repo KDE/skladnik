@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# SPDX-FileCopyrightText: 2012, 2019, 2021, 2022, 2023 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2012, 2019, 2021, 2022, 2023, 2024 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2023-11-12 08:42+0100\n"
+"PO-Revision-Date: 2024-06-21 07:41+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -118,78 +118,67 @@ msgid "Level collection file to load."
 msgstr "Nivåsamlingsfil att läsa in."
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
-#| msgid "&Level Collection"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "&Nivåsamling"
+msgstr "Nivåsamling"
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
-#| msgid "&Load Levels..."
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "&Läs in nivåer..."
+msgstr "Läs in nivåer…"
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "&Nästa nivå"
+msgstr "Nästa nivå"
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Previous Level"
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "&Föregående nivå"
+msgstr "Föregående nivå"
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Re&start Level"
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "&Starta om nivå"
+msgstr "Starta om nivå"
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
-#| msgid "&Slow"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "Lång&sam"
+msgstr "Långsam"
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Medium"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "&Normal"
+msgstr "Normal"
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "&Fast"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "Sna&bb"
+msgstr "Snabb"
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
-#| msgid "&Off"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "&Av"
+msgstr "Av"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
-#| msgid "(unused)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(oanvänd)"
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
-#| msgid "(invalid)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "(ogiltig)"
@@ -201,85 +190,59 @@ msgid "Load Levels from a File"
 msgstr "Läs in nivåer från en fil"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
-#| msgid "No levels found in file"
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "Inga nivåer hittades i filen"
+msgstr "Inga nivåer hittades i filen."
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
-#| msgid "Level:"
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
 msgstr "Nivå:"
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
-#| msgid "Steps:"
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
 msgstr "Steg:"
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
-#| msgid "Pushes:"
+#, kde-format
 msgctxt "@label"
 msgid "Pushes:"
 msgstr "Knuffar:"
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
-#| msgid "Level completed"
+#, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "Nivå färdig"
+msgstr "Nivå färdig."
 
 #: PlayField.cpp:582
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the last level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
-"Det här är sista nivån i\n"
-"den aktuella samlingen."
+msgstr "Det här är sista nivån i den aktuella samlingen."
 
 #: PlayField.cpp:586
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have not completed\n"
-#| "this level yet."
+#, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
-"Du har inte gjort färdig\n"
-"nivån ännu."
+msgstr "Du har inte gjort färdig nivån ännu."
 
 #: PlayField.cpp:598
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the first level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the first level in the current collection."
-msgstr ""
-"Det här är första nivån i\n"
-"den aktuella samlingen."
+msgstr "Det här är första nivån i den aktuella samlingen."
 
 #: PlayField.cpp:674
-#, fuzzy, kde-format
-#| msgid ""
-#| "Sorry, bookmarks for external levels\n"
-#| "is not implemented yet."
+#, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
-"Tyvärr är inte bokmärken för externa\n"
-"nivåer implementerade ännu."
+msgstr "Tyvärr är inte bokmärken för externa nivåer implementerade ännu."
 
 #: PlayField.cpp:698
-#, fuzzy, kde-format
-#| msgid "This level is broken"
+#, kde-format
 msgid "This level is broken."
-msgstr "Nivån är felaktig"
+msgstr "Nivån är felaktig."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
