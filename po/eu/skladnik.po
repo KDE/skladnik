@@ -1,16 +1,16 @@
 # Translation for ksokoban.po to Euskara/Basque (eu).
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) 2023-2024 This file is copyright:
 # This file is distributed under the same license as the ksokoban package.
-# SPDX-FileCopyrightText: 2023 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2023, 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
-# SPDX-FileCopyrightText: 2023 Iñigo Salvador Azurmendi <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2023, 2024 Iñigo Salvador Azurmendi <xalba@ni.eus>
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2023-12-06 11:48+0100\n"
+"PO-Revision-Date: 2024-07-11 09:53+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.3\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -120,78 +120,67 @@ msgid "Level collection file to load."
 msgstr "Zamatu beharreko maila-bilduma fitxategia."
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
-#| msgid "&Level Collection"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "Mai&la-bilduma"
+msgstr "Maila-bilduma"
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
-#| msgid "&Load Levels..."
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "&Zamatu mailak..."
+msgstr "Zamatu mailak..."
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "&Hurrengo maila"
+msgstr "Hurrengo maila"
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Previous Level"
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "&Aurreko maila"
+msgstr "Aurreko maila"
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Re&start Level"
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "Berra&biarazi maila"
+msgstr "Berrabiarazi maila"
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
-#| msgid "&Slow"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "Mant&so"
+msgstr "Mantso"
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Medium"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "&Ertaina"
+msgstr "Ertaina"
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "&Fast"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "A&zkar"
+msgstr "Azkar"
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
-#| msgid "&Off"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "&Itzalita"
+msgstr "Itzalita"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
-#| msgid "(unused)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(erabiltzeke)"
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
-#| msgid "(invalid)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "(baliogabea)"
@@ -203,85 +192,59 @@ msgid "Load Levels from a File"
 msgstr "Zamatu mailak fitxategi batetik"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
-#| msgid "No levels found in file"
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "Fitxategian ez da mailarik aurkitu"
+msgstr "Fitxategian ez da mailarik aurkitu."
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
-#| msgid "Level:"
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
 msgstr "Maila:"
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
-#| msgid "Steps:"
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
 msgstr "Urratsak:"
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
-#| msgid "Pushes:"
+#, kde-format
 msgctxt "@label"
 msgid "Pushes:"
 msgstr "Bultzadak:"
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
-#| msgid "Level completed"
+#, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "Maila osatu da"
+msgstr "Maila osatuta."
 
 #: PlayField.cpp:582
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the last level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
-"Hori da oraingo bildumako\n"
-"azken maila."
+msgstr "Hau da bilduma honetako azken maila."
 
 #: PlayField.cpp:586
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have not completed\n"
-#| "this level yet."
+#, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
-"Oraindik ez duzu maila\n"
-"hau osatu."
+msgstr "Oraindik ez duzu maila hau osatu."
 
 #: PlayField.cpp:598
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the first level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the first level in the current collection."
-msgstr ""
-"Hau da oraingo mailako\n"
-"aurreneko maila."
+msgstr "Hau da maila honetako aurreneko maila."
 
 #: PlayField.cpp:674
-#, fuzzy, kde-format
-#| msgid ""
-#| "Sorry, bookmarks for external levels\n"
-#| "is not implemented yet."
+#, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
-"Barkatu, kanpoko mailetarako laster-markak\n"
-"oraindik ez daude inplementatuta."
+msgstr "Kanpoko mailetarako laster-markak oraindik ez daude inplementatuta."
 
 #: PlayField.cpp:698
-#, fuzzy, kde-format
-#| msgid "This level is broken"
+#, kde-format
 msgid "This level is broken."
-msgstr "Maila hau hautsita dago"
+msgstr "Maila hau hautsita dago."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
