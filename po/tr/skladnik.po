@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2024-05-02 13:58+0300\n"
+"PO-Revision-Date: 2024-08-06 11:57+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.07.70\n"
+"X-Generator: Lokalize 24.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -68,8 +68,8 @@ msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 msgstr ""
-"(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
-"(c) 2012 Lukasz Kalamlacki"
+"© 1998 Anders Widell <awl@hem.passagen.se>\n"
+"© 2012 Lukasz Kalamlacki"
 
 #: main.cpp:33
 #, kde-format
