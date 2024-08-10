@@ -22,6 +22,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="eu">Skladnik</name>
   <name xml:lang="fi">Skladnik</name>
   <name xml:lang="fr">Skladnik</name>
+  <name xml:lang="gl">Skladnik</name>
   <name xml:lang="he">סקלדניק</name>
   <name xml:lang="hu">Skladnik</name>
   <name xml:lang="ia">Skladnik</name>
@@ -81,6 +82,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="eu">Skladnik, "Sokoban" biltegizainaren joko japoniarraren inplementazio bat da.</p>
     <p xml:lang="fi">Skladnik on toteutus japanilaisesta ”sokoban”-varastotyöntekijäpelistä.</p>
     <p xml:lang="fr">Skladnik est une implémentation du jeu japonais Sokoban de gardien d'entrepôt.</p>
+    <p xml:lang="gl">Skladnik é unha implementación do xogo xaponés de garda de almacén «sokoban».</p>
     <p xml:lang="he">סקלדניק הוא מימוש של משחק המחסנאות היפני „סוקובן”.</p>
     <p xml:lang="hu">A Skladnik a japán raktáros játék, a szókoban egy megvalósítása.</p>
     <p xml:lang="it">Skladnik è un'implementazione del gioco giapponese del magazziniere «sokoban».</p>
