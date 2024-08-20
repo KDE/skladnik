@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2024-02-05 23:17+0100\n"
+"PO-Revision-Date: 2024-08-20 00:56+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -117,78 +117,67 @@ msgid "Level collection file to load."
 msgstr "불러올 단계 모음집 파일입니다."
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
-#| msgid "&Level Collection"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "단계 모음집(&L)"
+msgstr "단계 모음집"
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
-#| msgid "&Load Levels..."
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "단계 불러오기(&L)..."
+msgstr "단계 불러오기…"
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "다음 단계(&N)"
+msgstr "다음 단계"
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Previous Level"
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "이전 단계(&P)"
+msgstr "이전 단계"
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Re&start Level"
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "단계 다시 시작(&S)"
+msgstr "단계 다시 시작"
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
-#| msgid "&Slow"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "느림(&S)"
+msgstr "느리게"
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Medium"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "중간(&M)"
+msgstr "중간"
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "&Fast"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "빠름(&F)"
+msgstr "빠르게"
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
-#| msgid "&Off"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "끔(&O)"
+msgstr "끔"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
-#| msgid "(unused)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(사용하지 않음)"
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
-#| msgid "(invalid)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "(잘못됨)"
@@ -200,85 +189,59 @@ msgid "Load Levels from a File"
 msgstr "파일에서 단계 불러오기"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
-#| msgid "No levels found in file"
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "파일에서 단계를 찾을 수 없음"
+msgstr "파일에서 단계를 찾을 수 없습니다."
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
-#| msgid "Level:"
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
 msgstr "단계:"
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
-#| msgid "Steps:"
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
 msgstr "이동:"
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
-#| msgid "Pushes:"
+#, kde-format
 msgctxt "@label"
 msgid "Pushes:"
 msgstr "밀기:"
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
-#| msgid "Level completed"
+#, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "단계 완료됨"
+msgstr "단계 완료됨."
 
 #: PlayField.cpp:582
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the last level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
-"이 단계는 현재 모음집의\n"
-"마지막 단계입니다."
+msgstr "이 단계는 현재 모음집의 마지막 단계입니다."
 
 #: PlayField.cpp:586
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have not completed\n"
-#| "this level yet."
+#, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
-"아직 이 단계를\n"
-"완료하지 않았습니다."
+msgstr "아직 이 단계를 완료하지 않았습니다."
 
 #: PlayField.cpp:598
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the first level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the first level in the current collection."
-msgstr ""
-"이 단계는 현재 모음집의\n"
-"첫 단계입니다."
+msgstr "이 단계는 현재 모음집의 첫 단계입니다."
 
 #: PlayField.cpp:674
-#, fuzzy, kde-format
-#| msgid ""
-#| "Sorry, bookmarks for external levels\n"
-#| "is not implemented yet."
+#, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
-"죄송합니다, 외부 단계 책갈피는\n"
-"아직 구현되지 않았습니다."
+msgstr "죄송합니다, 외부 단계 책갈피는 아직 구현되지 않았습니다."
 
 #: PlayField.cpp:698
-#, fuzzy, kde-format
-#| msgid "This level is broken"
+#, kde-format
 msgid "This level is broken."
-msgstr "이 단계가 깨짐"
+msgstr "이 단계를 달성했습니다."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
