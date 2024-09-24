@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY % Slovenian "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: Salvo Tomaselli <ltworf@debian.org>
+SPDX-License-Identifier: GFDL-1.2-or-later
+-->
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>&skladnik; Stran Man</title>
+<date
+>22.03.2024</date>
+<releaseinfo
+>&skladnik; 0.5.2</releaseinfo>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>skladnik</command
+></refentrytitle>
+<manvolnum
+>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>skladnik</command
+></refname>
+<refpurpose
+>Igra Sokoban</refpurpose>
+</refnamediv>
+
+<refsect1 id="description">
+<title
+>Opis</title>
+
+<para
+>Skladnik je izvedba japonske igre skladiščnik “sokoban”.</para>
+
+<para
+>Ideja je, da ste skladiščnik, ki jim poskuša potisniti zaboje na ustrezne lokacije v skladišču. Težava je v tem, da ne morete potegniti zabojev ali stopiti čez njih. Če niste previdni, lahko dobite nekaj zabojev, ki so obtičali na napačnih mestih in/ali vam blokirali pot.</para>
+
+</refsect1>
+
+
+<refsect1 id="options">
+<title
+>Možnosti</title>
+
+<para
+>&skladnik; je konfiguriran grafično in nima ukazne vrstice za možnosti, ki niso standardne &kf6-full; in možnosti &Qt;.</para>
+
+<variablelist>
+<title
+>&skladnik; možnosti</title>
+<varlistentry>
+<term
+><option
+>--help</option
+></term>
+<listitem>
+<para
+>Prikaži pomoč in končaj.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--help-all</option
+></term>
+<listitem>
+<para
+>Prikaže pomoč, vključno s posebnimi možnostmi Qt.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--version</option
+></term>
+<listitem>
+<para
+>Prikaži različico in končaj.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--author</option
+></term>
+<listitem>
+<para
+>Prikazuje informacije o avtorjih.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--license</option
+></term>
+<listitem>
+<para
+>Prikaži informacije o licenci.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--desktopfile</option
+> <parameter
+>FILENAME</parameter
+></term>
+<listitem>
+<para
+>Uporabi FILENAME kot osnovno ime datoteke namiznega vnosa za to aplikacijo.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Poglejte tudi</title>
+
+<simplelist>
+<member
+>Podrobnejša uporabniška dokumentacija je na voljo na <ulink url="help:/skladnik"
+>help:/skladnik</ulink
+> (lahko vnesete tole &URL;, ali poženete <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/skladnik</parameter
+></userinput
+>).</member>
+<member
+><ulink
+url="https://apps.kde.org/skladnik/"
+>&skladnik; domača stran</ulink
+></member>
+<member
+>kf6options(7)</member>
+<member
+>qt6options(7)</member>
+</simplelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Avtorji</title>
+<para
+>&skladnik; vzdržujejo skupna prizadevanja skupnosti &kde;.</para>
+<para
+>To stran priročnika je pripravil <personname
+><firstname
+>Salvo</firstname
+><surname
+>Tomaselli</surname
+></personname
+> <email
+>ltworf@debian.org</email
+> za &Debian; &GNU;/&Linux; sistem (lahko ga tudi uporabljajo drugi).</para>
+</refsect1>
+
+</refentry>

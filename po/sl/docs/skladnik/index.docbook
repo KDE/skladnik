@@ -1,0 +1,704 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY % Slovenian "INCLUDE"
+> <!-- change language only here -->
+  <!ENTITY % addindex "IGNORE">
+]>
+	
+<book lang="&language;">
+<bookinfo>
+<title
+>&skladnik; Priročnik</title>
+
+<authorgroup>
+<author
+><firstname
+>Anders</firstname
+> <surname
+>Widell</surname
+> <affiliation
+> <address
+>&Anders.Widell.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Matjaž</firstname
+><surname
+>Jeran</surname
+><affiliation
+><address
+><email
+>matjaz.jeran@amis.net</email
+></address
+></affiliation
+><contrib
+>Prevod</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2000</year>
+<holder
+>&Anders.Widell;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>19.08.2021</date>
+<releaseinfo
+>0.5.0</releaseinfo>
+
+<abstract>
+<para
+>&skladnik; je implementacija japonske igre skladiščnik <quote
+>sokoban</quote
+>. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>kdegames</keyword>
+<keyword
+>igra</keyword>
+<keyword
+>sokoban</keyword>
+<keyword
+>skladnik</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Uvod</title>
+
+<para
+>Prvo igro sokoban je leta 1982 ustvaril Hiroyuki Imabayashi v japonskem podjetju Thinking Rabbit, Inc. <quote
+>Sokoban</quote
+> je v japonščini beseda za <quote
+>skladiščnik</quote
+>. Ideja je, da ste skladiščnik, ki poskuša potisniti zaboje na njihova prava mesta v skladišču. </para>
+
+<para
+>Težava je v tem, da ne morete potegniti zabojev ali stopiti čeznje. Če niste previdni, se lahko nekateri zaboji zataknejo na napačnih mestih in/ali vam zaprejo pot. </para>
+
+<para
+>Samo rešiti nivo je lahko precej težko. Če pa želite, da je še težje, lahko poskusite čim bolj zmanjšati število potez in/ali potiskov, ki jih uporabljate za reševanje ravni. </para>
+
+<para
+>Da bi bila igra bolj zabavna za majhne otroke (mlajše od 10 let ali podobno), je v &skladnik; vključenih tudi nekaj zbirk z lažjimi stopnjami. Ti so označeni z <emphasis
+>(enostavno)</emphasis
+> v meniju za zbiranje ravni. Seveda so te stopnje lahko zabavne tudi za odrasle, na primer, če se ne želite izpostavljati preveliki duševni obremenitvi. </para>
+</chapter>
+
+<chapter id="how-to-play">
+<title
+>Igra</title>
+
+<para
+>Cilj igre je potisniti vse rdeče dragulje do vratnih polj, ki so označena z zelenimi steklenimi okroglimi predmeti na tleh. </para>
+
+<para
+>Za premikanje uporabite smerne tipke ali miško. Če se premaknete na dragulj s smernimi tipkami ali &MMB; in ga na nasprotni strani nič ne ovira, boste potisnili dragulj. Draguljev ni mogoče potegniti, tako da, če dragulj potisnete v kot, se bo tam zataknil. Tudi čez dragulje ne morete stopiti, zato se lahko tudi ujamete v del labirinta, tako da zaprete pot z dragulji. Upoštevajte tudi, da ni mogoče potisniti več kot enega dragulja hkrati. </para>
+
+<para
+>Če opazite, da ste premaknili dragulje tako, da je ravni nemogoče rešiti, lahko vedno uporabite funkcijo razveljavitve, da se vrnete na položaj, kjer napaka še ni bila storjena. Seveda lahko tudi znova začnete raven od samega začetka. </para>
+
+<sect1 id="controls">
+<title
+>Kontrole</title>
+
+<para>
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>Tipka</entry
+><entry
+>Akcija</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+>Tipke s puščicami</entry
+><entry
+>Premakni eno polje v smeri</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Tipke s puščicami</keycap
+></keycombo
+></entry
+><entry
+>Premaknite se čim dlje v smeri, ne da bi potiskali dragulje</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Shift;<keycap
+>Tipke s puščicami</keycap
+></keycombo
+> </entry
+><entry
+>Premakni se čim dlje v določeni smeri in potiskaj kateri koli dragulj na poti</entry
+></row>
+<row
+><entry
+><mousebutton
+>Levi</mousebutton
+> gumb miške</entry
+><entry
+>Premaknite se na katero koli mesto v labirintu, ki ga lahko dosežete, ne da bi potisnili dragulje&nbsp;</entry
+></row>
+<row
+><entry
+><mousebutton
+>Srednji</mousebutton
+> gumb miške ali <keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></entry
+><entry
+>Razveljavi zadnjo potezo</entry
+></row>
+<row
+><entry
+><mousebutton
+>Desni</mousebutton
+> gumb miške</entry
+><entry
+>Premaknite se gor/dol/levo/desno v ravni liniji in potisnite kateri koli dragulj na pot</entry
+></row>
+<row
+><entry
+><mousebutton
+>Kolesce miške</mousebutton
+></entry
+><entry
+>Preleti zgodovino</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+>&nbsp;</entry
+><entry
+>Ponovi zadnjo razveljavljeno potezo</entry
+></row>
+<row
+><entry
+><keycap
+>N</keycap
+></entry
+><entry
+>Pojdi na naslednjo raven v trenutni zbirki ravni</entry
+></row>
+<row
+><entry
+><keycap
+>P</keycap
+></entry
+><entry
+>Pojdite na prejšnjo raven v zbirki trenutnih ravni</entry
+></row>
+<row
+><entry
+>&Esc;</entry
+><entry
+>Znova zaženi trenutno raven</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></entry
+><entry
+>Končaj igro</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+</para>
+</sect1>
+
+<sect1 id="loading-external-levels">
+<title
+>Nalaganje zunanjih ravni</title>
+
+<para
+>&skladnik; ima sposobnost nalaganja zunanjih ravni sokoban iz besedilnih datotek. Ravni lahko naložite z menijsko postavko <menuchoice
+><guimenu
+>Igra</guimenu
+> <guimenuitem
+>Naloži ravni...</guimenuitem
+></menuchoice
+> ali tako, da podate datoteko ravni &URL; kot argument ukazne vrstice pri zagonu &skladnik;a iz shella. </para>
+
+<para
+>Zunanje ravni je treba definirati s standardnimi znaki, prikazanimi v spodnji tabeli. Če datoteka vsebuje več kot eno raven, morajo biti ravni ločene s praznimi vrsticami. Datoteka lahko vsebuje tudi besedilo med nivoji. </para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>Znak</entry
+><entry
+>Pomen</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+><literal
+>#</literal
+></entry
+><entry
+>Zid</entry
+></row>
+<row
+><entry
+><emphasis
+>(presledek)</emphasis
+></entry
+><entry
+>Prazen kvadrat</entry
+></row>
+<row
+><entry
+><literal
+>.</literal
+></entry
+><entry
+>Ciljni kvadrat</entry
+></row>
+<row
+><entry
+><literal
+>$</literal
+></entry
+><entry
+>Predmet na praznem kvadratu</entry
+></row>
+<row
+><entry
+><literal
+>*</literal
+></entry
+><entry
+>Predmet na ciljnem polju</entry
+></row>
+<row
+><entry
+><literal
+>@</literal
+></entry
+><entry
+>Začetni položaj na praznem kvadratku&nbsp;</entry
+></row>
+<row
+><entry
+><literal
+>+</literal
+></entry
+><entry
+>Začetni položaj na ciljnem kvadratu</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Spodaj je na primer besedilna predstavitev prve ravni v zbirki ravni <emphasis
+>Microban</emphasis
+>: </para>
+
+<para>
+<screen
+>####
+# .#
+#  ###
+#*@  #
+#  $ #
+#  ###
+####
+</screen>
+</para>
+</sect1>
+</chapter>
+
+<chapter id="menu-reference">
+<title
+>Referenca menija</title>
+
+<para
+>To je popoln vodnik po menijih &skladnik;a.</para>
+
+<sect1 id="game-menu">
+<title
+>Meni igre</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Igra</guimenu
+> <guimenuitem
+>Naloži ravni...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Nalaganje zunanje ravni.</action
+> Za več informacij glejte razdelek <link linkend="loading-external-levels"
+>Nalaganje zunanjih ravni</link
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>N</keycap
+></shortcut
+> <guimenu
+>Igra</guimenu
+> <guimenuitem
+>Naslednja raven</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Naloži naslednjo raven.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>P</keycap
+></shortcut
+> <guimenu
+>Igra</guimenu
+> <guimenuitem
+>Prejšnja raven</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Vrni se na prejšnjo raven.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+>&Esc;</shortcut
+> <guimenu
+>Igra</guimenu
+> <guimenuitem
+>Ponovni zagon ravni</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Znova zaženi trenutno raven.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Igra</guimenu
+> <guisubmenu
+>Zbirka ravni</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Podmeni za preklop na drug niz ravni.</action
+> &skladnik; prihaja z več nizi ravni in lahko naložite več, ki jih najdete na internetu.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Igra</guimenu
+> <guimenuitem
+>Razveljavi</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Razveljavi zadnjo potezo.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Igra</guimenu
+> <guimenuitem
+>Ponovi</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Ponovite zadnjo potezo, ki ste jo razveljavili z zgornjim elementom menija.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Igra</guimenu
+> <guimenuitem
+>Zapri</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Izhod</action
+> &skladnik;.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+<sect1 id="animation-menu">
+<title
+>Meni Animacija</title>
+
+<para
+>Ta meni ponuja elemente menija s potrditvenimi polji, ki vam omogočajo, da določite hitrost, s katero so prikazane animacije predvajanja gibanja. </para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animacija</guimenu
+> <guisubmenu
+>Počasi</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Počasno predvajanje animacij.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animacija</guimenu
+> <guisubmenu
+>Srednje</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>To je privzeta nastavitev in <action
+>prikazuje ponovitvene animacije z nekoliko hitrejšim tempom</action
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animacija</guimenu
+> <guisubmenu
+>Hitro</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Prikažite animacije ponovitve v najhitrejšem tempu.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animacija</guimenu
+> <guisubmenu
+>Izklopljeno</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Ne animirajte animacij ponovnega predvajanja.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="bookmarks">
+<title
+>Meni z zaznamki</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Zaznamki</guimenu
+> <guisubmenu
+>Nastavi zaznamek</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>&skladnik; vam omogoča, da <action
+>nastavite zaznamke z ravnijo v določenem stanju.</action
+> To lahko uporabite, da si prihranite ponavljanje istih začetnih korakov na ravni.</para>
+<para
+>Hkrati imate lahko do deset zaznamkov in do njih dostopate prek bližnjice <keycombo action="simul"
+>&Ctrl;<keycap
+><replaceable
+>X</replaceable
+></keycap
+></keycombo
+>, kjer je <replaceable 
+>X</replaceable
+> je katera koli številka med 0 in 9.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Zaznamki</guimenu
+> <guisubmenu
+>Pojdi na zaznamek</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Skočite v stanje, ki ste ga prej shranili kot zaznamek.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="help-menu">
+<title
+>Meni Pomoč</title>
+
+<para
+>&skladnik; ima skupno &kde; Element menija <guimenu
+>Pomoč</guimenu
+>, za več informacij preberite razdelek o <ulink url="help:/fundamentals/menus.html#menus-help"
+>meniju Pomoč</ulink
+> programa &kde; Osnove. </para>
+
+</sect1>
+</chapter>
+
+<chapter id="credits">
+<title
+>Zasluge in licenca</title>
+
+<para
+>&skladnik; je avtorsko zaščiten &copy; 1998-2000 &Anders.Widell; &Anders.Widell.mail;. </para>
+
+<para
+>Grafika v ozadju <quote
+>starfield</quote
+> je bila vzeta iz <ulink url="https://www.gimp.org/"
+>Gimpa</ulink
+>. Vse druge grafike je ustvaril &Anders.Widell; &Anders.Widell.mail; z uporabo sledilnika žarkov <ulink url="https://www.povray.org/"
+>Povray</ulink
+>. </para>
+
+<para
+>Vse trenutno vključene ravni sokoban je ustvaril David W. Skinner <email
+>sasquatch@bentonrea.com</email
+>. Oglejte si <ulink url="https://www.sokobanonline.com/play/web-archive/david-w-skinner"
+>njegovo stran sokoban</ulink
+>. </para>
+
+<para
+>Prevod: Matjaž Jeran<email
+>matjaz.jeran@amis.net</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
