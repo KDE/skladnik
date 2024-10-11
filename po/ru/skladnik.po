@@ -1,67 +1,68 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ksokoban package.
 #
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
+# SPDX-FileCopyrightText: 2024 Olesya Gerasimenko <translation-team@basealt.ru>
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2019-02-24 19:16+0300\n"
-"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"PO-Revision-Date: 2024-10-10 12:07+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Олеся Герасименко"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "translation-team@basealt.ru"
 
 #: InternalCollections.cpp:32
 #, kde-format
 msgid "Sasquatch"
-msgstr ""
+msgstr "Снежный человек"
 
 #: InternalCollections.cpp:36
 #, kde-format
 msgid "Mas Sasquatch"
-msgstr ""
+msgstr "Мощный снежный человек"
 
 #: InternalCollections.cpp:40
 #, kde-format
 msgid "Sasquatch III"
-msgstr ""
+msgstr "Снежный человек III"
 
 #: InternalCollections.cpp:44
 #, kde-format
 msgid "Microban (easy)"
-msgstr ""
+msgstr "Микробан (легко)"
 
 #: InternalCollections.cpp:48
 #, kde-format
 msgid "Sasquatch IV"
-msgstr ""
+msgstr "Снежный человек IV"
 
 #: main.cpp:26
 #, kde-format
 msgid "Skladnik"
-msgstr ""
+msgstr "Skladnik"
 
 #: main.cpp:28
 #, kde-format
 msgid "The japanese warehouse keeper game"
-msgstr ""
+msgstr "Японская игра о кладовщике"
 
 #: main.cpp:30
 #, kde-format
@@ -69,16 +70,18 @@ msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 msgstr ""
+"© Anders Widell <awl@hem.passagen.se>, 1998\n"
+"© Lukasz Kalamlacki, 2012"
 
 #: main.cpp:33
 #, kde-format
 msgid "Shlomi Fish"
-msgstr ""
+msgstr "Shlomi Fish"
 
 #: main.cpp:34
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
-msgstr ""
+msgstr "Перенос на Qt5/KF5 и другие доработки"
 
 #: main.cpp:37
 #, kde-format
@@ -88,7 +91,7 @@ msgstr "Lukasz Kalamlacki"
 #: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
-msgstr ""
+msgstr "Переписывание исходной игры ksokoban с kde3 на kde4"
 
 #: main.cpp:41
 #, kde-format
@@ -98,7 +101,7 @@ msgstr "Anders Widell"
 #: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
-msgstr ""
+msgstr "Написание исходной игры ksokoban"
 
 #: main.cpp:45
 #, kde-format
@@ -108,166 +111,166 @@ msgstr "David W. Skinner"
 #: main.cpp:46
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
-msgstr ""
+msgstr "Предоставление включённых в эту игру уровней «сокобан»"
 
 #: main.cpp:57
 #, kde-format
 msgid "Level collection file to load."
-msgstr ""
+msgstr "Файл с набором уровней для загрузки."
 
 #: MainWindow.cpp:38
 #, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr ""
+msgstr "Набор уровней"
 
 #: MainWindow.cpp:97
 #, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr ""
+msgstr "Загрузить уровни…"
 
 #: MainWindow.cpp:101
 #, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr ""
+msgstr "Следующий уровень"
 
 #: MainWindow.cpp:106
 #, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr ""
+msgstr "Предыдущий уровень"
 
 #: MainWindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr ""
+msgstr "Перезапустить уровень"
 
 #: MainWindow.cpp:124
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr ""
+msgstr "Низкая скорость"
 
 #: MainWindow.cpp:129
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr ""
+msgstr "Средняя скорость"
 
 #: MainWindow.cpp:134
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr ""
+msgstr "Высокая скорость"
 
 #: MainWindow.cpp:139
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr ""
+msgstr "Анимация отключена"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
-msgstr ""
+msgstr "(неиспользуемая закладка)"
 
 #: MainWindow.cpp:229
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
-msgstr ""
+msgstr "(неверная закладка)"
 
 #: MainWindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Levels from a File"
-msgstr ""
+msgstr "Загрузка уровней из файла"
 
 #: MainWindow.cpp:323
 #, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr ""
+msgstr "В файле не найдено уровней."
 
 #: PlayField.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid "Level:"
-msgstr ""
+msgstr "Уровень:"
 
 #: PlayField.cpp:100
 #, kde-format
 msgctxt "@label"
 msgid "Steps:"
-msgstr ""
+msgstr "Шаги:"
 
 #: PlayField.cpp:109
 #, kde-format
 msgctxt "@label"
 msgid "Pushes:"
-msgstr ""
+msgstr "Толчки:"
 
 #: PlayField.cpp:270
 #, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr ""
+msgstr "Уровень завершён."
 
 #: PlayField.cpp:582
 #, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
+msgstr "Это последней уровень в текущем наборе."
 
 #: PlayField.cpp:586
 #, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
+msgstr "Этот уровень ещё не завершён."
 
 #: PlayField.cpp:598
 #, kde-format
 msgid "This is the first level in the current collection."
-msgstr ""
+msgstr "Это первый уровень в текущем наборе."
 
 #: PlayField.cpp:674
 #, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
+msgstr "Закладки для внешних уровней ещё не реализованы."
 
 #: PlayField.cpp:698
 #, kde-format
 msgid "This level is broken."
-msgstr ""
+msgstr "Этот уровень повреждён."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
 #, kde-format
 msgid "&Game"
-msgstr ""
+msgstr "&Игра"
 
 #. i18n: ectx: Menu (animation_speed)
 #: skladnikui.rc:20
 #, kde-format
 msgid "&Animation"
-msgstr ""
+msgstr "&Анимация"
 
 #. i18n: ectx: Menu (bookmarks_menu)
 #: skladnikui.rc:27
 #, kde-format
 msgid "&Bookmarks"
-msgstr ""
+msgstr "&Закладки"
 
 #. i18n: ectx: Menu (set_bookmarks)
 #: skladnikui.rc:29
 #, kde-format
 msgid "&Set Bookmark"
-msgstr ""
+msgstr "&Поставить закладку"
 
 #. i18n: ectx: Menu (goto_bookmarks)
 #: skladnikui.rc:42
 #, kde-format
 msgid "&Go to Bookmark"
-msgstr ""
+msgstr "&Перейти на закладку"
