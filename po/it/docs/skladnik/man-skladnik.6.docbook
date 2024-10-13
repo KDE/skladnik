@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY % Italian "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: Salvo Tomaselli <ltworf@debian.org>
+SPDX-License-Identifier: GFDL-1.2-or-later
+-->
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>Pagine di manuale di &skladnik;</title>
+<date
+>22/3/2024</date>
+<releaseinfo
+>&skladnik; 0.5.2</releaseinfo>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>skladnik</command
+></refentrytitle>
+<manvolnum
+>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>skladnik</command
+></refname>
+<refpurpose
+>Gioco Sokoban</refpurpose>
+</refnamediv>
+
+<refsect1 id="description">
+<title
+>Descrizione</title>
+
+<para
+>&skladnik; è un'implementazione del gioco giapponese del magazziniere «sokoban».</para>
+
+<para
+>L'idea è che sei un magazziniere che cerca di spingere le casse nelle loro posizioni corrette in un magazzino. Il problema è che non puoi tirare le casse o scavalcarle. Se non stai attento, alcune casse possono rimanere bloccate in posti sbagliati e/o bloccarti la strada.</para>
+
+</refsect1>
+
+
+<refsect1 id="options">
+<title
+>Opzioni</title>
+
+<para
+>&skladnik; è configurato graficamente e non ha alcuna opzione da riga di comando oltre alle opzioni standard &kf6-full; e &Qt;.</para>
+
+<variablelist>
+<title
+>Opzioni di &skladnik;</title>
+<varlistentry>
+<term
+><option
+>--help</option
+></term>
+<listitem>
+<para
+>Visualizza la guida ed esci.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--help-all</option
+></term>
+<listitem>
+<para
+>Visualizza la guida includendo le opzioni specifiche di Qt.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--version</option
+></term>
+<listitem>
+<para
+>Mostra la versione ed esci.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--author</option
+></term>
+<listitem>
+<para
+>Mostra le informazioni sugli autori.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--license</option
+></term>
+<listitem>
+<para
+>Mostra le informazioni sulla licenza.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--desktopfile</option
+> <parameter
+>NOMEFILE</parameter
+></term>
+<listitem>
+<para
+>Utilizza NOMEFILE come nome file di base della voce desktop per questa applicazione.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Vedi anche</title>
+
+<simplelist>
+<member
+>Una documentazione utente più dettagliata è disponibile tramite <ulink url="help:/skladnik"
+>help:/skladnik</ulink
+> (inserisci questo &URL; o esegui <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help :/skladnik</parameter
+></userinput
+>).</member>
+<member
+><ulink
+url="https://apps.kde.org/skladnik/"
+>Pagina principale di &skladnik;</ulink
+></member>
+<member
+>kf6options(7)</member>
+<member
+>qt6options(7)</member>
+</simplelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Autori</title>
+<para
+>&skladnik; è mantenuto dagli sforzi congiunti della comunità &kde;.</para>
+<para
+>Questa pagina di manuale è stata preparata da <personname
+><firstname
+>Salvo</firstname
+><surname
+>Tomaselli</surname
+></personname
+> <email
+>ltworf@debian.org</email
+> per i sistemi &Debian; &GNU;/&Linux; (ma può essere utilizzato da altri).</para>
+</refsect1>
+
+</refentry>
