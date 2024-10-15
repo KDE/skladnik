@@ -136,6 +136,7 @@ SPDX-License-Identifier: CC0-1.0
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=skladnik</url>
   <url type="help">https://docs.kde.org/?application=skladnik</url>
   <url type="donation">https://www.kde.org/community/donations/?app=skladnik&amp;source=appdata</url>
+  <url type="vcs-browser">https://invent.kde.org/games/skladnik</url>
   <screenshots>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/skladnik/skladnik.png</image>
