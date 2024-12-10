@@ -618,7 +618,7 @@
 >definir marcadores con un nivel en un determinado estado</action
 >. Puedes usar esta función para ahorrarte repetir los mismos pasos iniciales de un nivel.</para>
 <para
->Puedes tener un máximo de diez marcadores al mismo tiempo y acceder a ellos usando el acceso rápido de teclado <keycombo action="simul"
+>Puedes tener un máximo de diez marcadores al mismo tiempo y acceder a ellos usando el atajo de teclado <keycombo action="simul"
 >&Ctrl;<keycap
 ><replaceable
 >X</replaceable
