@@ -33,6 +33,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="pl">Skladnik</name>
   <name xml:lang="pt-BR">Skladnik</name>
   <name xml:lang="ru">Skladnik</name>
+  <name xml:lang="sa">रचयिता</name>
   <name xml:lang="sl">Skladnik</name>
   <name xml:lang="sv">Skladnik</name>
   <name xml:lang="tr">Skladnik</name>
@@ -64,6 +65,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="pt">Jogo Sokoban</summary>
   <summary xml:lang="pt-BR">Jogo Sokoban</summary>
   <summary xml:lang="ru">Игра «сокобан»</summary>
+  <summary xml:lang="sa">सोकोबन् गेम</summary>
   <summary xml:lang="sk">Hra Sokoban</summary>
   <summary xml:lang="sl">Igra Sokoban</summary>
   <summary xml:lang="sv">Sokoban-spel</summary>
@@ -94,6 +96,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="pl">Skladnik jest implementacją japońskiej gry “sokoban”, w którą grali magazynierzy.</p>
     <p xml:lang="pt-BR">Skladnik é uma implementação do jogo de almoxarife japonês “sokoban”.</p>
     <p xml:lang="ru">Skladnik — реализация японской игры о кладовщике «сокобан».</p>
+    <p xml:lang="sa">स्क्लाड्निक जापानी गोदामपालकक्रीडायाः “सोकोबन्” इत्यस्य कार्यान्वयनम् अस्ति ।</p>
     <p xml:lang="sl">Skladnik je izvedba japonske igre skrbnika skladišča "sokoban".</p>
     <p xml:lang="sv">Skladnik är en implementering av det japanska lagerarbetarspelet "sokoban”.</p>
     <p xml:lang="tr">Skladnik, Japon depo bekçisi oyunu “Sokoban”ın bir uyarlamasıdır.</p>
@@ -124,6 +127,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="pt">A ideia é que você é um arrumador de armazéns que tenta empurrar os caixotes para o seu local correcto num armazém. O problema é que não pode puxar os caixotes ou passar por cima deles. Se não tiver cuidado, alguns dos caixotes podem ficar presos em lugares errados e/ou bloquear a sua passagem.</p>
     <p xml:lang="pt-BR">A ideia é que você seja um almoxarife tentando empurrar caixotes para seus locais apropriados em um depósito. O problema é que você não pode puxar as caixas ou passar por cima delas. Se você não tomar cuidado, algumas das caixas podem ficar presas em lugares errados e/ou bloquear seu caminho.</p>
     <p xml:lang="ru">Представьте себя кладовщиком, который толкает ящики на складе. Эта работа не так уж проста: нельзя тянуть ящики на себя или перешагивать через них. Необходимо следить за тем, чтобы ящики не застревали и не блокировали путь.</p>
+    <p xml:lang="sa">विचारः अस्ति यत् भवान् गोदामस्य रक्षकः अस्ति यः गोदामे टोकराः सम्यक् स्थानेषु धकेलितुं प्रयतते। समस्या अस्ति यत् भवन्तः टोकराः आकर्षितुं वा तेषां उपरि पदानि स्थापयितुं वा न शक्नुवन्ति। यदि भवान् सावधानः नास्ति तर्हि केचन टोकराः गलत् स्थानेषु अटितुं शक्नुवन्ति तथा/वा भवतः मार्गं अवरुद्धुं शक्नुवन्ति ।</p>
     <p xml:lang="sl">Ideja je, da ste skrbnik skladišča, ki poskuša potiskati zaboje na ustrezne lokacije v skladišču. Težava je v tem, da ne morete zabojev vleči ali stopati čez njih. Če niste previdni, lahko nekateri zaboji obtičijo na napačnih mestih in/ali blokirajo vašo pot.</p>
     <p xml:lang="sv">Idén är att du är en lagerarbetare som försöker knuffa lådor till sina riktiga platser i en lagerbyggnad. Problemet är att du inte kan dra lådorna eller kliva över dem. Om du inte är försiktig kan några av lådorna fastna på fel platser och/eller blockera vägen för dig.</p>
     <p xml:lang="tr">Buradaki fikir, kasaları bir depodaki uygun yerlerine itmeye çalışan bir depo bekçisi olmanızdır. Sorun şu ki, kasaları çekemezsiniz veya üzerinden geçemezsiniz. Dikkatli olmazsanız bazı sandıklar yanlış yerlere takılabilir ve/veya yolunuzu kapatabilir.</p>
