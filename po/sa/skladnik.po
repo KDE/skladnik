@@ -19,12 +19,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "भवतः नामानि"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "भवतः ईमेलपत्राणि"
 
 #: InternalCollections.cpp:32
 #, kde-format
@@ -119,103 +119,103 @@ msgstr "लोड् कर्तुं संग्रहसञ्चिका�
 #, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr ""
+msgstr "स्तरीय संग्रह"
 
 #: MainWindow.cpp:97
 #, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr ""
+msgstr "भारस्तराः..."
 
 #: MainWindow.cpp:101
 #, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr ""
+msgstr "अग्रिमः स्तरः"
 
 #: MainWindow.cpp:106
 #, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr ""
+msgstr "पूर्वस्तरः"
 
 #: MainWindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr ""
+msgstr "स्तरं पुनः आरभत"
 
 #: MainWindow.cpp:124
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr ""
+msgstr "मन्द"
 
 #: MainWindow.cpp:129
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr ""
+msgstr "मध्यम"
 
 #: MainWindow.cpp:134
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr ""
+msgstr "उपवासः"
 
 #: MainWindow.cpp:139
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr ""
+msgstr "दूरे"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
-msgstr ""
+msgstr "(अप्रयुक्तः) २."
 
 #: MainWindow.cpp:229
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
-msgstr ""
+msgstr "(अप्रतिषेध)"
 
 #: MainWindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Levels from a File"
-msgstr ""
+msgstr "सञ्चिकातः स्तराः लोड् कुर्वन्तु"
 
 #: MainWindow.cpp:323
 #, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr ""
+msgstr "सञ्चिकायां कोऽपि स्तरः न प्राप्यते ।"
 
 #: PlayField.cpp:91
 #, kde-format
 msgctxt "@label"
 msgid "Level:"
-msgstr ""
+msgstr "स्तर:"
 
 #: PlayField.cpp:100
 #, kde-format
 msgctxt "@label"
 msgid "Steps:"
-msgstr ""
+msgstr "सोपानाः : १."
 
 #: PlayField.cpp:109
 #, kde-format
 msgctxt "@label"
 msgid "Pushes:"
-msgstr ""
+msgstr "धक्कायति : १."
 
 #: PlayField.cpp:270
 #, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr ""
+msgstr "स्तर सम्पन्न।"
 
 #: PlayField.cpp:582
 #, kde-format
