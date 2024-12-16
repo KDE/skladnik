@@ -1,4 +1,4 @@
-# Sanskrit translations for skladnik package.
+# Hindi translations for skladnik package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the skladnik package.
 # Kali <EMAIL@ADDRESS>, 2024.
@@ -8,59 +8,58 @@ msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-02 00:37+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
+"PO-Revision-Date: 2024-12-15 17:37+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
-"Language: sa\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr "तुम्हारे नाम"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr "आपके ईमेल"
 
 #: InternalCollections.cpp:32
 #, kde-format
 msgid "Sasquatch"
-msgstr "सस्क्वैच्"
+msgstr "Sasquatch"
 
 #: InternalCollections.cpp:36
 #, kde-format
 msgid "Mas Sasquatch"
-msgstr "अधिकं सस्क्वैच्"
+msgstr "अधिक सासक्वाच"
 
 #: InternalCollections.cpp:40
 #, kde-format
 msgid "Sasquatch III"
-msgstr "सस्क्वैच III"
+msgstr "सास्क्वाच III"
 
 #: InternalCollections.cpp:44
 #, kde-format
 msgid "Microban (easy)"
-msgstr "माइक्रोबैन (सुलभ) २."
+msgstr "माइक्रोबैन (आसान)"
 
 #: InternalCollections.cpp:48
 #, kde-format
 msgid "Sasquatch IV"
-msgstr "सस्क्वैच चतुर्थ"
+msgstr "सास्क्वाच IV"
 
 #: main.cpp:26
 #, kde-format
 msgid "Skladnik"
-msgstr "रचयिता"
+msgstr "संगीतकार"
 
 #: main.cpp:28
 #, kde-format
 msgid "The japanese warehouse keeper game"
-msgstr "जापानी गोदामपालकक्रीडा"
+msgstr "जापानी गोदाम कीपर खेल"
 
 #: main.cpp:30
 #, kde-format
@@ -68,89 +67,89 @@ msgid ""
 "(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
 "(c) 2012 Lukasz Kalamlacki"
 msgstr ""
-"(ग) 1998 एण्डर्स विडेल <awl@hem.passagen.se>\n"
-"(ग) 2012 लुकास्ज कलामलाक्की"
+"(सी) 1998 एंडर्स विडेल <awl@hem.passagen.se>\n"
+"(सी) 2012 लुकाज़ कलामलैकी"
 
 #: main.cpp:33
 #, kde-format
 msgid "Shlomi Fish"
-msgstr "श्लोमी मत्स्य"
+msgstr "श्लोमी मछली"
 
 #: main.cpp:34
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
-msgstr "Qt5/KF5 मध्ये पोर्ट् कर्तुं अन्येषां सफाईं कर्तुं च"
+msgstr "Qt5/KF5 पर पोर्ट करने और अन्य क्लीनअप करने के लिए"
 
 #: main.cpp:37
 #, kde-format
 msgid "Lukasz Kalamlacki"
-msgstr "लुकास्ज कलामलाक्की"
+msgstr "लुकाज़ कलामलैकी"
 
 #: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
-msgstr "kde3 तः kde4 पर्यन्तं मूल ksokoban क्रीडायाः पुनर्लेखनार्थम्"
+msgstr "मूल ksokoban खेल को kde3 से kde4 में पुनः लिखने के लिए"
 
 #: main.cpp:41
 #, kde-format
 msgid "Anders Widell"
-msgstr "एण्डर्स् विडेल्"
+msgstr "एंडर्स विडेल"
 
 #: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
-msgstr "मूल ksokoban क्रीडायाः लेखनार्थम्"
+msgstr "मूल ksokoban खेल लिखने के लिए"
 
 #: main.cpp:45
 #, kde-format
 msgid "David W. Skinner"
-msgstr "डेविड डब्ल्यू स्किनर"
+msgstr "डेविड डब्ल्यू. स्किनर"
 
 #: main.cpp:46
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
-msgstr "अस्मिन् क्रीडने समाविष्टानां सोकोबन् स्तरानाम् योगदानस्य कृते"
+msgstr "इस खेल में शामिल सोकोबान स्तरों में योगदान देने के लिए"
 
 #: main.cpp:57
 #, kde-format
 msgid "Level collection file to load."
-msgstr "लोड् कर्तुं संग्रहसञ्चिकां स्तरं कुर्वन्तु।"
+msgstr "स्तर संग्रह फ़ाइल लोड करने के लिए."
 
 #: MainWindow.cpp:38
 #, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "स्तरीय संग्रह"
+msgstr "स्तर संग्रह"
 
 #: MainWindow.cpp:97
 #, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "भारस्तराः..."
+msgstr "लोड स्तर…"
 
 #: MainWindow.cpp:101
 #, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "अग्रिमः स्तरः"
+msgstr "अगला स्तर"
 
 #: MainWindow.cpp:106
 #, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "पूर्वस्तरः"
+msgstr "पिछला स्तर"
 
 #: MainWindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "स्तरं पुनः आरभत"
+msgstr "पुनः आरंभ स्तर"
 
 #: MainWindow.cpp:124
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "मन्द"
+msgstr "धीमा"
 
 #: MainWindow.cpp:129
 #, kde-format
@@ -162,37 +161,37 @@ msgstr "मध्यम"
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "उपवासः"
+msgstr "तेज़"
 
 #: MainWindow.cpp:139
 #, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "दूरे"
+msgstr "बंद"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
-msgstr "(अप्रयुक्तः) २."
+msgstr "(अप्रयुक्त)"
 
 #: MainWindow.cpp:229
 #, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
-msgstr "(अप्रतिषेध)"
+msgstr "(अमान्य)"
 
 #: MainWindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Levels from a File"
-msgstr "सञ्चिकातः स्तराः लोड् कुर्वन्तु"
+msgstr "फ़ाइल से स्तर लोड करें"
 
 #: MainWindow.cpp:323
 #, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "सञ्चिकायां कोऽपि स्तरः न प्राप्यते ।"
+msgstr "फ़ाइल में कोई स्तर नहीं मिला."
 
 #: PlayField.cpp:91
 #, kde-format
@@ -204,71 +203,71 @@ msgstr "स्तर:"
 #, kde-format
 msgctxt "@label"
 msgid "Steps:"
-msgstr "सोपानाः : १."
+msgstr "चरण:"
 
 #: PlayField.cpp:109
 #, kde-format
 msgctxt "@label"
 msgid "Pushes:"
-msgstr "धक्कायति : १."
+msgstr "धक्का:"
 
 #: PlayField.cpp:270
 #, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "स्तर सम्पन्न।"
+msgstr "स्तर पूर्ण।"
 
 #: PlayField.cpp:582
 #, kde-format
 msgid "This is the last level in the current collection."
-msgstr "वर्तमानसङ्ग्रहे एषः अन्तिमः स्तरः अस्ति ।"
+msgstr "यह वर्तमान संग्रह का अंतिम स्तर है।"
 
 #: PlayField.cpp:586
 #, kde-format
 msgid "You have not completed this level yet."
-msgstr "भवता एतत् स्तरम् अद्यापि न सम्पन्नम्।"
+msgstr "आपने अभी तक यह स्तर पूरा नहीं किया है."
 
 #: PlayField.cpp:598
 #, kde-format
 msgid "This is the first level in the current collection."
-msgstr "वर्तमानसङ्ग्रहे एषः प्रथमः स्तरः अस्ति ।"
+msgstr "यह वर्तमान संग्रह का प्रथम स्तर है।"
 
 #: PlayField.cpp:674
 #, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr "बाह्यस्तरस्य पुस्तकचिह्नानि अद्यापि कार्यान्विताः न सन्ति ।"
+msgstr "बाह्य स्तरों के लिए बुकमार्क अभी तक क्रियान्वित नहीं किया गया है।"
 
 #: PlayField.cpp:698
 #, kde-format
 msgid "This level is broken."
-msgstr "एषः स्तरः भग्नः अस्ति।"
+msgstr "यह स्तर टूट गया है."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
 #, kde-format
 msgid "&Game"
-msgstr "&क्रीडा"
+msgstr "&खेल"
 
 #. i18n: ectx: Menu (animation_speed)
 #: skladnikui.rc:20
 #, kde-format
 msgid "&Animation"
-msgstr "&एनिमेशन"
+msgstr "&एनीमेशन"
 
 #. i18n: ectx: Menu (bookmarks_menu)
 #: skladnikui.rc:27
 #, kde-format
 msgid "&Bookmarks"
-msgstr "&पुस्तकचिह्न"
+msgstr "बुकमार्क"
 
 #. i18n: ectx: Menu (set_bookmarks)
 #: skladnikui.rc:29
 #, kde-format
 msgid "&Set Bookmark"
-msgstr "&सेट् बुकमार्क"
+msgstr "बुकमार्क सेट करें"
 
 #. i18n: ectx: Menu (goto_bookmarks)
 #: skladnikui.rc:42
 #, kde-format
 msgid "&Go to Bookmark"
-msgstr "&Bookmark इत्यत्र गच्छन्तु"
+msgstr "&बुकमार्क पर जाएं"
