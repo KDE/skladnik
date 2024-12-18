@@ -488,6 +488,13 @@ void PlayField::mousePressEvent(QGraphicsSceneMouseEvent *e)
 void PlayField::mouseReleaseEvent(QGraphicsSceneMouseEvent *e)
 {
     pressedButton_ = Qt::NoButton;
+
+    if (e->button() == Qt::LeftButton && draggingInProgress) {
+        //A dragging action just ended, let's ignore the release
+        draggingInProgress = false;
+        return;
+    }
+
     const QPoint square = m_groundItem->squareFromScene(e->scenePos());
     const QPoint last_square = m_groundItem->squareFromScene(lastMousePosition_);
 
@@ -536,6 +543,7 @@ void PlayField::mouseMoveEvent(QGraphicsSceneMouseEvent *e)
     int y = levelMap_->ypos();
 
     if (abs(xdiff) > size) {
+        draggingInProgress = true;
         lastMousePosition_ = e->scenePos();
         if (xdiff > 0)
             push(x - 1, y);
@@ -544,6 +552,7 @@ void PlayField::mouseMoveEvent(QGraphicsSceneMouseEvent *e)
     }
 
     if (abs(ydiff) > size) {
+        draggingInProgress = true;
         lastMousePosition_ = e->scenePos();
         if (ydiff > 0)
             push(x, y - 1);
