@@ -125,6 +125,7 @@ private:
     History *history_;
     MoveSequence *moveSequence_ = nullptr;
     bool moveInProgress_ = false;
+    bool draggingInProgress = false;
     PathFinder pathFinder_;
     int animDelay_;
     const QCursor *cursor_;
