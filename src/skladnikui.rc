@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE gui SYSTEM "kpartgui.dtd">
-<gui version="0" name="skladnik" translationDomain="skladnik">
+<gui version="1" name="skladnik" translationDomain="skladnik">
 <MenuBar>
     <Menu name="game" >
         <text>&amp;Game</text>
@@ -53,4 +53,11 @@
         </Menu>
     </Menu>
 </MenuBar>
+<ToolBar name="mainToolBar">
+    <text>Main Toolbar</text>
+    <Action name="undo" />
+    <Action name="redo" />
+    <Separator />
+    <Action name="reload_level" />
+</ToolBar>
 </gui>

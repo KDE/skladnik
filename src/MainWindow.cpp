@@ -66,7 +66,7 @@ MainWindow::MainWindow()
     setCentralWidget(playFieldView_);
 
     setupActions();
-    setupGUI(Keys | Save | Create);
+    setupGUI(Keys | Save | Create | ToolBar);
 
     setAcceptDrops(true);
 }
