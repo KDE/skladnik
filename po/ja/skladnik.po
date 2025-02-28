@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-02 00:37+0000\n"
+"POT-Creation-Date: 2025-02-28 00:39+0000\n"
 "PO-Revision-Date: 2012-09-13 23:04-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -266,4 +266,10 @@ msgstr ""
 #: skladnikui.rc:42
 #, kde-format
 msgid "&Go to Bookmark"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: skladnikui.rc:57
+#, kde-format
+msgid "Main Toolbar"
 msgstr ""

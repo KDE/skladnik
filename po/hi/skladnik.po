@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-02 00:37+0000\n"
+"POT-Creation-Date: 2025-02-28 00:39+0000\n"
 "PO-Revision-Date: 2024-12-15 17:37+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -272,3 +272,9 @@ msgstr "बुकमार्क सेट करें"
 #, kde-format
 msgid "&Go to Bookmark"
 msgstr "&बुकमार्क पर जाएं"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: skladnikui.rc:57
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""

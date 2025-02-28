@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-02 00:37+0000\n"
+"POT-Creation-Date: 2025-02-28 00:39+0000\n"
 "PO-Revision-Date: 2024-05-30 10:43+0200\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -270,3 +270,9 @@ msgstr "Na&stavit záložku"
 #, kde-format
 msgid "&Go to Bookmark"
 msgstr "Pře&jít na tuto záložku"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: skladnikui.rc:57
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""

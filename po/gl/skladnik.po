@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-02 00:37+0000\n"
+"POT-Creation-Date: 2025-02-28 00:39+0000\n"
 "PO-Revision-Date: 2024-05-04 11:06+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -274,6 +274,12 @@ msgstr "&Definir un marcador"
 #, kde-format
 msgid "&Go to Bookmark"
 msgstr "&Ir a un marcador"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: skladnikui.rc:57
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
 
 #~ msgid "KSokoban"
 #~ msgstr "KSokoban"

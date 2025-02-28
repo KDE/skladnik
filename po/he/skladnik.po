@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-02 00:37+0000\n"
+"POT-Creation-Date: 2025-02-28 00:39+0000\n"
 "PO-Revision-Date: 2024-05-02 21:51+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -273,3 +273,9 @@ msgstr "ה&גדרת סימנייה"
 #, kde-format
 msgid "&Go to Bookmark"
 msgstr "מ&עבר לסימנייה"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: skladnikui.rc:57
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
