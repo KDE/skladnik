@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-28 00:39+0000\n"
-"PO-Revision-Date: 2024-05-02 06:09+0200\n"
+"PO-Revision-Date: 2025-03-01 01:09+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -227,7 +227,7 @@ msgstr "ეს მიმდინარე კოლექციის უკა
 #: PlayField.cpp:586
 #, kde-format
 msgid "You have not completed this level yet."
-msgstr "ეს დონე ჯერ არ დაგისრულებიათ"
+msgstr "ეს დონე ჯერ არ დაგისრულებიათ."
 
 #: PlayField.cpp:598
 #, kde-format
@@ -278,7 +278,7 @@ msgstr "&სანიშნზე გადასვლა"
 #: skladnikui.rc:57
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "ხელსაწყოთა მთავარი ზოლი"
 
 #~ msgid "KSokoban"
 #~ msgstr "KSokoban"
