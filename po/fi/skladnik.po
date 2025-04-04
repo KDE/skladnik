@@ -1,11 +1,11 @@
 # KDE Finnish translation sprint participants:
-# SPDX-FileCopyrightText: 2013, 2020, 2021, 2022, 2023, 2024 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2013, 2020, 2021, 2022, 2023, 2024, 2025 Tommi Nieminen <translator@legisign.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-02-28 00:39+0000\n"
-"PO-Revision-Date: 2024-10-22 13:42+0300\n"
+"PO-Revision-Date: 2025-03-15 08:58+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -275,7 +275,7 @@ msgstr "&Siirry kirjanmerkkiin"
 #: skladnikui.rc:57
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Päätyökalurivi"
 
 #~ msgid "KSokoban"
 #~ msgstr "KSokoban"
