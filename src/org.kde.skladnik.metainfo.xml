@@ -16,6 +16,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="ca">Skladnik</name>
   <name xml:lang="ca-valencia">Skladnik</name>
   <name xml:lang="cs">Skladnik</name>
+  <name xml:lang="de">Skladnik</name>
   <name xml:lang="en-GB">Skladnik</name>
   <name xml:lang="eo">Skladnik</name>
   <name xml:lang="es">Skladnik</name>
@@ -82,6 +83,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ar">لعبة أمين المستودع هي نسخة من للعبة اليابانية أمين المستودع المسماة "سوكوبان"</p>
     <p xml:lang="ca">El Skladnik és una implementació del joc japonès «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="ca-valencia">Skladnik és una implementació del joc japonés «Sokoban» de l'encarregat de magatzem.</p>
+    <p xml:lang="de">Skladnik ist eine Implementierung des japanischen Lagerverwalterspiels „sokoban“.</p>
     <p xml:lang="en-GB">Skladnik is an implementation of the Japanese warehouse keeper game “sokoban”.</p>
     <p xml:lang="eo">Skladnik estas realigo de la japana magazenistoludo “sokoban”.</p>
     <p xml:lang="es">Skladnik es una implementación del juego japonés del encargado de almacén «sokoban».</p>
@@ -112,6 +114,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ar">الفكرة هي أنك أمين مستودع تحاول دفع الصناديق إلى مواقعها الصحيحة في المستودع. التحدي أنه لا يمكنك سحب الصناديق أو تخطيها. إذا لم تكن حريصًا؛ فقد تعلق بعض الصناديق في أماكن خاطئة و/أو تسد طريقك.</p>
     <p xml:lang="ca">La idea és que sou un encarregat de magatzem que intenta empènyer caixes a les seves ubicacions apropiades en un magatzem. El problema és que no podeu estirar les caixes ni trepitjar-les. Si no teniu cura, algunes de les caixes podrien quedar atrapades en llocs equivocats o bloquejar el camí.</p>
     <p xml:lang="ca-valencia">La idea és que sou un encarregat de magatzem que intenta empényer caixes a les seues ubicacions apropiades en un magatzem. El problema és que no podeu estirar les caixes ni trepitjar-les. Si no teniu cura, algunes de les caixes podrien quedar atrapades en llocs equivocats o bloquejar el camí.</p>
+    <p xml:lang="de">Die Idee ist, dass Sie ein Lagerverwalter sind, der versucht, Kisten an ihren richtigen Platz in einem Lager zu schieben. Das Problem dabei ist; Sie können die Kisten nicht ziehen oder darüber gehen. Wenn Sie nicht vorsichtig genug sind, können einige der Kisten an den falschen Stellen stecken bleiben oder Ihren Weg versperren.</p>
     <p xml:lang="en-GB">The idea is that you are a warehouse keeper trying to push crates to their proper locations in a warehouse. The problem is that you cannot pull the crates or step over them. If you are not careful, some of the crates can get stuck in wrong places and/or block your way.</p>
     <p xml:lang="eo">La ideo estas, ke vi estas magazenisto provanta puŝi kestojn al siaj taŭgaj lokoj en magazeno. La problemo estas, ke vi ne povas tiri la kestojn aŭ paŝi super ili. Se vi ne zorgas, iuj el la kestoj povas blokiĝi en malĝustaj lokoj kaj/aŭ bloki vian vojon.</p>
     <p xml:lang="es">La idea es que usted es el encargado de un almacén que trata de empujar las cajas al lugar adecuado dentro del almacén. El problema es que no puede tirar de las cajas ni pasar por encima de ellas. Si no tiene cuidado, algunas de las cajas pueden atascarse en lugares equivocados bloqueando su camino.</p>
