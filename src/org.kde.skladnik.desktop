@@ -2,6 +2,7 @@
 Name=Skladnik
 Name[ar]=أمين المستودع
 Name[ast]=Skladnik
+Name[bg]=Skladnik
 Name[ca]=Skladnik
 Name[ca@valencia]=Skladnik
 Name[de]=Skladnik
@@ -32,6 +33,7 @@ Name[x-test]=xxSkladnikxx
 Name[zh_TW]=Skladnik
 GenericName=Sokoban Game
 GenericName[ar]=لعبة حارس المستودع
+GenericName[bg]=Игра тип Sokoban
 GenericName[bs]=Sokoban igra
 GenericName[ca]=Joc del Sokoban -encarregat del magatzem-
 GenericName[ca@valencia]=Joc de Sokoban -encarregat del magatzem-

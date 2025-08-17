@@ -1,6 +1,7 @@
 [KGameTheme]
 Name=Classic
 Name[ar]=تقليدي
+Name[bg]=Класическа
 Name[ca]=Clàssic
 Name[ca@valencia]=Clàssic
 Name[cs]=Klasický
@@ -32,6 +33,7 @@ Name[x-test]=xxClassicxx
 Name[zh_TW]=傳統
 Description=Classic theme
 Description[ar]=السمة الكلاسيكية
+Description[bg]=Класическа тема
 Description[ca]=Tema clàssic
 Description[ca@valencia]=Tema clàssic
 Description[cs]=Klasický motiv
