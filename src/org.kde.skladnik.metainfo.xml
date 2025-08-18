@@ -13,6 +13,7 @@ SPDX-License-Identifier: CC0-1.0
   <name>Skladnik</name>
   <name xml:lang="ar">أمين المستودع</name>
   <name xml:lang="ast">Skladnik</name>
+  <name xml:lang="bg">Skladnik</name>
   <name xml:lang="ca">Skladnik</name>
   <name xml:lang="ca-valencia">Skladnik</name>
   <name xml:lang="cs">Skladnik</name>
@@ -44,6 +45,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="zh-TW">Skladnik</name>
   <summary>Sokoban Game</summary>
   <summary xml:lang="ar">لعبة أمين المستودع</summary>
+  <summary xml:lang="bg">Игра тип Sokoban</summary>
   <summary xml:lang="ca">Joc del Sokoban</summary>
   <summary xml:lang="ca-valencia">Joc de Sokoban</summary>
   <summary xml:lang="cs">Hra Sokoban</summary>
@@ -81,6 +83,7 @@ SPDX-License-Identifier: CC0-1.0
       Skladnik is an implementation of the Japanese warehouse keeper game “sokoban”.
     </p>
     <p xml:lang="ar">لعبة أمين المستودع هي نسخة من للعبة اليابانية أمين المستودع المسماة "سوكوبان"</p>
+    <p xml:lang="bg">Skladnik е вариант на японската игра за складов работник „sokoban”.</p>
     <p xml:lang="ca">El Skladnik és una implementació del joc japonès «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="ca-valencia">Skladnik és una implementació del joc japonés «Sokoban» de l'encarregat de magatzem.</p>
     <p xml:lang="de">Skladnik ist eine Implementierung des japanischen Lagerverwalterspiels „sokoban“.</p>
@@ -112,6 +115,7 @@ SPDX-License-Identifier: CC0-1.0
       The idea is that you are a warehouse keeper trying to push crates to their proper locations in a warehouse. The problem is that you cannot pull the crates or step over them. If you are not careful, some of the crates can get stuck in wrong places and/or block your way. 
     </p>
     <p xml:lang="ar">الفكرة هي أنك أمين مستودع تحاول دفع الصناديق إلى مواقعها الصحيحة في المستودع. التحدي أنه لا يمكنك سحب الصناديق أو تخطيها. إذا لم تكن حريصًا؛ فقد تعلق بعض الصناديق في أماكن خاطئة و/أو تسد طريقك.</p>
+    <p xml:lang="bg">Идеята е, че вие сте складов работник, който се опитва да премести кашони на правилните им места в склада. Проблемът е, че не можете да дърпате кашоните или да стъпвате върху тях. Ако не сте внимателни, някои от кашоните могат да заседнат на грешни места и/или да ви препречат пътя.</p>
     <p xml:lang="ca">La idea és que sou un encarregat de magatzem que intenta empènyer caixes a les seves ubicacions apropiades en un magatzem. El problema és que no podeu estirar les caixes ni trepitjar-les. Si no teniu cura, algunes de les caixes podrien quedar atrapades en llocs equivocats o bloquejar el camí.</p>
     <p xml:lang="ca-valencia">La idea és que sou un encarregat de magatzem que intenta empényer caixes a les seues ubicacions apropiades en un magatzem. El problema és que no podeu estirar les caixes ni trepitjar-les. Si no teniu cura, algunes de les caixes podrien quedar atrapades en llocs equivocats o bloquejar el camí.</p>
     <p xml:lang="de">Die Idee ist, dass Sie ein Lagerverwalter sind, der versucht, Kisten an ihren richtigen Platz in einem Lager zu schieben. Das Problem dabei ist; Sie können die Kisten nicht ziehen oder darüber gehen. Wenn Sie nicht vorsichtig genug sind, können einige der Kisten an den falschen Stellen stecken bleiben oder Ihren Weg versperren.</p>
