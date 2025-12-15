@@ -1,0 +1,704 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY % Brazilian-Portuguese "INCLUDE"
+> <!-- change language only here -->
+  <!ENTITY % addindex "IGNORE">
+]>
+	
+<book lang="&language;">
+<bookinfo>
+<title
+>O Manual do &skladnik;</title>
+
+<authorgroup>
+<author
+><firstname
+>Anders</firstname
+> <surname
+>Widell</surname
+> <affiliation
+> <address
+>&Anders.Widell.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@kde.org</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2000</year>
+<holder
+>&Anders.Widell;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>19/08/2021</date>
+<releaseinfo
+>0.5.0</releaseinfo>
+
+<abstract>
+<para
+>O &skladnik; é uma implementação do jogo de almoxarife japonês <quote
+>sokoban</quote
+>. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>kdegames</keyword>
+<keyword
+>Jogo</keyword>
+<keyword
+>sokoban</keyword>
+<keyword
+>skladnik</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introdução</title>
+
+<para
+>O primeiro jogo de sokoban foi criado em 1982 por Hiroyuki Imabayashi na empresa japonesa Thinking Rabbit, Inc. <quote
+>Sokoban</quote
+> significa <quote
+>guardião de armazém</quote
+> em japonês. A ideia é que você seja um guarda de armazém tentando empurrar caixas para seus locais corretos em um armazém. </para>
+
+<para
+>O problema é que você não pode puxar as caixas nem passar por cima delas. Se você não for cuidadoso, algumas caixas podem ficar presas em lugares errados e/ou bloquear seu caminho. </para>
+
+<para
+>Pode ser bastante difícil simplesmente resolver um nível. Mas se você quiser torná-lo ainda mais difícil, pode tentar minimizar o número de movimentos e/ou empurrões que você usa para resolver o nível. </para>
+
+<para
+>Para tornar o jogo mais divertido para crianças pequenas (com menos de 10 anos, aproximadamente), algumas coleções com níveis mais fáceis também estão incluídas no &skladnik;. Elas são marcadas com <emphasis
+>(fácil)</emphasis
+> no menu de coleção de níveis. Claro, esses níveis também podem ser divertidos para adultos, por exemplo, se você não quiser se expor a muito esforço mental. </para>
+</chapter>
+
+<chapter id="how-to-play">
+<title
+>O Jogo</title>
+
+<para
+>O objetivo do jogo é empurrar todas as gemas vermelhas para os quadrados de chegada, que são marcados com objetos redondos e brilhantes verdes no chão. </para>
+
+<para
+>Use as teclas de cursor ou o mouse para se movimentar. Se você se mover em direção a uma gema usando as teclas de cursor ou o &MMB; e não houver nada bloqueando-a do lado oposto, você empurrará a gema. Não é possível puxar as gemas, então, se você empurrar uma gema para um canto, ela ficará presa lá. Você também não pode passar por cima das gemas, então pode ficar preso em uma parte do labirinto bloqueando o caminho com gemas. Observe também que não é possível empurrar mais de uma gema por vez. </para>
+
+<para
+>Se você perceber que moveu as gemas de uma forma que tornou o nível impossível de resolver, você sempre pode usar a função desfazer para voltar a uma posição onde o erro ainda não foi cometido. Você também pode, é claro, reiniciar o nível desde o início. </para>
+
+<sect1 id="controls">
+<title
+>Controles</title>
+
+<para>
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>Tecla</entry
+><entry
+>Ação</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+>Teclas de cursor</entry
+><entry
+>Move-se uma casa em uma direção</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Teclas do cursor</keycap
+></keycombo
+></entry
+><entry
+>Move-se o máximo possível em uma direção sem empurrar nenhuma gema</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Shift;<keycap
+>Teclas de cursor</keycap
+></keycombo
+> </entry
+><entry
+>Move-se o máximo possível em uma direção, empurrando qualquer gema que estiver no caminho</entry
+></row>
+<row
+><entry
+>Botão <mousebutton
+>Esquerdo</mousebutton
+> do mouse</entry
+><entry
+>Move-se para qualquer lugar no labirinto que possa ser alcançado sem empurrar nenhuma gema&nbsp;</entry
+></row>
+<row
+><entry
+>Botão do <mousebutton
+>Meio</mousebutton
+> do mouse ou <keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></entry
+><entry
+>Desfaz o último movimento</entry
+></row>
+<row
+><entry
+>Botão <mousebutton
+>Direito</mousebutton
+> do mouse</entry
+><entry
+>Move-se para cima/baixo/esquerda/direita em linha reta, empurrando qualquer gema que estiver no caminho</entry
+></row>
+<row
+><entry
+><mousebutton
+>Roda do mouse</mousebutton
+></entry
+><entry
+>Percorre o histórico</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+>&nbsp;</entry
+><entry
+>Refaz o último movimento desfeito</entry
+></row>
+<row
+><entry
+><keycap
+>N</keycap
+></entry
+><entry
+>Vai para o próximo nível na coleção de níveis atual</entry
+></row>
+<row
+><entry
+><keycap
+>P</keycap
+></entry
+><entry
+>Vai para o nível anterior na coleção de níveis atual</entry
+></row>
+<row
+><entry
+>&Esc;</entry
+><entry
+>Reinicia o nível atual</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></entry
+><entry
+>Sai do jogo</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+</para>
+</sect1>
+
+<sect1 id="loading-external-levels">
+<title
+>Carregando níveis externos</title>
+
+<para
+>O &skladnik; tem a capacidade de carregar níveis externos de sokoban a partir de arquivos de texto. Você pode carregar níveis usando o item de menu <menuchoice
+><guimenu
+>Jogo</guimenu
+><guimenuitem
+>Carregar níveis…</guimenuitem
+></menuchoice
+> ou especificando o &URL; do arquivo de nível como um argumento de linha de comando ao iniciar o &skladnik; a partir de um terminal. </para>
+
+<para
+>Os níveis externos devem ser definidos usando os caracteres padrão mostrados na tabela abaixo. Se o arquivo contiver mais de um nível, os níveis devem ser separados por linhas em branco. O arquivo também pode conter texto entre os níveis. </para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>Caractere</entry
+><entry
+>Significado</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+><literal
+>#</literal
+></entry
+><entry
+>Muro</entry
+></row>
+<row
+><entry
+><emphasis
+>(espaço)</emphasis
+></entry
+><entry
+>Quadrado vazio</entry
+></row>
+<row
+><entry
+><literal
+>.</literal
+></entry
+><entry
+>Quadrado objetivo</entry
+></row>
+<row
+><entry
+><literal
+>$</literal
+></entry
+><entry
+>Objeto em um quadrado vazio</entry
+></row>
+<row
+><entry
+><literal
+>*</literal
+></entry
+><entry
+>Objeto em um quadrado objetivo</entry
+></row>
+<row
+><entry
+><literal
+>@</literal
+></entry
+><entry
+>Posição inicial em um quadrado vazio&nbsp;</entry
+></row>
+<row
+><entry
+><literal
+>+</literal
+></entry
+><entry
+>Posição inicial em um quadrado objetivo</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Como exemplo, abaixo está uma representação textual do primeiro nível na coleção de níveis do <emphasis
+>Microban</emphasis
+>: </para>
+
+<para>
+<screen
+>####
+# .#
+#  ###
+#*@  #
+#  $ #
+#  ###
+####
+</screen>
+</para>
+</sect1>
+</chapter>
+
+<chapter id="menu-reference">
+<title
+>Referência do menu</title>
+
+<para
+>Este é um guia completo dos menus do &skladnik;.</para>
+
+<sect1 id="game-menu">
+<title
+>Menu Jogo</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Carregar níveis…</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Carrega um nível externo.</action
+> Consulte a seção <link linkend="loading-external-levels"
+>Carregando níveis externos</link
+> para obter mais informações.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>N</keycap
+></shortcut
+> <guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Próximo nível</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Carrega o próximo nível.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>P</keycap
+></shortcut
+> <guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Nível anterior</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Vai para o nível anterior.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+>&Esc;</shortcut
+> <guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Reiniciar nível</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Reinicia o nível atual.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Jogo</guimenu
+> <guisubmenu
+>Coleção de níveis</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Um submenu para alternar para um conjunto diferente de níveis.</action
+> O &skladnik; vem com vários conjuntos de níveis, e você pode carregar mais que você pode encontrar na internet.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Desfazer</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Desfaz o último movimento.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Refazer</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Refaz o último movimento desfeito usando a opção de menu acima.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Jogo</guimenu
+> <guimenuitem
+>Sair</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Sai</action
+> do &skladnik;.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+<sect1 id="animation-menu">
+<title
+>Menu Animação</title>
+
+<para
+>Este menu oferece itens com caixas de seleção que permitem especificar a velocidade com que as animações de repetição de movimento são exibidas. </para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animação</guimenu
+> <guisubmenu
+>Lenta</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Mostra animações de reprodução em ritmo lento.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animação</guimenu
+> <guisubmenu
+>Média</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>Esta é a configuração padrão e <action
+>mostra animações de reprodução em um ritmo ligeiramente mais rápido</action
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animação</guimenu
+> <guisubmenu
+>Rápida</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Mostra animações de reprodução em ritmo rápido.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Animação</guimenu
+> <guisubmenu
+>Desligada</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Não anima a reprodução.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="bookmarks">
+<title
+>Menu Favoritos</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Favoritos</guimenu
+> <guisubmenu
+>Definir favorito</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>O &skladnik; permite que você <action
+>defina marcadores com um nível em um estado específico.</action
+> Você pode usar isso para evitar repetir as mesmas etapas iniciais em um nível.</para>
+<para
+>Você pode ter até dez favoritos por vez e acessá-los através do atalho <keycombo action="simul"
+>&Ctrl;<keycap
+><replaceable
+>X</replaceable
+></keycap
+></keycombo
+>, onde <replaceable
+>X</replaceable
+> é qualquer dígito entre 0 e 9.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Favoritos</guimenu
+> <guisubmenu
+>Ir para favorito</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Vai para um estado que você salvou anteriormente como um favorito.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="help-menu">
+<title
+>Menu Ajuda</title>
+
+<para
+>O &skladnik; tem os itens de menu <guimenu
+>Ajuda</guimenu
+> comuns do &kde;. Para mais informações, leia a seção <ulink url="help:/fundamentals/menus.html#menus-help"
+>Menu Ajuda</ulink
+> dos Fundamentos do &kde;. </para>
+
+</sect1>
+</chapter>
+
+<chapter id="credits">
+<title
+>Créditos e licença</title>
+
+<para
+>O &skladnik; possui direitos autorais &copy; 1998-2000 de &Anders.Widell; &Anders.Widell.mail;. </para>
+
+<para
+>O gráfico de fundo <quote
+>starfield</quote
+> foi retirado do <ulink url="https://www.gimp.org/"
+>Gimp</ulink
+>. Todos os outros gráficos foram criados por &Anders.Widell; &Anders.Widell.mail; usando o <ulink url="https://www.povray.org/"
+>Povray</ulink
+> ray tracer. </para>
+
+<para
+>Todos os níveis de sokoban atualmente incluídos foram criados por David W. Skinner <email
+>sasquatch@bentonrea.com</email
+>. Veja <ulink url="https://www.sokobanonline.com/play/web-archive/david-w-skinner"
+>a página de sokoban dele</ulink
+>. </para>
+
+<para
+>Tradução de Marcus Gama <email
+>marcus.gama@kde.org</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
