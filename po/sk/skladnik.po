@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-18 00:41+0000\n"
 "PO-Revision-Date: 2022-04-09 19:27+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -234,7 +234,7 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Úroveň dokončená"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the last level in\n"
@@ -244,7 +244,7 @@ msgstr ""
 "Toto je posledná úroveň v\n"
 " aktuálnej kolekcii."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have not completed\n"
@@ -254,7 +254,7 @@ msgstr ""
 "Túto úroveň\n"
 "ste ešte nedokončili."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the first level in\n"
@@ -264,7 +264,7 @@ msgstr ""
 "Toto je prvá úroveň v\n"
 " aktuálnej kolekcii."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, bookmarks for external levels\n"
@@ -274,7 +274,7 @@ msgstr ""
 "Ľutujeme, záložky pre externé úrovne\n"
 " zatiaľ nie sú implementované."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, fuzzy, kde-format
 #| msgid "This level is broken"
 msgid "This level is broken."

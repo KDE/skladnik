@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-18 00:41+0000\n"
 "PO-Revision-Date: 2025-10-25 09:37+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -220,27 +220,27 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Ukończono poziom."
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, kde-format
 msgid "This is the last level in the current collection."
 msgstr "To ostatni poziom w bieżącym zbiorze."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, kde-format
 msgid "You have not completed this level yet."
 msgstr "Jeszcze nie ukończono tego poziomu."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, kde-format
 msgid "This is the first level in the current collection."
 msgstr "To pierwszy poziom w bieżącym zbiorze."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
 msgstr "Zakładki dla zewnętrznych poziomów nie są jeszcze zaimplementowane."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, kde-format
 msgid "This level is broken."
 msgstr "Ten poziom jest uszkodzony."

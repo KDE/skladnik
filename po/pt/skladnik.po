@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-18 00:41+0000\n"
 "PO-Revision-Date: 2022-08-25 17:31+0100\n"
 "Last-Translator: José Nuno Pires <jncp@netcabo.pt>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -235,7 +235,7 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Nível concluído"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the last level in\n"
@@ -245,7 +245,7 @@ msgstr ""
 "Este é o último nível\n"
 "da colecção actual."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have not completed\n"
@@ -255,7 +255,7 @@ msgstr ""
 "Ainda não concluiu\n"
 "este nível."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the first level in\n"
@@ -265,7 +265,7 @@ msgstr ""
 "Este é o primeiro nível\n"
 "da colecção actual."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, bookmarks for external levels\n"
@@ -275,7 +275,7 @@ msgstr ""
 "Ainda não é possível guardar a\n"
 "posição nos níveis externos."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, fuzzy, kde-format
 #| msgid "This level is broken"
 msgid "This level is broken."

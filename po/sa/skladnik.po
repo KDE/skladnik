@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-18 00:41+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -220,27 +220,27 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "स्तर सम्पन्न।"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, kde-format
 msgid "This is the last level in the current collection."
 msgstr "वर्तमानसङ्ग्रहे एषः अन्तिमः स्तरः अस्ति ।"
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, kde-format
 msgid "You have not completed this level yet."
 msgstr "भवता एतत् स्तरम् अद्यापि न सम्पन्नम्।"
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, kde-format
 msgid "This is the first level in the current collection."
 msgstr "वर्तमानसङ्ग्रहे एषः प्रथमः स्तरः अस्ति ।"
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
 msgstr "बाह्यस्तरस्य पुस्तकचिह्नानि अद्यापि कार्यान्विताः न सन्ति ।"
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, kde-format
 msgid "This level is broken."
 msgstr "एषः स्तरः भग्नः अस्ति।"

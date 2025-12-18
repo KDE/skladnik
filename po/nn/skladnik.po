@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2025-12-18 00:41+0000\n"
 "PO-Revision-Date: 2022-08-24 10:10+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -221,35 +221,35 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Brett fullført"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, fuzzy, kde-format
 msgid "This is the last level in the current collection."
 msgstr ""
 "Dette er det siste brettet\n"
 "i denne samlinga."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, fuzzy, kde-format
 msgid "You have not completed this level yet."
 msgstr ""
 "Du er ikkje ferdig med\n"
 "dette brettet enno."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, fuzzy, kde-format
 msgid "This is the first level in the current collection."
 msgstr ""
 "Dette er det første brettet\n"
 "i denne samlinga."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, fuzzy, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
 msgstr ""
 "Bokmerke for eksterne nivå\n"
 "er ikkje implementert enno."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, fuzzy, kde-format
 msgid "This level is broken."
 msgstr "Dette brettet er øydelagt"
