@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:39+0000\n"
+"POT-Creation-Date: 2025-12-18 02:33+0000\n"
 "PO-Revision-Date: 2012-09-21 16:01-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -234,7 +234,7 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Leibhéal críochnaithe"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the last level in\n"
@@ -244,7 +244,7 @@ msgstr ""
 "Seo é an leibhéal deiridh sa\n"
 "bhailiúchán reatha."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have not completed\n"
@@ -254,7 +254,7 @@ msgstr ""
 "Níl an leibhéal seo\n"
 "déanta agat fós."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the first level in\n"
@@ -264,7 +264,7 @@ msgstr ""
 "Seo é an chéad leibhéal sa\n"
 "bhailiúchán reatha."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, bookmarks for external levels\n"
@@ -274,7 +274,7 @@ msgstr ""
 "Tá brón orm, níl leabharmharcanna do\n"
 "leibhéil sheachtracha ar fáil fós."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, fuzzy, kde-format
 #| msgid "This level is broken"
 msgid "This level is broken."

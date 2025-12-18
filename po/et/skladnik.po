@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:39+0000\n"
+"POT-Creation-Date: 2025-12-18 02:33+0000\n"
 "PO-Revision-Date: 2020-01-22 21:20+0200\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -236,7 +236,7 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Tase on läbitud"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the last level in\n"
@@ -246,7 +246,7 @@ msgstr ""
 "See on viimane tase\n"
 "aktiivses kogus."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have not completed\n"
@@ -256,7 +256,7 @@ msgstr ""
 "Sa ei ole veel\n"
 "seda taset lõpetanud."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the first level in\n"
@@ -266,7 +266,7 @@ msgstr ""
 "See on esimene tase\n"
 "aktiivses kogus."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, bookmarks for external levels\n"
@@ -276,7 +276,7 @@ msgstr ""
 "Vabandust, väliste tasemete\n"
 "järjehoidjad pole veel toetatud."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, fuzzy, kde-format
 #| msgid "This level is broken"
 msgid "This level is broken."

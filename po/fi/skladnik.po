@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:39+0000\n"
+"POT-Creation-Date: 2025-12-18 02:33+0000\n"
 "PO-Revision-Date: 2025-03-15 08:58+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -216,27 +216,27 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Taso valmis."
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, kde-format
 msgid "This is the last level in the current collection."
 msgstr "Tämä on nykyisen kokoelman viimeinen taso."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, kde-format
 msgid "You have not completed this level yet."
 msgstr "Taso ei ole vielä lopussa."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, kde-format
 msgid "This is the first level in the current collection."
 msgstr "Tämä on nykyisen kokoelman ensimmäinen taso."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
 msgstr "Kirjanmerkkejä ulkoisiin tasoihin ei ole vielä toteutettu."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, kde-format
 msgid "This level is broken."
 msgstr "Tämä taso on rikki."

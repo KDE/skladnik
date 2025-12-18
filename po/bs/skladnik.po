@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde 49i410\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:39+0000\n"
+"POT-Creation-Date: 2025-12-18 02:33+0000\n"
 "PO-Revision-Date: 2014-10-20 19:43+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian\n"
@@ -237,7 +237,7 @@ msgctxt "@info"
 msgid "Level completed."
 msgstr "Nivo završen"
 
-#: PlayField.cpp:582
+#: PlayField.cpp:591
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the last level in\n"
@@ -247,7 +247,7 @@ msgstr ""
 "Ovo je posljednji nivo u \n"
 "trenutnoj kolekciji."
 
-#: PlayField.cpp:586
+#: PlayField.cpp:595
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have not completed\n"
@@ -257,7 +257,7 @@ msgstr ""
 "Niste završili\n"
 "ovaj nivo još uvijek."
 
-#: PlayField.cpp:598
+#: PlayField.cpp:607
 #, fuzzy, kde-format
 #| msgid ""
 #| "This is the first level in\n"
@@ -267,7 +267,7 @@ msgstr ""
 "Ovo je prvi nivo u\n"
 "trenutnoj kolekciji."
 
-#: PlayField.cpp:674
+#: PlayField.cpp:683
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, bookmarks for external levels\n"
@@ -277,7 +277,7 @@ msgstr ""
 "Zvinite, oznake za spoljašnje nivoe\n"
 "još uvijek nisu implementirane."
 
-#: PlayField.cpp:698
+#: PlayField.cpp:707
 #, fuzzy, kde-format
 #| msgid "This level is broken"
 msgid "This level is broken."
