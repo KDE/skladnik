@@ -52,7 +52,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="en-GB">Sokoban Game</summary>
   <summary xml:lang="eo">Sokoban-ludo</summary>
   <summary xml:lang="es">Juego Sokoban</summary>
-  <summary xml:lang="eu">«Sokoban» jokoa</summary>
+  <summary xml:lang="eu">Sokoban jokoa</summary>
   <summary xml:lang="fi">Sokoban-peli</summary>
   <summary xml:lang="fr">Jeu Sokoban</summary>
   <summary xml:lang="gl">Xogo do Sokoban</summary>
@@ -88,7 +88,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="en-GB">Skladnik is an implementation of the Japanese warehouse keeper game “sokoban”.</p>
     <p xml:lang="eo">Skladnik estas realigo de la japana magazenistoludo “sokoban”.</p>
     <p xml:lang="es">Skladnik es una implementación del juego japonés del encargado de almacén «sokoban».</p>
-    <p xml:lang="eu">Skladnik, "Sokoban" biltegizainaren joko japoniarraren inplementazio bat da.</p>
+    <p xml:lang="eu">Skladnik, “sokoban” biltegizainaren joko japoniarraren inplementazio bat da.</p>
     <p xml:lang="fi">Skladnik on toteutus japanilaisesta ”sokoban”-varastotyöntekijäpelistä.</p>
     <p xml:lang="fr">Skladnik est une implémentation du jeu japonais Sokoban de gardien d'entrepôt.</p>
     <p xml:lang="gl">Skladnik é unha implementación do xogo xaponés de garda de almacén «sokoban».</p>
