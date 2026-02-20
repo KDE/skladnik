@@ -110,175 +110,136 @@ msgid "For contributing the Sokoban levels included in this game"
 msgstr "Na leibhéil Sokoban atá isteach leis an gcluiche seo"
 
 #: main.cpp:57
-#, fuzzy, kde-format
-#| msgid "Level collection file to load"
+#, kde-format
 msgid "Level collection file to load."
-msgstr "Comhad bailiúcháin leibhéal lu luchtú"
+msgstr ""
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
-#| msgid "&Level Collection"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "Bailiúchán &Leibhéal"
+msgstr ""
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
-#| msgid "Load Levels From File"
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "Luchtaigh Leibhéil Ó Chomhad"
+msgstr ""
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
-#| msgid "&Next Level"
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "An Chéad Leibhéal &Eile"
+msgstr ""
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "&Previous Level"
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "An Leibhéal &Roimhe Seo"
+msgstr ""
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Re&start Level"
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "Ato&saigh an Leibhéal"
+msgstr ""
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
-#| msgid "&Slow"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "&Mall"
+msgstr ""
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Medium"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "&Measartha"
+msgstr ""
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "&Fast"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "&Tapa"
+msgstr ""
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
-#| msgid "&Off"
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "&Múchta"
+msgstr ""
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
-#| msgid "(unused)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
-msgstr "(gan úsáid)"
+msgstr ""
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
-#| msgid "(invalid)"
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
-msgstr "(neamhbhailí)"
+msgstr ""
 
 #: MainWindow.cpp:288
-#, fuzzy, kde-format
-#| msgid "Load Levels From File"
+#, kde-format
 msgctxt "@title:window"
 msgid "Load Levels from a File"
-msgstr "Luchtaigh Leibhéil Ó Chomhad"
+msgstr ""
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
-#| msgid "No levels found in file"
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "Níor aimsíodh aon leibhéil sa chomhad"
+msgstr ""
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
-#| msgid "Level:"
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
-msgstr "Leibhéal:"
+msgstr ""
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
-#| msgid "Steps:"
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
-msgstr "Céimeanna:"
+msgstr ""
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
-#| msgid "Pushes:"
+#, kde-format
 msgctxt "@label"
 msgid "Pushes:"
-msgstr "Brúnna:"
+msgstr ""
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
-#| msgid "Level completed"
+#, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "Leibhéal críochnaithe"
+msgstr ""
 
 #: PlayField.cpp:591
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the last level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the last level in the current collection."
 msgstr ""
-"Seo é an leibhéal deiridh sa\n"
-"bhailiúchán reatha."
 
 #: PlayField.cpp:595
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have not completed\n"
-#| "this level yet."
+#, kde-format
 msgid "You have not completed this level yet."
 msgstr ""
-"Níl an leibhéal seo\n"
-"déanta agat fós."
 
 #: PlayField.cpp:607
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is the first level in\n"
-#| "the current collection."
+#, kde-format
 msgid "This is the first level in the current collection."
 msgstr ""
-"Seo é an chéad leibhéal sa\n"
-"bhailiúchán reatha."
 
 #: PlayField.cpp:683
-#, fuzzy, kde-format
-#| msgid ""
-#| "Sorry, bookmarks for external levels\n"
-#| "is not implemented yet."
+#, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
 msgstr ""
-"Tá brón orm, níl leabharmharcanna do\n"
-"leibhéil sheachtracha ar fáil fós."
 
 #: PlayField.cpp:707
-#, fuzzy, kde-format
-#| msgid "This level is broken"
+#, kde-format
 msgid "This level is broken."
-msgstr "Tá an leibhéal seo briste"
+msgstr ""
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
@@ -315,26 +276,3 @@ msgstr ""
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
-
-#, fuzzy
-#~| msgid "KSokoban"
-#~ msgid "KSokoban"
-#~ msgstr "KSokoban"
-
-#~ msgid "Sasquatch V"
-#~ msgstr "Sasquatch V"
-
-#~ msgid "Mas Microban (easy)"
-#~ msgstr "Mas Microban (éasca)"
-
-#~ msgid "Sasquatch VI"
-#~ msgstr "Sasquatch VI"
-
-#~ msgid "LOMA"
-#~ msgstr "LOMA"
-
-#~ msgid "Sasquatch VII"
-#~ msgstr "Sasquatch VII"
-
-#~ msgid "(c) 1998-2001  Anders Widell"
-#~ msgstr "© 1998-2001  Anders Widell"
