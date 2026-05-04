@@ -168,6 +168,7 @@ SPDX-License-Identifier: CC0-1.0
   </provides>
   <launchable type="desktop-id">org.kde.skladnik.desktop</launchable>
   <releases>
+    <release version="0.5.26041" date="2026-05-07"/>
     <release version="0.5.26040" date="2026-04-16"/>
     <release version="0.5.25123" date="2026-03-05"/>
     <release version="0.5.25122" date="2026-02-05"/>
