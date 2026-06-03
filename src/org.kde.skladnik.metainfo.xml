@@ -41,6 +41,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="sl">Skladnik</name>
   <name xml:lang="sv">Skladnik</name>
   <name xml:lang="tr">Skladnik</name>
+  <name xml:lang="ug">Skladnik</name>
   <name xml:lang="uk">Skladnik</name>
   <name xml:lang="zh-TW">Skladnik</name>
   <summary>Sokoban Game</summary>
@@ -75,6 +76,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="sl">Igra Sokoban</summary>
   <summary xml:lang="sv">Sokoban-spel</summary>
   <summary xml:lang="tr">Sokoban Oyunu</summary>
+  <summary xml:lang="ug">ساندۇق ئىتتىرىش ئويۇنى</summary>
   <summary xml:lang="uk">Гра «Сокобан»</summary>
   <summary xml:lang="zh-TW">推箱子遊戲</summary>
   <description>
