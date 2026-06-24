@@ -1,20 +1,19 @@
 # Translation of skladnik to Norwegian Nynorsk
 #
 # Gaute Hvoslef Kvalnes <gaute@verdsveven.com>, 1999, 2000, 2002.
-# Karl Ove Hufthammer <karl@huftis.org>, 2012, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-18 00:41+0000\n"
-"PO-Revision-Date: 2022-08-24 10:10+0200\n"
+"PO-Revision-Date: 2026-06-23 17:52+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 26.07.70\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
@@ -58,7 +57,7 @@ msgstr "Sasquatch IV"
 #: main.cpp:26
 #, kde-format
 msgid "Skladnik"
-msgstr ""
+msgstr "Skladnik"
 
 #: main.cpp:28
 #, kde-format
@@ -120,67 +119,67 @@ msgid "Level collection file to load."
 msgstr "Brettsamlingsfil som skal opnast."
 
 #: MainWindow.cpp:38
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr "&Brettsamling"
+msgstr "Brettsamling"
 
 #: MainWindow.cpp:97
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr "&Opna brett …"
+msgstr "Opna brett …"
 
 #: MainWindow.cpp:101
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action"
 msgid "Next Level"
-msgstr "&Neste brett"
+msgstr "Neste brett"
 
 #: MainWindow.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action"
 msgid "Previous Level"
-msgstr "&Førre brett"
+msgstr "Førre brett"
 
 #: MainWindow.cpp:111
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action"
 msgid "Restart Level"
-msgstr "&Start brettet på nytt"
+msgstr "Start brettet på nytt"
 
 #: MainWindow.cpp:124
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Slow"
-msgstr "&Sakte"
+msgstr "Sakte"
 
 #: MainWindow.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Medium"
-msgstr "&Middels"
+msgstr "Middels"
 
 #: MainWindow.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Fast"
-msgstr "&Rask"
+msgstr "Rask"
 
 #: MainWindow.cpp:139
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item animation speed"
 msgid "Off"
-msgstr "&Av"
+msgstr "Av"
 
 #: MainWindow.cpp:179 MainWindow.cpp:193
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(unused)"
 msgstr "(ikkje brukt)"
 
 #: MainWindow.cpp:229
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@item bookmark entry"
 msgid "(invalid)"
 msgstr "(ugyldig)"
@@ -192,67 +191,59 @@ msgid "Load Levels from a File"
 msgstr "Last brett frå fil"
 
 #: MainWindow.cpp:323
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr "Fann ingen brett i fila"
+msgstr "Fann ingen brett i fila."
 
 #: PlayField.cpp:91
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Level:"
 msgstr "Brett:"
 
 #: PlayField.cpp:100
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Steps:"
 msgstr "Steg:"
 
 #: PlayField.cpp:109
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Pushes:"
 msgstr "Skubb:"
 
 #: PlayField.cpp:270
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr "Brett fullført"
+msgstr "Brett fullført."
 
 #: PlayField.cpp:591
-#, fuzzy, kde-format
+#, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
-"Dette er det siste brettet\n"
-"i denne samlinga."
+msgstr "Dette er det siste brettet i denne samlinga."
 
 #: PlayField.cpp:595
-#, fuzzy, kde-format
+#, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
-"Du er ikkje ferdig med\n"
-"dette brettet enno."
+msgstr "Du er ikkje ferdig med dette brettet enno."
 
 #: PlayField.cpp:607
-#, fuzzy, kde-format
+#, kde-format
 msgid "This is the first level in the current collection."
-msgstr ""
-"Dette er det første brettet\n"
-"i denne samlinga."
+msgstr "Dette er det første brettet i denne samlinga."
 
 #: PlayField.cpp:683
-#, fuzzy, kde-format
+#, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
-"Bokmerke for eksterne nivå\n"
-"er ikkje implementert enno."
+msgstr "Bokmerke for eksterne nivå er ikkje implementert enno."
 
 #: PlayField.cpp:707
-#, fuzzy, kde-format
+#, kde-format
 msgid "This level is broken."
-msgstr "Dette brettet er øydelagt"
+msgstr "Dette brettet er øydelagt."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
@@ -288,4 +279,4 @@ msgstr "&Gå til bokmerke"
 #: skladnikui.rc:57
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Hovudverktøylinje"
