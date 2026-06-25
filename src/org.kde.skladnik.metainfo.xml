@@ -33,6 +33,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="ka">Skladnik</name>
   <name xml:lang="ko">Skladnik</name>
   <name xml:lang="nl">Skladnik</name>
+  <name xml:lang="nn">Skladnik</name>
   <name xml:lang="pl">Skladnik</name>
   <name xml:lang="pt-BR">Skladnik</name>
   <name xml:lang="ru">Skladnik</name>
@@ -103,6 +104,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ka">Skladnik - იაპონური საწყობის უფროსის თამაშიზე, სოკობანზეა დაფუძნებული.</p>
     <p xml:lang="ko">Skladnik는 창고지기 게임 소코반 구현입니다.</p>
     <p xml:lang="nl">Skladnik is een implementatie van het Japanse magazijn-beheerder-spel “sokoban”.</p>
+    <p xml:lang="nn">Skladnik er ei utgåve av det japanske lagersjef­spelet «sokoban».</p>
     <p xml:lang="pl">Skladnik jest implementacją japońskiej gry “sokoban”, w którą grali magazynierzy.</p>
     <p xml:lang="pt-BR">Skladnik é uma implementação do jogo de almoxarife japonês “sokoban”.</p>
     <p xml:lang="ru">Skladnik — реализация японской игры о кладовщике «сокобан».</p>
