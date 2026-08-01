@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the skladnik package.
 #
-# giovanni <g.sora@tiscali.it>, 2024.
+# SPDX-FileCopyrightText: 2024, 2026 giovanni <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: skladnik\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-18 00:41+0000\n"
-"PO-Revision-Date: 2024-05-02 12:37+0200\n"
+"PO-Revision-Date: 2026-07-31 12:46+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,27 +30,27 @@ msgstr "g.sora@tiscali.it"
 #: InternalCollections.cpp:32
 #, kde-format
 msgid "Sasquatch"
-msgstr ""
+msgstr "Sasquatch"
 
 #: InternalCollections.cpp:36
 #, kde-format
 msgid "Mas Sasquatch"
-msgstr ""
+msgstr "Mas Sasquatch"
 
 #: InternalCollections.cpp:40
 #, kde-format
 msgid "Sasquatch III"
-msgstr ""
+msgstr "Sasquatch III"
 
 #: InternalCollections.cpp:44
 #, kde-format
 msgid "Microban (easy)"
-msgstr ""
+msgstr "Microban (facile)"
 
 #: InternalCollections.cpp:48
 #, kde-format
 msgid "Sasquatch IV"
-msgstr ""
+msgstr "Sasquatch IV"
 
 #: main.cpp:26
 #, kde-format
@@ -60,7 +60,7 @@ msgstr "Skladnik"
 #: main.cpp:28
 #, kde-format
 msgid "The japanese warehouse keeper game"
-msgstr ""
+msgstr "Le joco japonese del magazinero"
 
 #: main.cpp:30
 #, kde-format
@@ -74,12 +74,12 @@ msgstr ""
 #: main.cpp:33
 #, kde-format
 msgid "Shlomi Fish"
-msgstr ""
+msgstr "Pisce Shlomi"
 
 #: main.cpp:34
 #, kde-format
 msgid "For porting to Qt5/KF5 and doing other cleanups"
-msgstr ""
+msgstr "Pro le portage a Qt5/KF5 e pro facer altere nettationes."
 
 #: main.cpp:37
 #, kde-format
@@ -89,7 +89,7 @@ msgstr "Lukasz Kalamlacki"
 #: main.cpp:38
 #, kde-format
 msgid "For rewriting the original ksokoban game from kde3 to kde4"
-msgstr ""
+msgstr "Pro rescriber le original joco ksokoban de kde3 a kde4"
 
 #: main.cpp:41
 #, kde-format
@@ -99,7 +99,7 @@ msgstr "Anders Widell"
 #: main.cpp:42
 #, kde-format
 msgid "For writing the original ksokoban game"
-msgstr ""
+msgstr "Pro scriber le original joco ksokoban"
 
 #: main.cpp:45
 #, kde-format
@@ -109,24 +109,24 @@ msgstr "David W. Skinner"
 #: main.cpp:46
 #, kde-format
 msgid "For contributing the Sokoban levels included in this game"
-msgstr ""
+msgstr "Pro le contribution del nivellos de Sokoban includite in iste joco"
 
 #: main.cpp:57
 #, kde-format
 msgid "Level collection file to load."
-msgstr ""
+msgstr "File de collection de nivellos a cargar."
 
 #: MainWindow.cpp:38
 #, kde-format
 msgctxt "@title:menu"
 msgid "Level Collection"
-msgstr ""
+msgstr "Collection de Nivellos"
 
 #: MainWindow.cpp:97
 #, kde-format
 msgctxt "@action"
 msgid "Load Levels…"
-msgstr ""
+msgstr "Carga Nivellos…"
 
 #: MainWindow.cpp:101
 #, kde-format
@@ -186,13 +186,13 @@ msgstr "(Invalide)"
 #, kde-format
 msgctxt "@title:window"
 msgid "Load Levels from a File"
-msgstr ""
+msgstr "Carga Nivellos ex un file "
 
 #: MainWindow.cpp:323
 #, kde-format
 msgctxt "@info"
 msgid "No levels found in file."
-msgstr ""
+msgstr "Necun nivellos trovate in file"
 
 #: PlayField.cpp:91
 #, kde-format
@@ -210,38 +210,38 @@ msgstr "Passos:"
 #, kde-format
 msgctxt "@label"
 msgid "Pushes:"
-msgstr ""
+msgstr "Pulsatas:"
 
 #: PlayField.cpp:270
 #, kde-format
 msgctxt "@info"
 msgid "Level completed."
-msgstr ""
+msgstr "Nivello completate."
 
 #: PlayField.cpp:591
 #, kde-format
 msgid "This is the last level in the current collection."
-msgstr ""
+msgstr "Isto es le ultime nivello in le collection currente."
 
 #: PlayField.cpp:595
 #, kde-format
 msgid "You have not completed this level yet."
-msgstr ""
+msgstr "Tu non ha ancora completate iste nivello."
 
 #: PlayField.cpp:607
 #, kde-format
 msgid "This is the first level in the current collection."
-msgstr ""
+msgstr "Isto es le prime nivello in le collection currente."
 
 #: PlayField.cpp:683
 #, kde-format
 msgid "Bookmarks for external levels is not implemented yet."
-msgstr ""
+msgstr "Marcatores de libro per nivellos externe non es ancora implementate."
 
 #: PlayField.cpp:707
 #, kde-format
 msgid "This level is broken."
-msgstr ""
+msgstr "Le nivello es  rupte."
 
 #. i18n: ectx: Menu (game)
 #: skladnikui.rc:6
@@ -277,4 +277,4 @@ msgstr "&Vade a marcator de libro"
 #: skladnikui.rc:57
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Barra de instrumento principal"
