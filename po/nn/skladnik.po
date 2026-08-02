@@ -1,6 +1,7 @@
 # Translation of skladnik to Norwegian Nynorsk
 #
 # Gaute Hvoslef Kvalnes <gaute@verdsveven.com>, 1999, 2000, 2002.
+# Karl Ove Hufthammer <karl@huftis.org>, 2012, 2020, 2022, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
