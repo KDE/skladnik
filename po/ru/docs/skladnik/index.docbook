@@ -1,0 +1,704 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY % Russian "INCLUDE"
+> <!-- change language only here -->
+  <!ENTITY % addindex "IGNORE">
+]>
+	
+<book lang="&language;">
+<bookinfo>
+<title
+>Руководство пользователя &skladnik;</title>
+
+<authorgroup>
+<author
+><firstname
+>Anders</firstname
+> <surname
+>Widell</surname
+> <affiliation
+> <address
+>&Anders.Widell.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Александр</firstname
+><surname
+>Яворский</surname
+><affiliation
+><address
+><email
+>kekcuha@gmail.com</email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2000</year>
+<holder
+>&Anders.Widell;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>19 августа 2021 г.</date>
+<releaseinfo
+>0.5.0</releaseinfo>
+
+<abstract>
+<para
+>&skladnik; — версия японской игры о кладовщике <quote
+>сокобан</quote
+>. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>kdegames</keyword>
+<keyword
+>игра</keyword>
+<keyword
+>сокобан</keyword>
+<keyword
+>skladnik</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Введение</title>
+
+<para
+>Первую игру «сокобан» создал в 1982 году Хироюки Имабаяси (Hiroyuki Imabayashi) в японской компании Thinking Rabbit, Inc. <quote
+>Сокобан</quote
+> по-японски означает <quote
+>кладовщик</quote
+>. Вы — кладовщик, который расталкивает ящики по нужным местам на складе. </para>
+
+<para
+>Трудность в том, что ящики нельзя тянуть или перешагивать. Если действовать неосторожно, какие-то ящики могут застрять не там, где нужно, или перекрыть вам дорогу. </para>
+
+<para
+>Даже просто пройти уровень бывает непросто. А если хочется задачи посложнее, попробуйте пройти уровень за наименьшее число шагов или толчков. </para>
+
+<para
+>Чтобы игра была интересна и маленьким детям (примерно до 10 лет), в &skladnik; есть наборы с более простыми уровнями. В меню наборов уровней они помечены <emphasis
+>(легко)</emphasis
+>. Конечно, эти уровни могут понравиться и взрослым — например, если не хочется слишком напрягать голову. </para>
+</chapter>
+
+<chapter id="how-to-play">
+<title
+>Игра</title>
+
+<para
+>Цель игры — затолкать все красные самоцветы на клетки-цели, отмеченные на полу зелёными стеклянными кружками. </para>
+
+<para
+>Передвигайтесь клавишами со стрелками или мышью. Если шагнуть на самоцвет (клавишей со стрелкой или средней кнопкой мыши) и за ним ничего не мешает, вы толкнёте самоцвет. Тянуть самоцветы нельзя, так что самоцвет, задвинутый в угол, там и застрянет. Перешагивать через самоцветы тоже нельзя, поэтому можно запереть себя в части лабиринта, перекрыв путь самоцветами. И ещё: толкать можно только один самоцвет за раз. </para>
+
+<para
+>Если вы заметили, что расставили самоцветы так, что уровень уже не пройти, всегда можно отменить ходы и вернуться к положению до ошибки. Можно, конечно, и начать уровень заново с самого начала. </para>
+
+<sect1 id="controls">
+<title
+>Управление</title>
+
+<para>
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>Клавиша</entry
+><entry
+>Действие</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+>Клавиши со стрелками</entry
+><entry
+>Шаг на одну клетку в выбранном направлении</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>стрелка</keycap
+></keycombo
+></entry
+><entry
+>Двигаться в выбранном направлении как можно дальше, не толкая самоцветов</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Shift;<keycap
+>стрелка</keycap
+></keycombo
+> </entry
+><entry
+>Двигаться в выбранном направлении как можно дальше, толкая самоцветы на пути</entry
+></row>
+<row
+><entry
+><mousebutton
+>Левая</mousebutton
+> кнопка мыши</entry
+><entry
+>Перейти в любое место лабиринта, куда можно попасть, не толкая самоцветов&nbsp;</entry
+></row>
+<row
+><entry
+><mousebutton
+>Средняя</mousebutton
+> кнопка мыши или <keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></entry
+><entry
+>Отменить последний ход</entry
+></row>
+<row
+><entry
+><mousebutton
+>Правая</mousebutton
+> кнопка мыши</entry
+><entry
+>Двигаться по прямой вверх, вниз, влево или вправо, толкая самоцветы на пути</entry
+></row>
+<row
+><entry
+><mousebutton
+>Колесо мыши</mousebutton
+></entry
+><entry
+>Перемещаться по истории ходов</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+>&nbsp;</entry
+><entry
+>Вернуть последний отменённый ход</entry
+></row>
+<row
+><entry
+><keycap
+>N</keycap
+></entry
+><entry
+>Перейти к следующему уровню текущего набора</entry
+></row>
+<row
+><entry
+><keycap
+>P</keycap
+></entry
+><entry
+>Перейти к предыдущему уровню текущего набора</entry
+></row>
+<row
+><entry
+>&Esc;</entry
+><entry
+>Перезапустить текущий уровень</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></entry
+><entry
+>Выйти из игры</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+</para>
+</sect1>
+
+<sect1 id="loading-external-levels">
+<title
+>Загрузка внешних уровней</title>
+
+<para
+>&skladnik; умеет загружать внешние уровни «сокобана» из текстовых файлов. Загрузить их можно пунктом меню <menuchoice
+><guimenu
+>Игра</guimenu
+> <guimenuitem
+>Загрузить уровни…</guimenuitem
+></menuchoice
+> или указав &URL; файла уровней в командной строке при запуске &skladnik; из оболочки. </para>
+
+<para
+>Внешние уровни задаются стандартными символами, перечисленными в таблице ниже. Если в файле несколько уровней, они разделяются пустыми строками. Между уровнями в файле может быть и произвольный текст. </para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>Символ</entry
+><entry
+>Значение</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+><literal
+>#</literal
+></entry
+><entry
+>Стена</entry
+></row>
+<row
+><entry
+><emphasis
+>(пробел)</emphasis
+></entry
+><entry
+>Пустая клетка</entry
+></row>
+<row
+><entry
+><literal
+>.</literal
+></entry
+><entry
+>Клетка-цель</entry
+></row>
+<row
+><entry
+><literal
+>$</literal
+></entry
+><entry
+>Ящик на пустой клетке</entry
+></row>
+<row
+><entry
+><literal
+>*</literal
+></entry
+><entry
+>Ящик на клетке-цели</entry
+></row>
+<row
+><entry
+><literal
+>@</literal
+></entry
+><entry
+>Начальная позиция на пустой клетке&nbsp;</entry
+></row>
+<row
+><entry
+><literal
+>+</literal
+></entry
+><entry
+>Начальная позиция на клетке-цели</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>Для примера — текстовое представление первого уровня набора <emphasis
+>Микробан</emphasis
+>: </para>
+
+<para>
+<screen
+>####
+# .#
+#  ###
+#*@  #
+#  $ #
+#  ###
+####
+</screen>
+</para>
+</sect1>
+</chapter>
+
+<chapter id="menu-reference">
+<title
+>Справочник меню</title>
+
+<para
+>Здесь описаны все меню &skladnik;.</para>
+
+<sect1 id="game-menu">
+<title
+>Меню «Игра»</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Игра</guimenu
+> <guimenuitem
+>Загрузить уровни…</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Загрузить внешние уровни.</action
+> Подробнее — в разделе <link linkend="loading-external-levels"
+>Загрузка внешних уровней</link
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>N</keycap
+></shortcut
+> <guimenu
+>Игра</guimenu
+> <guimenuitem
+>Следующий уровень</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Загрузить следующий уровень.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>P</keycap
+></shortcut
+> <guimenu
+>Игра</guimenu
+> <guimenuitem
+>Предыдущий уровень</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Вернуться на предыдущий уровень.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+>&Esc;</shortcut
+> <guimenu
+>Игра</guimenu
+> <guimenuitem
+>Перезапустить уровень</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Начать текущий уровень заново.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Игра</guimenu
+> <guisubmenu
+>Набор уровней</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Подменю для выбора другого набора уровней.</action
+> В комплекте &skladnik; несколько наборов уровней, а в Интернете можно найти и загрузить ещё.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Игра</guimenu
+> <guimenuitem
+>Отменить</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Отменить последний ход.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Игра</guimenu
+> <guimenuitem
+>Вернуть</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Вернуть последний ход, отменённый предыдущим пунктом меню.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Игра</guimenu
+> <guimenuitem
+>Выход</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Выйти</action
+> из &skladnik;.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+<sect1 id="animation-menu">
+<title
+>Меню «Анимация»</title>
+
+<para
+>В этом меню пункты-флажки задают скорость, с которой показывается анимация перемещений. </para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Анимация</guimenu
+> <guisubmenu
+>Низкая скорость</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Показывать анимацию медленно.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Анимация</guimenu
+> <guisubmenu
+>Средняя скорость</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>Это значение по умолчанию: <action
+>анимация показывается немного быстрее</action
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Анимация</guimenu
+> <guisubmenu
+>Высокая скорость</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Показывать анимацию с наибольшей скоростью.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Анимация</guimenu
+> <guisubmenu
+>Анимация отключена</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Не показывать анимацию.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="bookmarks">
+<title
+>Меню «Закладки»</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Закладки</guimenu
+> <guisubmenu
+>Поставить закладку</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>&skladnik; позволяет <action
+>ставить закладки на определённое состояние уровня.</action
+> Так можно не повторять каждый раз одни и те же начальные шаги.</para>
+<para
+>Закладок может быть до десяти одновременно; переходить к ним можно комбинацией <keycombo action="simul"
+>&Ctrl;<keycap
+><replaceable
+>X</replaceable
+></keycap
+></keycombo
+>, где <replaceable
+>X</replaceable
+> — цифра от 0 до 9.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Закладки</guimenu
+> <guisubmenu
+>Перейти на закладку</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Перейти к состоянию, ранее сохранённому в закладке.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="help-menu">
+<title
+>Меню «Справка»</title>
+
+<para
+>В &skladnik; есть стандартное для &kde; меню <guimenu
+>Справка</guimenu
+>, описанное в разделе <ulink url="help:/fundamentals/menus.html#menus-help"
+>Меню «Справка»</ulink
+> руководства «Основы &kde;». </para>
+
+</sect1>
+</chapter>
+
+<chapter id="credits">
+<title
+>Авторские права и лицензия</title>
+
+<para
+>© &Anders.Widell; &Anders.Widell.mail;, 1998–2000 </para>
+
+<para
+>Фоновое изображение <quote
+>starfield</quote
+> взято из <ulink url="https://www.gimp.org/"
+>Gimp</ulink
+>. Вся остальная графика создана &Anders.Widell; &Anders.Widell.mail; с помощью трассировщика лучей <ulink url="https://www.povray.org/"
+>Povray</ulink
+>. </para>
+
+<para
+>Все входящие в комплект уровни создал David W. Skinner <email
+>sasquatch@bentonrea.com</email
+>. См. <ulink url="https://www.sokobanonline.com/play/web-archive/david-w-skinner"
+>его страницу о «сокобане»</ulink
+>. </para>
+
+<para
+>Перевод на русский — Александр Яворский<email
+>kekcuha@gmail.com</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
