@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY % Russian "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: Salvo Tomaselli <ltworf@debian.org>
+SPDX-License-Identifier: GFDL-1.2-or-later
+-->
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>Страница руководства &skladnik;</title>
+<date
+>2024-03-22</date>
+<releaseinfo
+>&skladnik; 0.5.2</releaseinfo>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>skladnik</command
+></refentrytitle>
+<manvolnum
+>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>skladnik</command
+></refname>
+<refpurpose
+>Игра «сокобан»</refpurpose>
+</refnamediv>
+
+<refsect1 id="description">
+<title
+>Описание</title>
+
+<para
+>Skladnik — реализация японской игры о кладовщике «сокобан».</para>
+
+<para
+>Смысл игры в том, что игрок — кладовщик, который толкает ящики на отведённые им места на складе. Проблема в том, что ящики нельзя тянуть на себя или перешагивать через них. Если действовать неосторожно, некоторые ящики могут застрять не там, где нужно, и (или) преградить путь.</para>
+
+</refsect1>
+
+
+<refsect1 id="options">
+<title
+>Параметры</title>
+
+<para
+>Настройка &skladnik; выполняется графически; параметры командной строки, кроме стандартных параметров &kf6-full; и &Qt;, отсутствуют.</para>
+
+<variablelist>
+<title
+>Параметры &skladnik;</title>
+<varlistentry>
+<term
+><option
+>--help</option
+></term>
+<listitem>
+<para
+>Показывает справку и завершает работу.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--help-all</option
+></term>
+<listitem>
+<para
+>Показывает справку, включая параметры Qt.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--version</option
+></term>
+<listitem>
+<para
+>Показывает версию и завершает работу.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--author</option
+></term>
+<listitem>
+<para
+>Показывает сведения об авторах.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--license</option
+></term>
+<listitem>
+<para
+>Показывает сведения о лицензии.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><option
+>--desktopfile</option
+> <parameter
+>FILENAME</parameter
+></term>
+<listitem>
+<para
+>Использует FILENAME в качестве базового имени файла записи рабочего стола для этого приложения.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Смотрите также</title>
+
+<simplelist>
+<member
+>Более подробная документация для пользователя доступна по адресу <ulink url="help:/skladnik"
+>help:/skladnik</ulink
+> (введите этот &URL; или выполните <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/skladnik</parameter
+></userinput
+>).</member>
+<member
+><ulink
+url="https://apps.kde.org/skladnik/"
+>Домашняя страница &skladnik;</ulink
+></member>
+<member
+>kf6options(7)</member>
+<member
+>qt6options(7)</member>
+</simplelist>
+
+</refsect1>
+
+<refsect1>
+<title
+>Авторы</title>
+<para
+>&skladnik; поддерживается совместными усилиями сообщества &kde;.</para>
+<para
+>Страница руководства подготовлена <personname
+><firstname
+>Salvo</firstname
+><surname
+>Tomaselli</surname
+></personname
+> <email
+>ltworf@debian.org</email
+> для системы &Debian; &GNU;/&Linux; (но может использоваться и в других системах).</para>
+</refsect1>
+
+</refentry>
