@@ -31,8 +31,6 @@ find_program(POVRay_EXECUTABLE NAMES povray)
 
 include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(POVRay
-    FOUND_VAR
-        POVRay_FOUND
     REQUIRED_VARS
         POVRay_EXECUTABLE
 )
