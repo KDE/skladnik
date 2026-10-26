@@ -88,3 +88,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Qt;KDE;Game;StrategyGame;
+X-DocPath=skladnik/index.html
