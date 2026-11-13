@@ -1,0 +1,704 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY % Arabic "INCLUDE"
+> <!-- change language only here -->
+  <!ENTITY % addindex "IGNORE">
+]>
+	
+<book lang="&language;">
+<bookinfo>
+<title
+>دليل أمين المستودع</title>
+
+<authorgroup>
+<author
+><firstname
+>Anders</firstname
+> <surname
+>Widell</surname
+> <affiliation
+> <address
+>&Anders.Widell.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>زايد</firstname
+><surname
+>السعيدي</surname
+><affiliation
+><address
+><email
+>zayed.alsaidi@gmail.com</email
+></address
+></affiliation
+><contrib
+>التّرجمة العربيّة</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2000</year>
+<holder
+>&Anders.Widell;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2021-08-19</date>
+<releaseinfo
+>0.5.0</releaseinfo>
+
+<abstract>
+<para
+>لعبة أمين المستودع هي نسخة من للعبة اليابانية أمين المستودع المسماة <quote
+>سوكوبان</quote
+>. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>كيدي</keyword>
+<keyword
+>ألعاب كيدي</keyword>
+<keyword
+>لعبة</keyword>
+<keyword
+>سوكوبان</keyword>
+<keyword
+>أمين المستودع</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>مقدمة</title>
+
+<para
+>أُنشئت أول لعبة سوكوبان عام 1982 بواسطة هيرويوكي إيماباياشي في الشركة اليابانية ثينكينغ رابيت، المحدودة. <quote
+>سوكوبان</quote
+> تعني باليابانية <quote
+>حارس المستودع</quote
+>. الفكرة هي أنك حارس مستودع تحاول دفع الصناديق إلى مواقعها الصحيحة في المستودع. </para>
+
+<para
+>المشكلة هي أنك لا تستطيع سحب الصناديق أو تخطيها. إن لم تكن حذرًا، فقد تعلق بعض الصناديق في أماكن خاطئة و/أو تسد طريقك. </para>
+
+<para
+>قد يكون حل المستوى صعبًا جدًا. لكن إن أردت جعله أصعب، يمكنك محاولة تقليل عدد الحركات و/أو الدفعات التي تستخدمها لحل المستوى. </para>
+
+<para
+>لجعل اللعبة أكثر متعة للأطفال الصغار (أقل من 10 سنوات تقريبًا)، تضمّن أمين المستودع بعض المجموعات ذات المستويات الأسهل. تُوسم هذه <emphasis
+>(سهل)</emphasis
+> في قائمة مجموعة المستويات. بالطبع، يمكن أن تكون هذه المستويات ممتعة للبالغين أيضًا، مثلًا إن كنت لا تريد تعريض نفسك لإجهاد ذهني كبير. </para>
+</chapter>
+
+<chapter id="how-to-play">
+<title
+>اللعبة</title>
+
+<para
+>هدف اللعبة هو دفع كل الجواهر الحمراء إلى المربعات الهدف، التي تُوسم بأشياء دائرية زجاجية خضراء على الأرض. </para>
+
+<para
+>استخدم مفاتيح المؤشر أو الفأرة للتحرك. إن تحركت نحو جوهرة باستخدام مفاتيح المؤشر أو &MMB;، ولم يكن هناك شيء يعيقها على الجانب المقابل، فستدفع الجوهرة. لا يمكن سحب الجواهر، لذا إن دفعت جوهرة إلى زاوية فستعلق هناك. لا يمكنك تخطي الجواهر أيضًا، لذا قد تُحاصر في جزء من المتاهة بسد الطريق بالجواهر. لاحظ أيضًا أنه لا يمكن دفع أكثر من جوهرة واحدة في المرة. </para>
+
+<para
+>إن لاحظت أنك حركت الجواهر بطريقة تجعل حل المستوى مستحيلًا، فيمكنك دائمًا استخدام ميزة التراجع للعودة إلى موضع لم يُرتكب فيه الخطأ بعد. يمكنك بالطبع أيضًا إعادة تشغيل المستوى من البداية. </para>
+
+<sect1 id="controls">
+<title
+>عناصر التحكم</title>
+
+<para>
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>المفتاح</entry
+><entry
+>الإجراء</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+>مفاتيح المؤشر</entry
+><entry
+>تحريك مربع واحد في اتجاه</entry
+></row>
+<row
+><entry
+>مفاتيح <keycombo action="simul"
+>&Ctrl;<keycap
+>المؤشر</keycap
+></keycombo
+></entry
+><entry
+>التحرك لأقصى مسافة ممكنة في اتجاه دون دفع أي جوهرة</entry
+></row>
+<row
+><entry
+>مفاتيح <keycombo action="simul"
+>&Shift;<keycap
+>المؤشر</keycap
+></keycombo
+> </entry
+><entry
+>التحرك لأقصى مسافة ممكنة في اتجاه، دافعًا أي جوهرة في الطريق</entry
+></row>
+<row
+><entry
+>زر الفأرة <mousebutton
+>الأيسر</mousebutton
+></entry
+><entry
+>التحرك إلى أي مكان في المتاهة يمكن الوصول إليه دون دفع أي جوهرة&nbsp;</entry
+></row>
+<row
+><entry
+>زر الفأرة <mousebutton
+>الأوسط</mousebutton
+> أو <keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></entry
+><entry
+>تراجع عن آخر حركة</entry
+></row>
+<row
+><entry
+>زر الفأرة <mousebutton
+>الأيمن</mousebutton
+></entry
+><entry
+>التحرك لأعلى/أسفل/يسار/يمين في خط مستقيم، دافعًا أي جوهرة في الطريق</entry
+></row>
+<row
+><entry
+><mousebutton
+>عجلة الفأرة</mousebutton
+></entry
+><entry
+>تصفح التاريخ</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+>&nbsp;</entry
+><entry
+>أعِد تنفيذ آخر حركة تم تراجع عنها</entry
+></row>
+<row
+><entry
+><keycap
+>N</keycap
+></entry
+><entry
+>انتقل إلى المستوى التالي في مجموعة المستويات الحالية</entry
+></row>
+<row
+><entry
+><keycap
+>P</keycap
+></entry
+><entry
+>انتقل إلى المستوى السابق في مجموعة المستويات الحالية</entry
+></row>
+<row
+><entry
+>&Esc;</entry
+><entry
+>أعِد تشغيل المستوى الحالي</entry
+></row>
+<row
+><entry
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></entry
+><entry
+>اخرج من اللعبة</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+</para>
+</sect1>
+
+<sect1 id="loading-external-levels">
+<title
+>تحميل مستويات خارجية</title>
+
+<para
+>أمين المستودع لديه القدرة على تحميل مستويات سوكوبان خارجية من ملفات نصية. يمكنك تحميل المستويات باستخدام عنصر القائمة <menuchoice
+><guimenu
+>لعبة</guimenu
+> <guimenuitem
+>حمّل مستويات…</guimenuitem
+></menuchoice
+>، أو بتحديد &URL; ملف المستوى كوسيط لسطر الأوامر عند بدء أمين المستودع من صدفة. </para>
+
+<para
+>يجب تعريف المستويات الخارجية باستخدام المحارف القياسية الموضحة في الجدول أدناه. إذا احتوى الملف على أكثر من مستوى، فيجب فصل المستويات بأسطر فارغة. قد يحتوي الملف أيضًا على نص بين المستويات. </para>
+
+<informaltable>
+<tgroup cols="2">
+<thead>
+<row
+><entry
+>الحرف</entry
+><entry
+>المعنى</entry
+></row>
+</thead>
+
+<tbody>
+<row
+><entry
+><literal
+>#</literal
+></entry
+><entry
+>الحائط</entry
+></row>
+<row
+><entry
+><emphasis
+>(مسافة)</emphasis
+></entry
+><entry
+>مربع فارغ</entry
+></row>
+<row
+><entry
+><literal
+>.</literal
+></entry
+><entry
+>مربع هدف</entry
+></row>
+<row
+><entry
+><literal
+>$</literal
+></entry
+><entry
+>جسم على مربع فارغ</entry
+></row>
+<row
+><entry
+><literal
+>*</literal
+></entry
+><entry
+>جسم على مربع هدف</entry
+></row>
+<row
+><entry
+><literal
+>@</literal
+></entry
+><entry
+>موقع بدء على مربع فارغ&nbsp;</entry
+></row>
+<row
+><entry
+><literal
+>+</literal
+></entry
+><entry
+>موقع بدء على مربع هدف</entry
+></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para
+>كمثال، فيما يلي تمثيل نصي للمستوى الأول في مجموعة المستويات <emphasis
+>Microban</emphasis
+>: </para>
+
+<para>
+<screen
+>####
+# .#
+#  ###
+#*@  #
+#  $ #
+#  ###
+####
+</screen>
+</para>
+</sect1>
+</chapter>
+
+<chapter id="menu-reference">
+<title
+>مرجع القائمة</title>
+
+<para
+>هذا دليل كامل لقوائم أمين المستودع.</para>
+
+<sect1 id="game-menu">
+<title
+>قائمة اللعبة</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>لعبة</guimenu
+> <guimenuitem
+>حمّل مستويات…</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>حمّل مستوى خارجيًا.</action
+> اطّلع على القسم <link linkend="loading-external-levels"
+>تحميل مستويات خارجية</link
+> لمزيد من المعلومات.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>N</keycap
+></shortcut
+> <guimenu
+>لعبة</guimenu
+> <guimenuitem
+>المستوى التالي</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>حمِّل المستوى التالي.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycap
+>P</keycap
+></shortcut
+> <guimenu
+>اللعبة</guimenu
+> <guimenuitem
+>المستوى السابق</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>ارجع إلى المستوى السابق.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+>&Esc;</shortcut
+> <guimenu
+>اللعبة</guimenu
+> <guimenuitem
+>أعد تشغيل المستوى</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>أعد تشغيل المستوى الحالي.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>اللعبة</guimenu
+> <guisubmenu
+>مجموعة المستويات</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>قائمة فرعية للتبديل إلى مجموعة مختلفة من المستويات.</action
+> يأتي أمين المستودع مع عدة مجموعات مستويات، ويمكنك تحميل المزيد مما تجده على الإنترنت.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>اللعبة</guimenu
+> <guimenuitem
+>تراجع</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>تراجع عن أخر حركة.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+></shortcut
+> <guimenu
+>اللعبة</guimenu
+> <guimenuitem
+>إعادة</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>أعِد آخر حركة تراجعت عنها باستخدام عنصر القائمة أعلاه.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>لعبة</guimenu
+> <guimenuitem
+>أنهِ</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>اخرج</action
+> من أمين المستودع.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>
+
+<sect1 id="animation-menu">
+<title
+>قائمة التحريك</title>
+
+<para
+>تقدم هذه القائمة عناصر قائمة مع مربعات اختيار تسمح لك بتحديد السرعة التي تُعرض بها تحريكات إعادة الحركة. </para>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>التحريك</guimenu
+> <guisubmenu
+>بطيء</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>اعرض تحريكات إعادة الحركة بوتيرة بطيئة.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>التحريك</guimenu
+> <guisubmenu
+>متوسط</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>هذا هو الإعداد المبدئي، و<action
+>يعرض تحريكات إعادة الحركة بوتيرة أسرع قليلًا</action
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>التحريك</guimenu
+> <guisubmenu
+>سريع</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>اعرض تحريكات إعادة الحركة بأسرع وتيرة.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>التحريك</guimenu
+> <guisubmenu
+>متوقف</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>لا تحرك رسوم إعادة التشغيل.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+
+<sect1 id="bookmarks">
+<title
+>قائمة العلامات</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>العلامات</guimenu
+> <guisubmenu
+>اضبط علامة</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+>يتيح لك أمين المستودع <action
+>ضبط علامات بمستوى في حالة معينة.</action
+> قد تستخدم هذا لتوفير تكرار نفس الخطوات الأولية في مستوى.</para>
+<para
+>يمكنك الحصول على ما يصل إلى عشر علامات في المرة الواحدة، والوصول إليها عبر الاختصار <keycombo action="simul"
+>&Ctrl;<keycap
+><replaceable
+>X</replaceable
+></keycap
+></keycombo
+>، حيث <replaceable
+>X</replaceable
+> هو أي رقم بين 0 و9.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>العلامات</guimenu
+> <guisubmenu
+>اذهب إلى العلامة</guisubmenu
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>اقفز إلى حالة حفظتها سابقًا كعلامة.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="help-menu">
+<title
+>قائمة مساعدة</title>
+
+<para
+>يحتوي أمين المستودع على عنصر القائمة <guimenu
+>مساعدة</guimenu
+> الشائع في كيدي، لمزيد من المعلومات اقرأ القسم حول <ulink url="help:/fundamentals/menus.html#menus-help"
+>قائمة المساعدة</ulink
+> من أساسيات كيدي. </para>
+
+</sect1>
+</chapter>
+
+<chapter id="credits">
+<title
+>الحقوق والترخيص</title>
+
+<para
+>حقوق نشر أمين المستودع &copy; 1998-2000 بواسطة &Anders.Widell; &Anders.Widell.mail;. </para>
+
+<para
+>الرسوم الخلفية <quote
+>حقل نجوم</quote
+> مأخوذة من <ulink url="https://www.gimp.org/"
+>Gimp</ulink
+>. جميع الرسوم الأخرى أُنشئت بواسطة &Anders.Widell; &Anders.Widell.mail; باستخدام متتبع الأشعة <ulink url="https://www.povray.org/"
+>Povray</ulink
+>. </para>
+
+<para
+>جميع مستويات سوكوبان المضمنة حاليًا أُنشئت بواسطة David W. Skinner <email
+>sasquatch@bentonrea.com</email
+>. انظر <ulink url="https://www.sokobanonline.com/play/web-archive/david-w-skinner"
+>صفحة سوكوبان الخاصة به</ulink
+>. </para>
+
+<para
+>الترجمة: زايد السعيدي <email
+>zayed.alsaidi@gmail.com</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
